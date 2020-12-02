@@ -9,10 +9,10 @@
     padding-top: 35%;
     
     @media #{$laptop-device} {
-        min-height: 500px;
+        min-height: 700px;
     }
     @media #{$lg-layout} {
-        min-height: 500px;
+        min-height: 700px;
     }
     @media #{$md-layout} {
         min-height: 450px;
@@ -20,6 +20,11 @@
     @media #{$sm-layout} {
         min-height: 400px;
     }
+
+    div {
+        white-space: pre-wrap;
+    }
+
     .thumbnail-inner{
         transition: transform .28s ease;
         z-index: 9;
@@ -35,8 +40,8 @@
         cursor: pointer;
 
         &::before{
-            background-color: #f6004c;
-            background-image: linear-gradient(#f6004c 10%, #000000 100%);
+            background-color: $brandGreen;
+            background-image: linear-gradient($brandGreen -40%, $brandDarkGrey 100%);
             position: absolute;
             content: "";
             top: 0;
@@ -126,9 +131,9 @@
 
     .content {
         position: absolute;
-        bottom: 40px;
-        left: 40px;
-        right: 40px;
+        top: 0;
+        left: 0;
+        height: 100%;
         max-width: 100%!important;
         z-index: 10;
         padding: 0;
@@ -145,35 +150,51 @@
             right: 20px;
         }
 
-        .companyLogo {
-            background: red;
-        }
+        .content-wrapper {
+            margin: $marginLarge;
 
-        .inner {
-            p {
-                color: #c6c9d8;
-                font-size: 14px;
-            }
-            h4 {
-                font-size: 24px;
-                line-height: 36px;
-                a{
-                    color: #ffffff;
+            .companyLogo {
+                height: $logoSize;
+                background-repeat: no-repeat;
+                margin-bottom: $marginLargeXl;
+
+                &.logo-1 {
+                    background-image: url(/assets/images/logo/vanilla.png);
                 }
             }
-            .portfolio-button{
-                @extend %transition;
-                margin-top: 35px;
-                transition: 0.7s;
-                @media #{$large-mobile} {
-                    margin-top: 25px;
+
+            .inner {
+                p {
+                    color: #c6c9d8;
+                    font-size: 14px;
                 }
-                a {
-                    &.rn-btn{
+
+                h4 {
+                    font-size: $font-title;
+                    line-height: $font-titleHeight;
+                    text-transform: uppercase;
+
+                    a {
                         color: #ffffff;
-                        border-color: rgba(255,255,255,0.3);
-                        &:hover{
-                            border-color: $theme-color;
+                    }
+                }
+
+                .portfolio-button {
+                    @extend %transition;
+                    margin-top: 35px;
+                    transition: 0.7s;
+                    @media #{$large-mobile} {
+                        margin-top: 25px;
+                    }
+
+                    a {
+                        &.rn-btn {
+                            color: #ffffff;
+                            border-color: rgba(255, 255, 255, 0.3);
+
+                            &:hover {
+                                border-color: $theme-color;
+                            }
                         }
                     }
                 }

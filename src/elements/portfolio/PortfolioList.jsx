@@ -3,8 +3,9 @@ import React, { Component } from "react";
 const PortfolioListContent = [
     {
         image: 'image-1',
-        category: 'Development',
-        title: 'ICIT'
+        companyLogo: 'logo-1',
+        category: 'UX Design & Development',
+        title: 'Leading Design for \nVanilla’s Conversations \nEvent'
     },
     {
         image: 'image-2',
@@ -47,13 +48,16 @@ class PortfolioList extends Component{
                                 <div className={`bg-blr-image ${value.image}`}></div>
                             </div>
                             <div className="content">
-                                <div className="inner">
-                                    <p>{value.category}</p>
-                                    <h4><a href="/portfolio-details">{value.title}</a></h4>
-                                    <div className="portfolio-button">
-                                        <a className="rn-btn" href="/portfolio-details">View Details</a>
-                                    </div>
-                                </div>
+                              <div className="content-wrapper">
+                                <div className={`companyLogo ${value.companyLogo}`}></div>
+                                  <div className="inner">
+                                      <p>{value.category}</p>
+                                      <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                      <div className="portfolio-button">
+                                          <a className="rn-btn" href="/portfolio-details">View Details</a>
+                                      </div>
+                                  </div>
+                              </div>
                             </div>
                         </div>
                     </div>
