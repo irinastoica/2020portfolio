@@ -4,32 +4,32 @@ const PortfolioListContent = [
     {
         image: 'image-1',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'ICIT'
     },
     {
         image: 'image-2',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'ICIT'
     },
     {
         image: 'image-3',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'ICIT'
     },
     {
         image: 'image-4',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'ICIT'
     },
     {
         image: 'image-3',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'ICIT'
     },
     {
         image: 'image-4',
         category: 'Development',
-        title: 'Getting tickets to the big show'
+        title: 'ICITw'
     }
 ]
 
