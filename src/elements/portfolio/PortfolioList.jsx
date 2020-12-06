@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Player } from 'video-react';
 
 const PortfolioListContent = [
     {
@@ -8,6 +9,7 @@ const PortfolioListContent = [
         title: 'Leading Design for \nVanilla’s Conversations \nEvent'
     },
     {
+        video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
         image: 'image-2',
         category: 'Development',
         title: 'ICIT'
@@ -42,6 +44,12 @@ class PortfolioList extends Component{
             <React.Fragment>
                 {list.map((value , index) => (
                     <div className={`${column}`} key={index}>
+                      <Player
+                        autoPlay
+                        muted
+                        poster="/assets/poster.png"
+                        src={`${value.video}`}
+                      />
                         <div className={`portfolio ${styevariation}`}>
                             <div className="thumbnail-inner">
                                 <div className={`thumbnail ${value.image}`}></div>
@@ -62,9 +70,18 @@ class PortfolioList extends Component{
                         </div>
                     </div>
                 ))}
+              <Player
+                autoPlay
+                muted
+                poster="/assets/poster.png"
+                src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
+              />
+
 
             </React.Fragment>
         )
     }
 }
+
+
 export default PortfolioList;
