@@ -1,12 +1,43 @@
 /*==================
     Portfolio Area
 ==================*/
+
+.projectsWrapper {
+
+    .col-12 {
+
+        .video-react {
+            display: none;
+        }
+
+        &:nth-child(2) {
+
+            .video-react {
+                display: block;
+                position: relative;
+                max-height: 250px;
+                min-height: 550px;
+                padding-top: 0;
+
+                .video-react-video {
+                    height: 100%;
+                    position: absolute;
+                    z-index: 1;
+                    top: 0;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
 .portfolio {
     position: relative;
     @extend %transition;
     min-height: 600px;
     width: 100%;
     padding-top: 35%;
+    background: red;
 
     @media #{$laptop-device} {
         min-height: 700px;
@@ -25,30 +56,6 @@
         white-space: pre-wrap;
     }
 
-    .col-12 {
-        background: red;
-
-        &:nth-last-of-type(2) {
-            background: red;
-
-            .video-react {
-                position: relative;
-                max-height: 250px;
-                min-height: 550px;
-                padding-top: 0;
-                display: block;
-
-                .video-react-video {
-                    height: 100%;
-                    position: absolute;
-                    z-index: 1;
-                    top: 0;
-                    object-fit: cover;
-                }
-            }
-        }
-    }
-
     .thumbnail-inner{
         transition: transform .28s ease;
         z-index: 9;
@@ -65,7 +72,7 @@
 
         &::before{
             background-color: $brandGreen;
-            background-image: linear-gradient($brandGreen -40%, $brandDarkGrey 100%);
+            background-image: linear-gradient(#fff -40%, $brandDarkGrey 100%);
             position: absolute;
             content: "";
             top: 0;
