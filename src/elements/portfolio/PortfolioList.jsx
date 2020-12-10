@@ -9,10 +9,9 @@ const PortfolioListContent = [
         title: 'Leading Design for \nVanilla’s Conversations \nEvent'
     },
     {
-        video: "http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4",
-        image: 'image-2',
+        video: "../assets/videos/lyftnotepreview.mp4",
         category: 'Development',
-        title: 'ICIT'
+        title: 'Lyftnote'
     },
     {
         image: 'image-3',
@@ -44,14 +43,14 @@ class PortfolioList extends Component{
             <React.Fragment>
                 {list.map((value , index) => (
                     <div className={`${column}`} key={index}>
-                      <Player
-                        autoPlay
-                        muted
-                        poster="/assets/poster.png"
-                        src={`${value.video}`}
-                      />
                         <div className={`portfolio ${styevariation}`}>
                             <div className="thumbnail-inner">
+                              <Player
+                                autoPlay
+                                muted
+                                poster="/assets/poster.png"
+                                src={`${value.video}`}
+                              />
                                 <div className={`thumbnail ${value.image}`}></div>
                                 <div className={`bg-blr-image ${value.image}`}></div>
                             </div>

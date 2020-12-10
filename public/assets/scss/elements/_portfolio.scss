@@ -5,22 +5,29 @@
 .projectsWrapper {
 
     .col-12 {
+        max-height: 660px;
 
-        .video-react {
+        .video-react,
+        .video-react-big-play-button,
+        .video-react-control-bar {
             display: none;
         }
 
         &:nth-child(2) {
 
+            .thumbnail {
+                background-color: transparent;
+                background-image: none;
+            }
+
             .video-react {
                 display: block;
                 position: relative;
-                max-height: 250px;
-                min-height: 550px;
                 padding-top: 0;
 
                 .video-react-video {
-                    height: 100%;
+                    max-height: 660px;
+                    width: 100%;
                     position: absolute;
                     z-index: 1;
                     top: 0;
@@ -37,7 +44,6 @@
     min-height: 600px;
     width: 100%;
     padding-top: 35%;
-    background: red;
 
     @media #{$laptop-device} {
         min-height: 700px;
@@ -58,7 +64,6 @@
 
     .thumbnail-inner{
         transition: transform .28s ease;
-        z-index: 9;
         position: absolute;
         top: 0;
         left: 0;
@@ -72,7 +77,7 @@
 
         &::before{
             background-color: $brandGreen;
-            background-image: linear-gradient(#fff -40%, $brandDarkGrey 100%);
+            background-image: linear-gradient($brandGreen -40%, $brandDarkGrey 100%);
             position: absolute;
             content: "";
             top: 0;
@@ -316,7 +321,7 @@
     }
     &:hover{
         .thumbnail-inner{
-            transform: scale(1.08) translateZ(0);
+
             &::before{
                 opacity: 0.85;
             }
