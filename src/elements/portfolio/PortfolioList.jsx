@@ -16,22 +16,29 @@ const PortfolioListContent = [
     {
         image: 'image-3',
         category: 'Development',
-        title: 'ICIT'
+        title: 'Theming Coding'
+    },
+    {
+        video: "../assets/videos/library.mp4",
+        category: 'UX Design & Development',
+        title: 'Improving blog'
     },
     {
         image: 'image-4',
         category: 'Development',
         title: 'ICIT'
     },
+
     {
-        image: 'image-3',
-        category: 'Development',
-        title: 'ICIT'
+        video: '../assets/videos/roadkrome.mp4',
+        category: 'UX Design',
+        title: 'Roadkrome'
     },
+
     {
-        image: 'image-4',
-        category: 'Development',
-        title: 'ICITw'
+        image: 'image-5',
+        category: 'UX Design & Development',
+        title: 'Intern Community'
     }
 ]
 
@@ -47,6 +54,7 @@ class PortfolioList extends Component{
                             <div className="thumbnail-inner">
                               <Player
                                 autoPlay
+                                loop
                                 muted
                                 poster="/assets/poster.png"
                                 src={`${value.video}`}
@@ -69,13 +77,6 @@ class PortfolioList extends Component{
                         </div>
                     </div>
                 ))}
-              <Player
-                autoPlay
-                muted
-                poster="/assets/poster.png"
-                src="https://media.w3.org/2010/05/sintel/trailer_hd.mp4"
-              />
-
 
             </React.Fragment>
         )

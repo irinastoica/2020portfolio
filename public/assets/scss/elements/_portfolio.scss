@@ -6,6 +6,7 @@
 
     .col-12 {
         max-height: 660px;
+        overflow: hidden;
 
         .video-react,
         .video-react-big-play-button,
@@ -13,7 +14,9 @@
             display: none;
         }
 
-        &:nth-child(2) {
+        &:nth-child(2),
+        &:nth-child(4),
+        &:nth-child(6) {
 
             .thumbnail {
                 background-color: transparent;
@@ -76,8 +79,7 @@
         cursor: pointer;
 
         &::before{
-            background-color: $brandGreen;
-            background-image: linear-gradient($brandGreen -40%, $brandDarkGrey 100%);
+            background-image: linear-gradient($brandGreen -40%, transparent 100%);
             position: absolute;
             content: "";
             top: 0;
@@ -100,7 +102,6 @@
         background-position: center;
         border-radius: 5px;
         background-color: #0a0a0a;
-        background-image: url(/assets/images/portfolio/conversationsFeatureImage.png);
         transform: scale(1.13) translateZ(0);
         backface-visibility: hidden;
         transition: transform .28s ease;
@@ -109,20 +110,19 @@
             background-image: url(/assets/images/portfolio/conversationsFeatureImage.png);
         }
 
-        &.image-2{
-            background-image: url(/assets/images/portfolio/portfolio-2.jpg);
-        }
-
         &.image-3{
-            background-image: url(/assets/images/portfolio/portfolio-3.jpg);
+            background-image: url(/assets/images/portfolio/asusFeatureImage.png);
         }
 
         &.image-4 {
-            background-image: url(/assets/images/portfolio/portfolio-4.jpg);
+            background-image: url(/assets/images/portfolio/motovanFeatureImage.png);
+        }
+
+        &.image-5 {
+            background-image: url(/assets/images/portfolio/motovanCommunity.png);
         }
 
         &::after{
-            background-color: rgba(45,45,45,.35);
             position: absolute;
             top: 0;
             left: 0;
@@ -132,7 +132,6 @@
             z-index: 1;
             display: block;
             border-radius: 5px;
-            background-color: rgba(25,25,25,.37);
             @extend %transition;
         }
     }
@@ -493,9 +492,9 @@
             }
             .thumbnail {
                 transform: scale(1) translateZ(0);
-                &::after {
-                    background-color: rgba(25,25,25,.24);
-                }
+                //&::after {
+                //    background-color: rgba(25,25,25,.24);
+                //}
             }
             .bg-blr-image {
                 opacity: 0;

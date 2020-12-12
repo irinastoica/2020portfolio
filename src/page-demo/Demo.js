@@ -74,13 +74,8 @@ const PortfolioLanding = () => {
         <div className="portfolio-area ptb--120 bg_color--1">
           <div className="portfolio-sacousel-inner">
               <div className="projectsWrapper">
-                <PortfolioList styevariation="text-left mt--40" column="col-12" item="6" />
+                <PortfolioList styevariation="text-left mt--40" column="col-12" item="7" />
               </div>
-                <div className="col-lg-12">
-                  <div className="view-more-btn mt--60 mt_sm--30 text-left">
-                    <a className="rn-button-style--2 btn-solid" href="/blog"><span>View More</span></a>
-                  </div>
-                </div>
           </div>
         </div>
       </div>
