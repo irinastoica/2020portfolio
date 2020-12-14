@@ -26,7 +26,8 @@ const PortfolioListContent = [
     {
         image: 'image-4',
         category: 'Development',
-        title: 'ICIT'
+        title: 'ICIT',
+        pageLink: '/portfolio-details'
     },
 
     {
@@ -69,7 +70,7 @@ class PortfolioList extends Component{
                                       <p>{value.category}</p>
                                       <h4><a href="/portfolio-details">{value.title}</a></h4>
                                       <div className="portfolio-button">
-                                          <a className="rn-btn" href="/portfolio-details">View Details</a>
+                                          <a className="rn-btn" href={`${value.pageLink}`}>View Details</a>
                                       </div>
                                   </div>
                               </div>

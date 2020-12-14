@@ -4,6 +4,13 @@
 
 
 .portfolio-thumb-inner {
+
+    .backgroundGrey {
+        background: $brandLightGrey;
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .thumb {
         position: relative;
         .video-popup {

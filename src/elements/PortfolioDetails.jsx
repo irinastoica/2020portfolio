@@ -49,7 +49,6 @@ class PortfolioDetails extends Component{
 
                 {/* Start Portfolio Details */}
                 <div className="rn-portfolio-details ptb--120 bg_color--1">
-                    <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="portfolio-details">
@@ -84,25 +83,40 @@ class PortfolioDetails extends Component{
                                         </div>
                                     </div>
                                     <div className="portfolio-thumb-inner">
-                                        <div className="thumb position-relative mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-03.jpg" alt="Portfolio Images"/>
-                                            <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='ZOoVOfieAF8' onClose={() => this.setState({isOpen: false})} />
-                                            <button className="video-popup position-top-center" onClick={this.openModal}><span className="play-icon"></span></button>
+                                        <div className="backgroundGrey">
+                                          <div className="thumb position-relative mb--30">
+                                            <img src="/assets/images/portfolio/motovan-1a.png" alt="Portfolio Images"/>
+                                          </div>
                                         </div>
-                                        
                                         <div className="thumb mb--30">
-                                            <img src="/assets/images/portfolio/portfolio-big-02.jpg" alt="Portfolio Images"/>
+                                            <img src="/assets/images/portfolio/motovan-1.png" alt="Portfolio Images"/>
                                         </div>
-
-                                        <div className="thumb">
-                                            <img src="/assets/images/portfolio/portfolio-big-01.jpg" alt="Portfolio Images"/>
+                                        <div className="thumb mb--30">
+                                            <img src="/assets/images/portfolio/motovan-2.png" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb mb--30">
+                                            <img src="/assets/images/portfolio/motovan-3.png" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb mb--30">
+                                          <img src="/assets/images/portfolio/motovan-4.png" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb mb--30">
+                                          <img src="/assets/images/portfolio/motovan-5.png" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb mb--30">
+                                          <img src="/assets/images/portfolio/motovan-6.png" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb mb--30">
+                                          <img src="/assets/images/portfolio/motovan-7.png" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb mb--30">
+                                          <img src="/assets/images/portfolio/motovan-8.png" alt="Portfolio Images"/>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 {/* End Portfolio Details */}
 
                 {/* Start Related Work */}
