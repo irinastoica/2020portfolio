@@ -19,6 +19,24 @@
         padding-top: $marginLarge;
     }
 
+    .grayBackground {
+        background: #D9D8D9;
+
+        .container.videos {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .videos {
+                max-width: 400px;
+            }
+
+            #asus-video {
+                padding: 60px;
+            }
+        }
+    }
+
     .thumb {
         position: relative;
         .video-popup {

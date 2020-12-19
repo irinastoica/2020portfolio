@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d86ce05-accf-4f2e-9e65-41f35d2bc322" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/elements/PortfolioBlogVanilla.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/PortfolioMotovanIntranet.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/PortfolioRoadkrome.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/elements/PortfolioVanillaConversations.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/default/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/default/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/default/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/default/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/asus-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/asus-1.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/footer/FooterTwo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/footer/FooterTwo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/portfolio/PortfolioList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/portfolio/PortfolioList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -66,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="236">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="404">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -75,8 +64,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="97" column="46" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
+            <state relative-caret-position="297">
+              <caret line="106" column="83" selection-start-line="106" selection-start-column="83" selection-end-line="106" selection-end-column="83" />
             </state>
           </provider>
         </entry>
@@ -214,8 +203,8 @@
         <option value="$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx" />
         <option value="$PROJECT_DIR$/build/assets/scss/default/_variables.scss" />
         <option value="$PROJECT_DIR$/public/assets/scss/default/_variables.scss" />
-        <option value="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" />
         <option value="$PROJECT_DIR$/src/elements/PortfolioRoadkrome.jsx" />
+        <option value="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" />
         <option value="$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx" />
       </list>
     </option>
@@ -316,12 +305,12 @@
       <workItem from="1607644490274" duration="431000" />
       <workItem from="1607787586019" duration="7032000" />
       <workItem from="1607959660827" duration="70000" />
-      <workItem from="1608389485025" duration="8730000" />
+      <workItem from="1608389485025" duration="9735000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34271000" />
+    <option name="totallyTimeSpent" value="35276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="329" width="1440" height="877" extended-state="0" />
@@ -699,13 +688,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/elements/PortfolioDetails.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
@@ -723,10 +705,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="97" column="46" selection-start-line="97" selection-start-column="46" selection-end-line="97" selection-end-column="46" />
+        <state relative-caret-position="297">
+          <caret line="106" column="83" selection-start-line="106" selection-start-column="83" selection-end-line="106" selection-end-column="83" />
         </state>
       </provider>
     </entry>

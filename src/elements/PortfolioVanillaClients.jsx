@@ -86,45 +86,26 @@ class PortfolioVanillaClients extends Component{
                                       <div className="thumb position-relative mb--30">
                                         <img src="/assets/images/portfolio/asus-1.jpg" alt="Portfolio Images"/>
                                       </div>
-                                      <video autoPlay loop muted poster="assets/images/portfolio/hp.jpg" id="hp-video">
-                                        <source src="assets/images/portfolio/hp.mp4" type="video/mp4">
-                                          <source src="assets/images/portfolio/hp.webm" type="video/webm">
-                                            <source src="assets/images/portfolio/hp.ogv" type="video/ogg">
-                                      </video>
-                                      <video autoPlay loop muted poster="assets/images/portfolio/asus.jpg" id="asus-video">
-                                        <source src="assets/images/portfolio/asus.mp4" type="video/mp4">
-                                          <source src="assets/images/portfolio/asus.webm" type="video/webm">
-                                            <source src="assets/images/portfolio/asus.ogv" type="video/ogg">
-                                      </video>
+                                      <div className="grayBackground">
+                                        <div className="container videos">
+                                          <video autoPlay loop muted poster="assets/videos/hp.jpg" id="hp-video" class="videos">
+                                              <source src="assets/videos/hp.mp4" type="video/mp4"></source>
+                                              <source src="assets/videos/hp.webm" type="video/webm"></source>
+                                              <source src="assets/videos/hp.ogv" type="video/ogg"></source>
+                                          </video>
+                                          <video autoPlay loop muted poster="assets/videos/asus.jpg" id="asus-video" class="videos">
+                                            <source src="assets/videos/asus.mp4" type="video/mp4"></source>
+                                            <source src="assets/videos/asus.webm" type="video/webm"></source>
+                                            <source src="assets/videos/asus.ogv" type="video/ogg"></source>
+                                          </video>
+                                        </div>
+                                      </div>
                                       <div className="thumb position-relative mb--30">
                                         <img src="/assets/images/portfolio/hp-1.jpg" alt="Portfolio Images"/>
                                       </div>
-                                        <div className="container defaultTopMargin">
-                                            <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/motovan-1.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/motovan-2.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/motovan-3.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-4.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-5.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-6.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-7.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-8.png" alt="Portfolio Images"/>
-                                            </div>
-                                        </div>
+                                      <div className="thumb position-relative mb--30">
+                                        <img src="/assets/images/portfolio/zapier.jpg" alt="Portfolio Images"/>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
