@@ -2,53 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d86ce05-accf-4f2e-9e65-41f35d2bc322" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/logo/vanilla.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/images/logo/vanilla.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/common/_breadcrump.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/common/_breadcrump.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/default/_extend.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/default/_extend.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/default/_shortcode.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/default/_shortcode.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/default/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/default/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/default/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/default/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/elements/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/elements/_portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/template/_dark-version.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/template/_dark-version.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/template/_portfolio-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/template/_portfolio-details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.cee1aca4c8751a9b92f94efe53fb911c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/2.ee62e603.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/2.ee62e603.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.f4813f09.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.f4813f09.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.0376e459.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.0376e459.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.a8ea107f.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.a8ea107f.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/common/_breadcrump.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/common/_breadcrump.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/default/_extend.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/default/_extend.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/default/_shortcode.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/default/_shortcode.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/default/_typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/default/_typography.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/default/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/default/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/elements/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/elements/_portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/HomeLayout/homeOne/AboutTwo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/HeaderFive.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/HeaderFour.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/HeaderThree.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/header/HeaderTwo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dark/PortfolioLanding.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/PortfolioDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/PortfolioDetails.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/error404.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/error404.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/portfolio/PortfolioGalleryPopup.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/portfolio/PortfolioList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/portfolio/PortfolioList.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/portfolio/PortfolioMasonry.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/portfolio/PortfolioOne.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/portfolio/PortfolioTwo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/DesignerPortfolio.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/PersonalPortfolio.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/home/PersonalPortfolio.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/PortfolioLanding.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page-demo/Demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-demo/Demo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Business.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/CorporateBusiness.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/CreativeAgency.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/CreativeLanding.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/CreativePortfolio.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/DigitalAgency.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Paralax.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/Startup.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/home/StudioAgency.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +30,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/elements/PortfolioDetails.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -79,12 +42,34 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/dark/PortfolioLanding.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/home/PortfolioLanding.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>PortfolioDetails</find>
-      <find>PortfolioMotovan</find>
       <find>View Details</find>
       <find>Branch</find>
       <find>.thumb</find>
@@ -108,11 +93,13 @@
       <find>Header</find>
       <find>Header.jsx</find>
       <find>HeaderFour</find>
-      <find>container</find>
       <find>error404</find>
-      <find>HeaderThree</find>
       <find>header</find>
       <find>PortfolioLanding</find>
+      <find>container</find>
+      <find>DesignerPortfolio</find>
+      <find>HeaderThree</find>
+      <find>CreativeLanding</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -133,8 +120,6 @@
         <option value="$PROJECT_DIR$/src/home/Interior.jsx" />
         <option value="$PROJECT_DIR$/src/elements/portfolio/PortfolioOne.jsx" />
         <option value="$PROJECT_DIR$/src/elements/portfolio/PortfolioTwo.jsx" />
-        <option value="$PROJECT_DIR$/src/dark/PortfolioLanding.jsx" />
-        <option value="$PROJECT_DIR$/src/home/PortfolioLanding.jsx" />
         <option value="$PROJECT_DIR$/build/assets/scss/elements/_portfolio.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/elements/portfolio/VideoRender.jsx" />
@@ -142,7 +127,6 @@
         <option value="$PROJECT_DIR$/public/assets/scss/template/_dark-version.scss" />
         <option value="$PROJECT_DIR$/src/home/Business.jsx" />
         <option value="$PROJECT_DIR$/src/elements/PortfolioMotovan.jsx" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" />
         <option value="$PROJECT_DIR$/public/assets/scss/default/_extend.scss" />
         <option value="$PROJECT_DIR$/public/assets/scss/default/_shortcode.scss" />
@@ -164,6 +148,9 @@
         <option value="$PROJECT_DIR$/src/page-demo/Demo.js" />
         <option value="$PROJECT_DIR$/src/home/DesignerPortfolio.jsx" />
         <option value="$PROJECT_DIR$/src/elements/error404.jsx" />
+        <option value="$PROJECT_DIR$/src/dark/PortfolioLanding.jsx" />
+        <option value="$PROJECT_DIR$/src/home/PortfolioLanding.jsx" />
+        <option value="$PROJECT_DIR$/src/index.js" />
       </list>
     </option>
   </component>
@@ -303,16 +290,15 @@
       <workItem from="1607644490274" duration="431000" />
       <workItem from="1607787586019" duration="7032000" />
       <workItem from="1607959660827" duration="70000" />
-      <workItem from="1608389485025" duration="3066000" />
+      <workItem from="1608389485025" duration="3309000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28607000" />
+    <option name="totallyTimeSpent" value="28850000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="329" width="1440" height="877" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26895565" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -625,20 +611,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/home/PortfolioLanding.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="40" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dark/PortfolioLanding.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/elements/error404.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="269">
@@ -655,6 +627,26 @@
           <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dark/PortfolioLanding.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/home/PortfolioLanding.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
