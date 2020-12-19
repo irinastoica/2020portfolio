@@ -6,40 +6,46 @@ const PortfolioListContent = [
         image: 'image-1',
         companyLogo: 'logo-1',
         category: 'UX Design & Development',
-        title: 'Leading Design for \nVanilla’s Conversations \nEvent'
+        title: 'Leading Design for \nVanilla’s Conversations \nEvent',
+        pageLink: '/portfolio-conversations'
     },
     {
         video: "../assets/videos/lyftnotepreview.mp4",
         category: 'Development',
-        title: 'Lyftnote'
+        title: 'Lyftnote',
+        pageLink: '/portfolio-lyftnote'
     },
     {
         image: 'image-3',
         category: 'Development',
-        title: 'Theming Coding'
+        title: 'Theming Coding',
+        pageLink: '/portfolio-clients'
     },
     {
         video: "../assets/videos/library.mp4",
         category: 'UX Design & Development',
-        title: 'Improving blog'
+        title: 'Improving blog',
+        pageLink: '/portfolio-blog'
     },
     {
         image: 'image-motovan',
         category: 'Development',
-        title: 'ICIT',
+        title: 'Motovan',
         pageLink: '/portfolio-details'
     },
 
     {
         video: '../assets/videos/roadkrome.mp4',
         category: 'UX Design',
-        title: 'Roadkrome'
+        title: 'Roadkrome',
+        pageLink: '/portfolio-roadkrome'
     },
 
     {
         image: 'image-5',
         category: 'UX Design & Development',
-        title: 'Intern Community'
+        title: 'Intern Community',
+        pageLink: '/portfolio-intranet'
     }
 ]
 

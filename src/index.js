@@ -28,6 +28,12 @@ import ServiceDetails from "./elements/ServiceDetails";
 import About from "./elements/About";
 import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
+import PortfolioVanillaConversations from "./elements/PortfolioVanillaConversations";
+import PortfolioLyftnote from "./elements/PortfolioLyftnote";
+import PortfolioVanillaClients from "./elements/PortfolioVanillaClients";
+import PortfolioBlogVanilla from "./elements/PortfolioBlogVanilla";
+import PortfolioRoadkrome from "./elements/PortfolioRoadkrome";
+import PortfolioMotovanIntranet from "./elements/PortfolioMotovanIntranet";
 import Blog from "./elements/Blog";
 import BlogDetails from "./elements/BlogDetails";
 import error404 from "./elements/error404";
@@ -74,6 +80,13 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-conversations`} component={PortfolioVanillaConversations}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-lyftnote`} component={PortfolioLyftnote}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-clients`} component={PortfolioVanillaClients}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-blog`} component={PortfolioBlogVanilla}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-roadkrome`} component={PortfolioRoadkrome}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-intranet`} component={PortfolioMotovanIntranet}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog`} component={Blog}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details`} component={BlogDetails}/>
 

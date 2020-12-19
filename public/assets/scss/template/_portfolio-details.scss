@@ -14,6 +14,11 @@
         justify-content: flex-end;
     }
 
+    .darkGray {
+        background: $brandDarkGrey;
+        padding-top: $marginLarge;
+    }
+
     .thumb {
         position: relative;
         .video-popup {
