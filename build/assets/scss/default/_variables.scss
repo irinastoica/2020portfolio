@@ -1,9 +1,26 @@
 //===== Colors =====//
-$theme-color: #f9004d;
+$theme-color: #1BCAAA;
 $body-color: #1d1d24;
 $heading-color: #1f1f25;
 $border-color: #d4d4d4;
 $white:#fff;
+
+/*===============================
+    Color Variation
+=================================*/
+$color-1:  $theme-color;
+$color-2:  #f4769a;
+$color-3:  #2f21b3;
+$color-4:  #8956e2;
+$colorList: $color-1, $color-2 ,$color-3 ,$color-4;
+$brandOrange: #ffa959;
+$brandPurple: #6171d9;
+$brandGreen: #1BCAAA;
+$brandAqua: #55d1d8;
+$brandPink: #F85460;
+$brandNavy: #101b58;
+$brandDarkGrey: #191919;
+$brandLightGrey: #E1E1E1;
 
 
 /*===============================
@@ -19,15 +36,19 @@ $font-1: 'Poppins', sans-serif;
 $fontList: $font-1;
 
 
-/*===============================
-    Color Variation 
-=================================*/
-$color-1:  $theme-color;
-$color-2:  #f4769a;
-$color-3:  #2f21b3;
-$color-4:  #8956e2;
-$colorList: $color-1, $color-2 ,$color-3 ,$color-4;
 
+
+/*===============================
+    Utility Variables
+=================================*/
+
+$logoSize: 40px;
+$marginDefault: 10px;
+$marginDouble: $marginDefault *2;
+$marginLarge: 100px;
+$marginHalfLarge: $marginLarge / 2;
+$marginLargeXl: 150px;
+$marginLargeDouble: $marginLarge *2;
 
 
 
@@ -40,7 +61,8 @@ $h2: 54px;
 $h3: 24px;
 $h4: 20px;
 $h5: 18px;
-$h6: 16px;
+$font-title: 40px;
+$font-titleHeight: 45px;
 
 //===== Social Colors =====//
 $facebook : #3B5998;
@@ -52,10 +74,6 @@ $flickr : #FF0084;
 $google : #dd4b39;
 $youtube : #cd201f;
 
-
-//===== Unity =====//
-
-$logoSize: 60px;
 
 
 

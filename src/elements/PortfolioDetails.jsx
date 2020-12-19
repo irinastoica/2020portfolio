@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
-import ModalVideo from 'react-modal-video';
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
@@ -29,17 +28,18 @@ class PortfolioDetails extends Component{
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='Portfolio Details' />
-
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
+                <Header logo="symbol-dark" color="color-black"/>
                 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--4"  data-black-overlay="7">
+                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image-motovan"  data-black-overlay="7">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
-                                <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Getting tickets to the big show</h2>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
+                                <div className="rn-page-title pt--100">
+                                    <h2 className="title theme-gradient">Motovan <br/> Motosports </h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum, ipsum ut
+                                      vestibulum pellentesque, nisi dui hendrerit turpis, sit amet efficitur nisi nunc a augue.
+                                      Aliquam erat volutpat. </p>
                                 </div>
                             </div>
                         </div>
@@ -88,29 +88,31 @@ class PortfolioDetails extends Component{
                                             <img src="/assets/images/portfolio/motovan-1a.png" alt="Portfolio Images"/>
                                           </div>
                                         </div>
-                                        <div className="thumb mb--30">
-                                            <img src="/assets/images/portfolio/motovan-1.png" alt="Portfolio Images"/>
-                                        </div>
-                                        <div className="thumb mb--30">
-                                            <img src="/assets/images/portfolio/motovan-2.png" alt="Portfolio Images"/>
-                                        </div>
-                                        <div className="thumb mb--30">
-                                            <img src="/assets/images/portfolio/motovan-3.png" alt="Portfolio Images"/>
-                                        </div>
-                                        <div className="thumb mb--30">
-                                          <img src="/assets/images/portfolio/motovan-4.png" alt="Portfolio Images"/>
-                                        </div>
-                                        <div className="thumb mb--30">
-                                          <img src="/assets/images/portfolio/motovan-5.png" alt="Portfolio Images"/>
-                                        </div>
-                                        <div className="thumb mb--30">
-                                          <img src="/assets/images/portfolio/motovan-6.png" alt="Portfolio Images"/>
-                                        </div>
-                                        <div className="thumb mb--30">
-                                          <img src="/assets/images/portfolio/motovan-7.png" alt="Portfolio Images"/>
-                                        </div>
-                                        <div className="thumb mb--30">
-                                          <img src="/assets/images/portfolio/motovan-8.png" alt="Portfolio Images"/>
+                                        <div className="container defaultTopMargin">
+                                            <div className="thumb mb--30">
+                                                <img src="/assets/images/portfolio/motovan-1.png" alt="Portfolio Images"/>
+                                            </div>
+                                            <div className="thumb mb--30">
+                                                <img src="/assets/images/portfolio/motovan-2.png" alt="Portfolio Images"/>
+                                            </div>
+                                            <div className="thumb mb--30">
+                                                <img src="/assets/images/portfolio/motovan-3.png" alt="Portfolio Images"/>
+                                            </div>
+                                            <div className="thumb mb--30">
+                                              <img src="/assets/images/portfolio/motovan-4.png" alt="Portfolio Images"/>
+                                            </div>
+                                            <div className="thumb mb--30">
+                                              <img src="/assets/images/portfolio/motovan-5.png" alt="Portfolio Images"/>
+                                            </div>
+                                            <div className="thumb mb--30">
+                                              <img src="/assets/images/portfolio/motovan-6.png" alt="Portfolio Images"/>
+                                            </div>
+                                            <div className="thumb mb--30">
+                                              <img src="/assets/images/portfolio/motovan-7.png" alt="Portfolio Images"/>
+                                            </div>
+                                            <div className="thumb mb--30">
+                                              <img src="/assets/images/portfolio/motovan-8.png" alt="Portfolio Images"/>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

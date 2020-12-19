@@ -2,6 +2,10 @@
     Portfolio Area
 ==================*/
 
+.defaultTopMargin {
+    margin-top: $marginHalfLarge;
+}
+
 .projectsWrapper {
 
     .col-12 {
@@ -114,7 +118,7 @@
             background-image: url(/assets/images/portfolio/asusFeatureImage.png);
         }
 
-        &.image-4 {
+        &.image-motovan {
             background-image: url(/assets/images/portfolio/motovanFeatureImage.png);
         }
 
@@ -211,7 +215,7 @@
                     text-transform: uppercase;
 
                     a {
-                        color: #ffffff;
+                        color: $white;
                     }
                 }
 
@@ -225,7 +229,7 @@
 
                     a {
                         &.rn-btn {
-                            color: #ffffff;
+                            color: $white;
                             border-color: rgba(255, 255, 255, 0.3);
 
                             &:hover {

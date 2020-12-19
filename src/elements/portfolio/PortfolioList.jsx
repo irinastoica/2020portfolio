@@ -24,7 +24,7 @@ const PortfolioListContent = [
         title: 'Improving blog'
     },
     {
-        image: 'image-4',
+        image: 'image-motovan',
         category: 'Development',
         title: 'ICIT',
         pageLink: '/portfolio-details'

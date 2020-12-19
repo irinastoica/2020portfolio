@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import HeaderThree from "../component/header/HeaderThree";
+import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactOne from "../elements/contact/ContactOne";
@@ -27,7 +27,7 @@ const PortfolioLanding = () => {
     return (
         <div>
             <Helmet pageTitle="Portfolio Landing" />
-            <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
+            <Header homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}
             <div id="home" className="fix">
                 <div className="slider-wrapper">

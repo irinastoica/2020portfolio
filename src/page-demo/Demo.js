@@ -3,14 +3,12 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 import TextLoop from "react-text-loop";
-import HeaderThree from "../component/header/HeaderThree";
+import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import ServiceList from "../elements/service/ServiceList";
 import BlogContent from "../elements/blog/BlogContent";
-import Brand from "../home/PersonalPortfolio";
 
 const SlideList = [
   {
@@ -29,7 +27,7 @@ const PortfolioLanding = () => {
     <div className="active-dark">
       <Helmet pageTitle="Portfolio Landing" />
 
-      <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
+      <Header homeLink="/" logo="symbol-dark" color="color-black"/>
       {/* Start About Area */}
       <div id="about" className="fix">
         <div className="about-area ptb--120  bg_color--1">

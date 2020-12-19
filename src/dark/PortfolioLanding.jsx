@@ -3,7 +3,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 import TextLoop from "react-text-loop";
-import HeaderThree from "../component/header/HeaderThree";
+import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
@@ -28,7 +28,7 @@ const PortfolioLanding = () => {
         <div className="active-dark">
             <Helmet pageTitle="Portfolio Landing" />
 
-            <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
+            <Header homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}
             <div id="home" className="fix">
                 <div className="slider-wrapper">

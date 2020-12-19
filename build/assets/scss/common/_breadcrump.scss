@@ -56,7 +56,12 @@
 }
 
 .rn-page-title {
-    h2 { 
+    h2 {
+        font-size: $font-title;
+        text-transform: uppercase;
+        width: 20%;
+        line-height: $font-titleHeight;
+
         &.title {
             font-size: 72px;
             @media #{$lg-layout} {

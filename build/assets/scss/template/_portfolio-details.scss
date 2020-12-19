@@ -2,8 +2,18 @@
     Portfolio Details Styles 
 -------------------------------*/
 
+.bg_image-motovan {
+    background-image: url(/assets/images/portfolio/motovanFeatureImage.png);
+}
 
 .portfolio-thumb-inner {
+
+    .backgroundGrey {
+        background: $brandLightGrey;
+        display: flex;
+        justify-content: flex-end;
+    }
+
     .thumb {
         position: relative;
         .video-popup {
@@ -120,8 +130,6 @@
         }
     }
 }
-
-
 
 // Related Project 
 .related-work{

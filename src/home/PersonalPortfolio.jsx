@@ -1,7 +1,6 @@
 import React, { Component , Fragment } from "react";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import HeaderTwo from "../component/header/HeaderTwo";
 import FooterTwo from "../component/footer/FooterTwo"
 import Brand from "../elements/Brand";
 import PortfolioList from "../elements/portfolio/PortfolioList";
@@ -26,8 +25,6 @@ class PersonalPortfolio extends Component{
         return(
             <Fragment>
                 <Helmet pageTitle="Personal Portfolio" />
-
-                <HeaderTwo logo="symbol-dark" color="color-black"/>
 
                 {/* Start Slider Area   */}
                 <div className="slider-wrapper">

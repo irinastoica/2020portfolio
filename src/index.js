@@ -24,7 +24,6 @@ import PortfolioLanding from './home/PortfolioLanding';
 import CreativeLanding from './home/CreativeLanding';
 import HomeParticles from './home/HomeParticles';
 import CreativePortfolio from './home/CreativePortfolio';
-import DesignerPortfolio from './home/DesignerPortfolio';
 import InteriorLanding from './home/Interior';
 import CorporateBusiness from './home/CorporateBusiness';
 
@@ -83,7 +82,6 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/creative-landing`} component={CreativeLanding}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/home-particles`} component={HomeParticles}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/dark-portfolio-landing`} component={DarkPortfolioLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/designer-portfolio`} component={DesignerPortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/creative-portfolio`} component={CreativePortfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/interior-landing`} component={InteriorLanding}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/corporate-business`} component={CorporateBusiness}/>

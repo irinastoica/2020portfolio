@@ -46,6 +46,7 @@ $logoSize: 40px;
 $marginDefault: 10px;
 $marginDouble: $marginDefault *2;
 $marginLarge: 100px;
+$marginHalfLarge: $marginLarge / 2;
 $marginLargeXl: 150px;
 $marginLargeDouble: $marginLarge *2;
 
@@ -60,8 +61,10 @@ $h2: 54px;
 $h3: 24px;
 $h4: 20px;
 $h5: 18px;
-$h6: 16px;
+$font-regular: 16px;
+$font-bigger: 18px;
 $font-title: 40px;
+$font-regularHeight: 22px;
 $font-titleHeight: 45px;
 
 //===== Social Colors =====//

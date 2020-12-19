@@ -56,9 +56,12 @@
 }
 
 .rn-page-title {
-    h2 { 
+    h2 {
+        text-transform: uppercase;
+        line-height: $font-titleHeight;
+
         &.title {
-            font-size: 72px;
+            font-size: $font-title;
             @media #{$lg-layout} {
                 font-size: 56px;
             }
@@ -72,9 +75,10 @@
         }
     }
     p {
-        font-size: 22px;
-        line-height: 27px;
-        color: #c6c9d8;
+        font-size: $font-regular;
+        line-height: $font-regularHeight;
+        color: $white;
+        max-width: 450px;
     }
 }
 
