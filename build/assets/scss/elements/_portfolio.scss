@@ -215,7 +215,7 @@
                     text-transform: uppercase;
 
                     a {
-                        color: #ffffff;
+                        color: $white;
                     }
                 }
 
@@ -229,7 +229,7 @@
 
                     a {
                         &.rn-btn {
-                            color: #ffffff;
+                            color: $white;
                             border-color: rgba(255, 255, 255, 0.3);
 
                             &:hover {

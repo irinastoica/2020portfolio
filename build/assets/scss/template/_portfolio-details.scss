@@ -8,10 +8,37 @@
 
 .portfolio-thumb-inner {
 
+    .fullWidth {
+        min-width: 100%;
+    }
+
     .backgroundGrey {
         background: $brandLightGrey;
         display: flex;
         justify-content: flex-end;
+    }
+
+    .darkGray {
+        background: $brandDarkGrey;
+        padding-top: $marginLarge;
+    }
+
+    .grayBackground {
+        background: #D9D8D9;
+
+        .container.videos {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+            .videos {
+                max-width: 400px;
+            }
+
+            #asus-video {
+                padding: 60px;
+            }
+        }
     }
 
     .thumb {
