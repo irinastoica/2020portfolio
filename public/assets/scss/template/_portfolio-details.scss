@@ -8,6 +8,10 @@
 
 .portfolio-thumb-inner {
 
+    .fullWidth {
+        min-width: 100%;
+    }
+
     .backgroundGrey {
         background: $brandLightGrey;
         display: flex;

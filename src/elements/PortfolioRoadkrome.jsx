@@ -40,6 +40,9 @@ class PortfolioRoadkrome extends Component{
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum, ipsum ut
                                       vestibulum pellentesque, nisi dui hendrerit turpis, sit amet efficitur nisi nunc a augue.
                                       Aliquam erat volutpat. </p>
+                                  <div className="thumb mb--30">
+                                    <img src="/assets/images/portfolio/roadkrome.gif" alt="Portfolio Images"/>
+                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -84,7 +87,7 @@ class PortfolioRoadkrome extends Component{
                                     </div>
                                     <div className="portfolio-thumb-inner">
                                       <div className="thumb mb--30">
-                                        <img src="/assets/images/portfolio/roadkrome-1.png" alt="Portfolio Images"/>
+                                        <img src="/assets/images/portfolio/roadkrome-1.png" class="fullWidth" alt="Portfolio Images"/>
                                       </div>
                                       <div className="thumb">
                                           <img src="/assets/images/portfolio/roadkromeBlack.svg" alt="Portfolio Images"/>
@@ -95,17 +98,12 @@ class PortfolioRoadkrome extends Component{
                                         </div>
                                       </div>
                                       <div className="thumb defaultTopMargin">
-                                        <img src="/assets/images/portfolio/roadkrome-2.png" alt="Portfolio Images"/>
+                                        <img src="/assets/images/portfolio/roadkrome-2.png" class="fullWidth" alt="Portfolio Images"/>
                                       </div>
                                       <div className="darkGray">
-                                          <div className="container">
-                                                <div className="thumb">
-                                                    <img src="/assets/images/portfolio/roadkrome-3.png" alt="Portfolio Images"/>
-                                                </div>
-                                              <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/roadkrome.gif" alt="Portfolio Images"/>
-                                              </div>
-                                          </div>
+                                        <div className="thumb">
+                                          <img src="/assets/images/portfolio/roadkrome-3.png" alt="Portfolio Images"/>
+                                        </div>
                                       </div>
                                     </div>
                                 </div>
