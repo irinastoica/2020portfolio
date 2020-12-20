@@ -98,7 +98,7 @@ class PortfolioRoadkrome extends Component{
                                         </div>
                                       </div>
                                       <div className="thumb defaultTopMargin">
-                                        <img src="/assets/images/portfolio/roadkrome-2.png" class="fullWidth" alt="Portfolio Images"/>
+                                        <img src="/assets/images/portfolio/roadkrome-2.jpg" class="fullWidth" alt="Portfolio Images"/>
                                       </div>
                                       <div className="darkGray">
                                         <div className="thumb">
