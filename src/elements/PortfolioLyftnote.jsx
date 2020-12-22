@@ -73,19 +73,11 @@ class PortfolioLyftnote extends Component{
                                                 <h4>View Project</h4>
                                             </div>
                                         </div>
-
-                                        <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
-                                            <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
-                                                {SocialShare.map((val , i) => (
-                                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
-                                                ))}
-                                            </ul>
-                                        </div>
                                     </div>
                                     <div className="portfolio-thumb-inner">
                                         <div className="container defaultTopMargin">
                                             <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/motovan-1.png" alt="Portfolio Images"/>
+                                                <img src="/assets/images/portfolio/lyftnote-1.jpg" alt="Portfolio Images"/>
                                             </div>
                                             <div className="thumb mb--30">
                                                 <img src="/assets/images/portfolio/motovan-2.png" alt="Portfolio Images"/>
