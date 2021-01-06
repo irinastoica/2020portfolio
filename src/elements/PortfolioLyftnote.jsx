@@ -75,32 +75,28 @@ class PortfolioLyftnote extends Component{
                                         </div>
                                     </div>
                                     <div className="portfolio-thumb-inner">
-                                        <div className="container defaultTopMargin">
-                                            <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/lyftnote-1.jpg" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/motovan-2.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/motovan-3.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-4.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-5.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-6.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-7.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-8.png" alt="Portfolio Images"/>
-                                            </div>
+                                      <div className="thumb mb--30">
+                                        <img src="/assets/images/portfolio/lyftnote-3.jpg" alt="Portfolio Images" class="fullWidth" />
+                                      </div>
+                                      <div className="container defaultTopMargin">
+                                        <div className="thumb mb--30">
+                                          <img src="/assets/images/portfolio/lyftnote-2.jpg" alt="Portfolio Images"/>
                                         </div>
+                                      </div>
+                                      <div className="thumb mb--30">
+                                        <img src="/assets/images/portfolio/lyftnote-1.jpg" alt="Portfolio Images" class="fullWidth" />
+                                      </div>
+                                      <div className="thumb mb--30 greyBackground">
+                                        <img src="/assets/images/portfolio/lyftnote.gif" alt="Portfolio Images"/>
+                                      </div>
+                                      <div className="container">
+                                        <div className="thumb mb--30">
+                                          <img src="/assets/images/portfolio/lyftnote-5.jpg" alt="Portfolio Images"/>
+                                        </div>
+                                      </div>
+                                      <div className="thumb mb--30">
+                                        <img src="/assets/images/portfolio/lyftnote-4.jpg" alt="Portfolio Images" className="fullWidth"/>
+                                      </div>
                                     </div>
                                 </div>
                             </div>

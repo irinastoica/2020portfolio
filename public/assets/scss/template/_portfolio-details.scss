@@ -18,6 +18,12 @@
         justify-content: flex-end;
     }
 
+    .greyBackground {
+        background: $lyftnotetGrey;
+        display: flex;
+        justify-content: center;
+    }
+
     .darkGray {
         background: $brandDarkGrey;
         padding-top: $marginLarge;
@@ -78,6 +84,7 @@
 
 .portfolio-details {
     .inner {
+        width: 50%;
         padding: 0 210px;
         @media #{$lg-layout} {
             padding: 0 100px;
