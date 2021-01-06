@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d86ce05-accf-4f2e-9e65-41f35d2bc322" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/lyftnote-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/lyftnote-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/lyftnote-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/lyftnote-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/default/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/default/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/scss/header/_mainmenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/header/_mainmenu.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +42,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="88" column="81" selection-start-line="88" selection-start-column="67" selection-end-line="88" selection-end-column="81" />
+            <state relative-caret-position="362">
+              <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="258">
@@ -191,6 +187,8 @@
         <option value="$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx" />
         <option value="$PROJECT_DIR$/public/assets/scss/default/_variables.scss" />
         <option value="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" />
+        <option value="$PROJECT_DIR$/public/assets/scss/header/_header.scss" />
+        <option value="$PROJECT_DIR$/public/assets/scss/header/_mainmenu.scss" />
       </list>
     </option>
   </component>
@@ -279,16 +277,15 @@
       <workItem from="1607787586019" duration="7032000" />
       <workItem from="1607959660827" duration="70000" />
       <workItem from="1608389485025" duration="11734000" />
-      <workItem from="1609889953241" duration="1487000" />
+      <workItem from="1609889953241" duration="1718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38995000" />
+    <option name="totallyTimeSpent" value="39226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="331" width="1440" height="875" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20171674" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -601,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="88" column="81" selection-start-line="88" selection-start-column="67" selection-end-line="88" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/scss/default/_variables.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -619,6 +609,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="86" column="19" selection-start-line="86" selection-start-column="19" selection-end-line="86" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="43" column="34" lean-forward="true" selection-start-line="43" selection-start-column="34" selection-end-line="43" selection-end-column="34" />
         </state>
       </provider>
     </entry>
