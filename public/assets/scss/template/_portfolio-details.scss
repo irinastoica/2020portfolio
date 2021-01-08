@@ -27,6 +27,13 @@
     .darkGray {
         background: $brandDarkGrey;
         padding-top: $marginLarge;
+        color: $white;
+
+        h2 {
+            color: $white;
+            font-size: $font-big;
+            text-transform: uppercase;
+        }
     }
 
     .grayBackground {

@@ -52,7 +52,8 @@ class PortfolioBlogVanilla extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="portfolio-details">
-                                    <div className="inner">
+                                    <div className="container-inner">
+                                      <div className="col-6">
                                         <h2>Trydo</h2>
                                         <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
@@ -73,47 +74,32 @@ class PortfolioBlogVanilla extends Component{
                                                 <h4>View Project</h4>
                                             </div>
                                         </div>
-
-                                        <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
-                                            <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
-                                                {SocialShare.map((val , i) => (
-                                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
-                                                ))}
-                                            </ul>
-                                        </div>
+                                      </div>
                                     </div>
                                     <div className="portfolio-thumb-inner">
-                                        <div className="backgroundGrey">
-                                          <div className="thumb position-relative mb--30">
-                                            <img src="/assets/images/portfolio/motovan-1a.png" alt="Portfolio Images"/>
+                                      <div className="thumb position-relative mb--30 darkGray">
+                                        <div className="container-inner">
+                                          <div className="col-6">
+                                            <h2>Improving the User Experience</h2>
+                                            <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
                                           </div>
                                         </div>
-                                        <div className="container defaultTopMargin">
-                                            <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/motovan-1.png" alt="Portfolio Images"/>
+                                          <img src="/assets/images/portfolio/blog-2.jpg" alt="Portfolio Images"/>
+                                      </div>
+                                      <div className="thumb position-relative">
+                                        <img src="/assets/images/portfolio/blog-1.jpg" alt="Portfolio Images"/>
+                                      </div>
+                                        <div className="thumb position-relative mb--30 darkGray">
+                                          <div className="container-inner">
+                                            <div className="col-6">
+                                              <h2>Improving the User Experience</h2>
+                                              <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
                                             </div>
-                                            <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/motovan-2.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                                <img src="/assets/images/portfolio/motovan-3.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-4.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-5.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-6.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-7.png" alt="Portfolio Images"/>
-                                            </div>
-                                            <div className="thumb mb--30">
-                                              <img src="/assets/images/portfolio/motovan-8.png" alt="Portfolio Images"/>
-                                            </div>
-                                        </div>
+                                          </div>
+                                        <img src="/assets/images/portfolio/blog-3.jpg" alt="Portfolio Images"/>
+                                      </div>
                                     </div>
                                 </div>
                             </div>
