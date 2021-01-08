@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d86ce05-accf-4f2e-9e65-41f35d2bc322" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/common/_breadcrump.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/common/_breadcrump.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/default/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/default/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/template/_portfolio-details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/PortfolioBlogVanilla.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/PortfolioBlogVanilla.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/blog-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/blog-3.jpg" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,8 +63,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/elements/PortfolioBlogVanilla.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+            <state relative-caret-position="249">
+              <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -293,12 +289,12 @@
       <workItem from="1609889953241" duration="2018000" />
       <workItem from="1610065249635" duration="415000" />
       <workItem from="1610113920290" duration="366000" />
-      <workItem from="1610134048760" duration="1820000" />
+      <workItem from="1610134048760" duration="2687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42127000" />
+    <option name="totallyTimeSpent" value="42994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="331" width="1440" height="875" extended-state="6" />
@@ -631,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/elements/PortfolioBlogVanilla.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="89" column="77" selection-start-line="89" selection-start-column="77" selection-end-line="89" selection-end-column="77" />
+        <state relative-caret-position="249">
+          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
         </state>
       </provider>
     </entry>
