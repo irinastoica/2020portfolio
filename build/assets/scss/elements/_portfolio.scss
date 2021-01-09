@@ -96,50 +96,6 @@
         }
     }
 
-    .thumbnail{
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        border-radius: 5px;
-        background-color: #0a0a0a;
-        transform: scale(1.13) translateZ(0);
-        backface-visibility: hidden;
-        transition: transform .28s ease;
-        z-index: 4;
-        &.image-1{
-            background-image: url(/assets/images/portfolio/conversationsFeatureImage.png);
-        }
-
-        &.image-3{
-            background-image: url(/assets/images/portfolio/asusFeatureImage.png);
-        }
-
-        &.image-motovan {
-            background-image: url(/assets/images/portfolio/motovanFeatureImage.png);
-        }
-
-        &.image-5 {
-            background-image: url(/assets/images/portfolio/motovanCommunity.png);
-        }
-
-        &::after{
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            content: ' ';
-            z-index: 1;
-            display: block;
-            border-radius: 5px;
-            @extend %transition;
-        }
-    }
-
     .bg-blr-image {
         position: absolute;
         top: 0;
@@ -348,238 +304,53 @@
     }
 }
 
-
-// Minimal Portfolio
-
-.portfolio-tilthover {
-    .portfolio {
-        margin-top: 30px;
-        @media #{$sm-layout} {
-            min-height: 400px;
-        }
-        @media #{$md-layout} {
-            min-height: 400px;
-        }
-        @media #{$lg-layout} {
-            min-height: 400px;
-        }
-        .thumbnail {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            background-size: cover;
-            background-position: center;
-            border-radius: 5px;
-            background-color: #0a0a0a;
-            background-image: url(/assets/images/portfolio/portfolio-static-01.jpg);
-            transform: scale(1.13) translateZ(0);
-            backface-visibility: hidden;
-            transition: transform .28s ease;
-            z-index: 4;
-            @media #{$large-mobile} {
-                transform: scale(1) translateZ(0);
-            }
-            &.image-1 {
-                background-image: url(/assets/images/portfolio/portfolio-static-01.jpg);
-            }
-            &.image-2 {
-                background-image: url(/assets/images/portfolio/portfolio-static-02.jpg);
-            }
-            &.image-3 {
-                background-image: url(/assets/images/portfolio/portfolio-static-03.jpg);
-            }
-            &.image-4 {
-                background-image: url(/assets/images/portfolio/portfolio-static-04.jpg);
-            }
-            &.image-5 {
-                background-image: url(/assets/images/portfolio/portfolio-static-05.jpg);
-            }
-            &.image-6 {
-                background-image: url(/assets/images/portfolio/portfolio-static-06.jpg);
-            }
-            &.image-7 {
-                background-image: url(/assets/images/portfolio/portfolio-static-07.jpg);
-            }
-            &.image-8 {
-                background-image: url(/assets/images/portfolio/portfolio-static-08.jpg);
-            }
-            &.image-9 {
-                background-image: url(/assets/images/portfolio/portfolio-static-09.jpg);
-            }
-            &.image-10 {
-                background-image: url(/assets/images/portfolio/portfolio-static-10.jpg);
-            }
-            &::after {
-                display: none;
-            }
-        }
-
-        .thumbnail-inner {
-            @media #{$large-mobile} {
-                transform: scale(1) translateZ(0);
-                &::before {
-                    opacity: 0.85;
-                }
-            }
-        }
-        .bg-blr-image {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            width: 100%;
-            background-size: cover;
-            background-position: center;
-            background-color: #0a0a0a;
-            background-image: url(/assets/images/portfolio/portfolio-static-01.jpg);
-            @extend %transition;
-            transform: translateY(38px);
-            opacity: 0;
-            z-index: 1;
-            @media #{$large-mobile} {
-                opacity: 0;
-                z-index: 9;
-            }
-
-            &.image-1 {
-                background-image: url(/assets/images/portfolio/portfolio-static-01.jpg);
-            }
-
-            &.image-2 {
-                background-image: url(/assets/images/portfolio/portfolio-static-03.jpg);
-            }
-
-            &.image-3 {
-                background-image: url(/assets/images/portfolio/portfolio-static-03.jpg);
-            }
-            &.image-4 {
-                background-image: url(/assets/images/portfolio/portfolio-static-04.jpg);
-            }
-            &.image-5 {
-                background-image: url(/assets/images/portfolio/portfolio-static-05.jpg);
-            }
-            &.image-6 {
-                background-image: url(/assets/images/portfolio/portfolio-static-06.jpg);
-            }
-            &.image-7 {
-                background-image: url(/assets/images/portfolio/portfolio-static-07.jpg);
-            }
-            &.image-8 {
-                background-image: url(/assets/images/portfolio/portfolio-static-08.jpg);
-            }
-            &.image-9 {
-                background-image: url(/assets/images/portfolio/portfolio-static-09.jpg);
-            }
-            &.image-10 {
-                background-image: url(/assets/images/portfolio/portfolio-static-10.jpg);
-            }
-        }
-
-        .content {
-            opacity: 0;
-            @extend %transition;
-            @media #{$large-mobile} {
-                opacity: 1;
-            }
-        }
-        &:hover {
-            .content {
-                opacity: 1;
-            }
-            .thumbnail-inner {
-                transform: scale(1) translateZ(0);
-                &::before {
-                    opacity: 0.85;
-                }
-            }
-            .thumbnail {
-                transform: scale(1) translateZ(0);
-                //&::after {
-                //    background-color: rgba(25,25,25,.24);
-                //}
-            }
-            .bg-blr-image {
-                opacity: 0;
-                z-index: 9;
-            }
-        }
-
-
-        &.designer-project {
-            .thumbnail {
-                background-image: url(/assets/images/portfolio/dp-portfolio-01.jpg);
-                &.image-1 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-01.jpg);
-                }
-                &.image-2 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-02.jpg);
-                }
-                &.image-3 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-03.jpg);
-                }
-                &.image-4 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-04.jpg);
-                }
-                &.image-5 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-05.jpg);
-                }
-                &.image-6 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-06.jpg);
-                }
-                &.image-7 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-07.jpg);
-                }
-                &.image-8 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-08.jpg);
-                }
-                &.image-9 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-09.jpg);
-                }
-                &.image-10 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-10.jpg);
-                }
-            }
-
-            .bg-blr-image {
-                background-image: url(/assets/images/portfolio/dp-portfolio-01.jpg);
-
-                &.image-1 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-01.jpg);
-                }
-                &.image-2 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-02.jpg);
-                }
-                &.image-3 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-03.jpg);
-                }
-                &.image-4 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-04.jpg);
-                }
-                &.image-5 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-05.jpg);
-                }
-                &.image-6 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-06.jpg);
-                }
-                &.image-7 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-07.jpg);
-                }
-                &.image-8 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-08.jpg);
-                }
-                &.image-9 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-09.jpg);
-                }
-                &.image-10 {
-                    background-image: url(/assets/images/portfolio/dp-portfolio-10.jpg);
-                }
-            }
-        }
-    }
+.details-banner.thumbnail {
+    position: relative;
 }
 
+.thumbnail{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    background-color: #0a0a0a;
+    transform: scale(1.13) translateZ(0);
+    backface-visibility: hidden;
+    transition: transform .28s ease;
+    z-index: 4;
+    &.image-1{
+        background-image: url(/assets/images/portfolio/conversationsFeatureImage.png);
+    }
+
+    &.image-3{
+        background-image: url(/assets/images/portfolio/asusFeatureImage.png);
+    }
+
+    &.image-motovan {
+        background-image: url(/assets/images/portfolio/motovanFeatureImage.png);
+    }
+
+    &.image-5 {
+        background-image: url(/assets/images/portfolio/motovanCommunity.png);
+    }
+
+    &::after{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        content: ' ';
+        z-index: 1;
+        display: block;
+        border-radius: 5px;
+        @extend %transition;
+    }
+}
 
 .portfolio-sacousel-inner {
     .slick-list{

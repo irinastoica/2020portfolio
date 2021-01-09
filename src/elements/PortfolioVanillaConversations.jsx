@@ -3,7 +3,7 @@ import PageHelmet from "../component/common/Helmet";
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
+import Header from "../component/header/HeaderDetails";
 import Footer from "../component/footer/Footer";
 
 const SocialShare = [
@@ -31,7 +31,7 @@ class PortfolioVanillaConversations extends Component{
                 <Header logo="symbol-dark" color="color-black"/>
                 
                 {/* Start Breadcrump Area */}
-                <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image-motovan"  data-black-overlay="7">
+                <div className="details-banner pt--120 pb--190 thumbnail bg_image image-1"  data-black-overlay="7">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
