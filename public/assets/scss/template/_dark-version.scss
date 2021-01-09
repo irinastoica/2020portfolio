@@ -78,6 +78,13 @@
     ul.tab-style--1 li {
         color: #ffffff; 
     }
+
+    .color-black .mainmenunav ul.mainmenu>li>a {
+        color: $white !important;
+    }
+
+
+
     .portfolio-sacousel-inner .slick-dots li button::after,
     .rn-slick-dot .slick-dots li button::after {
         background: #ffffff;

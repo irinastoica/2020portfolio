@@ -29,21 +29,20 @@ class PortfolioVanillaConversations extends Component{
             <React.Fragment>
                 <PageHelmet pageTitle='Portfolio Details' />
                 <Header logo="symbol-dark" color="color-black"/>
-                
+
                 {/* Start Breadcrump Area */}
                 <div className="details-banner pt--120 pb--190 thumbnail bg_image image-1"  data-black-overlay="7">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="rn-page-title pt--100">
-                                    <h2 className="title theme-gradient">Motovan <br/> Motosports </h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum, ipsum ut
-                                      vestibulum pellentesque, nisi dui hendrerit turpis, sit amet efficitur nisi nunc a augue.
-                                      Aliquam erat volutpat. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                  <div className="container-inner">
+                      <div className="col-6">
+                          <h3 className="detailsTitle detailsTitle-white">Project</h3>
+                          <span>Communications by Vanilla Event </span>
+                      </div>
+                      <div className="col-6">
+                        <h3 className="detailsTitle detailsTitle-white">My role</h3>
+                        <span>Ux Designer</span>
+                        <span>Front End Developer</span>
+                      </div>
+                  </div>
                 </div>
                 {/* End Breadcrump Area */}
 
@@ -52,35 +51,16 @@ class PortfolioVanillaConversations extends Component{
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="portfolio-details">
-                                    <div className="inner">
-                                        <h2>Trydo</h2>
-                                        <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
-
-                                        <div className="portfolio-view-list d-flex flex-wrap">
-                                            <div className="port-view">
-                                                <span>Branch</span>
-                                                <h4>Ability</h4>
-                                            </div>
-
-                                            <div className="port-view">
-                                                <span>Project Types</span>
-                                                <h4>Website</h4>
-                                            </div>
-
-                                            <div className="port-view">
-                                                <span>Program</span>
-                                                <h4>View Project</h4>
-                                            </div>
-                                        </div>
-
-                                        <div className="portfolio-share-link mt--20 pb--70 pb_sm--40">
-                                            <ul className="social-share rn-lg-size d-flex justify-content-start liststyle mt--15">
-                                                {SocialShare.map((val , i) => (
-                                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
-                                                ))}
-                                            </ul>
-                                        </div>
+                                    <div className="container-inner">
+                                      <div className="col-6">
+                                          <h3 className="detailsTitle">The Challenge</h3>
+                                      </div>
+                                      <div className="col-6">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed risus vel elit dapibus mollis.
+                                          Quisque lobortis dolor leo, quis vulputate nisl tempor vel. Mauris vel commodo est. Nunc semper scelerisque
+                                          lacus at laoreet. Quisque scelerisque volutpat massa vel porttitor. Nam laoreet nibh sit amet ligula
+                                          condimentum, a viverra leo gravida. Vestibulum ut dolor varius, varius turpis nec, condimentum sapien.</p>
+                                      </div>
                                     </div>
                                     <div className="portfolio-thumb-inner">
                                       <div className="thumb position-relative mb--30">

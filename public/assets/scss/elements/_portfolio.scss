@@ -2,6 +2,10 @@
     Portfolio Area
 ==================*/
 
+.color-black .mainmenunav ul.mainmenu>li>a {
+    color: $white !important;
+}
+
 .defaultTopMargin {
     margin-top: $marginHalfLarge;
 }
@@ -310,6 +314,7 @@
 
     &.thumbnail {
         position: relative;
+        transform: none;
     }
 
     .video-react-controls-enabled {

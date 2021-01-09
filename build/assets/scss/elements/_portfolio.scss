@@ -304,8 +304,31 @@
     }
 }
 
-.details-banner.thumbnail {
-    position: relative;
+.details-banner {
+    max-height: 600px;
+    z-index: -1;
+
+    &.thumbnail {
+        position: relative;
+    }
+
+    .video-react-controls-enabled {
+        top: -150px;
+
+        [type=button],
+        .video-react-control-bar {
+            display: none;
+        }
+
+        .video-react-video {
+            max-height: 660px;
+            width: 100%;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            object-fit: cover;
+        }
+    }
 }
 
 .thumbnail{
