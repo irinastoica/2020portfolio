@@ -5,6 +5,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import { Player } from "video-react";
 
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
@@ -31,7 +32,14 @@ class PortfolioRoadkrome extends Component{
                 <Header logo="symbol-dark" color="color-black"/>
                 
                 {/* Start Breadcrump Area */}
-                <div className="details-banner pt--120 pb--190 bg_image bg_image-motovan"  data-black-overlay="7">
+                <div className="details-banner pt--120 pb--190 bg_image"  data-black-overlay="7">
+                  <Player
+                    autoPlay
+                    loop
+                    muted
+                    poster="/assets/poster.png"
+                    src={`../assets/videos/roadkrome.mp4`}
+                  />
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -40,9 +48,6 @@ class PortfolioRoadkrome extends Component{
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed elementum, ipsum ut
                                       vestibulum pellentesque, nisi dui hendrerit turpis, sit amet efficitur nisi nunc a augue.
                                       Aliquam erat volutpat. </p>
-                                  <div className="thumb mb--30">
-                                    <img src="/assets/images/portfolio/roadkrome.gif" alt="Portfolio Images"/>
-                                  </div>
                                 </div>
                             </div>
                         </div>
@@ -87,7 +92,7 @@ class PortfolioRoadkrome extends Component{
                                     </div>
                                     <div className="portfolio-thumb-inner">
                                       <div className="thumb mb--30">
-                                        <img src="/assets/images/portfolio/roadkrome-1.png" class="fullWidth" alt="Portfolio Images"/>
+                                        <img src="/assets/images/portfolio/roadkrome-1.png" className="fullWidth" alt="Portfolio Images"/>
                                       </div>
                                       <div className="thumb">
                                           <img src="/assets/images/portfolio/roadkromeBlack.svg" alt="Portfolio Images"/>
@@ -98,11 +103,14 @@ class PortfolioRoadkrome extends Component{
                                         </div>
                                       </div>
                                       <div className="thumb defaultTopMargin">
-                                        <img src="/assets/images/portfolio/roadkrome-2.jpg" class="fullWidth" alt="Portfolio Images"/>
+                                        <img src="/assets/images/portfolio/roadkrome-2.jpg" className="fullWidth" alt="Portfolio Images"/>
                                       </div>
                                       <div className="darkGray">
                                         <div className="thumb">
                                           <img src="/assets/images/portfolio/roadkrome-3.png" alt="Portfolio Images"/>
+                                        </div>
+                                        <div className="thumb mb--30">
+                                          <img src="/assets/images/portfolio/roadkrome.gif" className="fullWidth" alt="Portfolio Images"/>
                                         </div>
                                       </div>
                                     </div>

@@ -5,6 +5,7 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
+import { Player } from "video-react";
 
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
@@ -31,7 +32,14 @@ class PortfolioBlogVanilla extends Component{
                 <Header logo="symbol-dark" color="color-black"/>
                 
                 {/* Start Breadcrump Area */}
-                <div className="details-banner pt--120 pb--190 bg_image bg_image-motovan"  data-black-overlay="7">
+                <div className="details-banner pt--120 pb--190 bg_image"  data-black-overlay="7">
+                  <Player
+                    autoPlay
+                    loop
+                    muted
+                    poster="/assets/poster.png"
+                    src={`../assets/videos/library.mp4`}
+                  />
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
