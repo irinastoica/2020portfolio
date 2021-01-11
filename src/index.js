@@ -10,13 +10,10 @@ import './index.scss';
 
 
 // Home layout
+
+// ScrollMagic
 import Demo from './page-demo/Demo';
-import MainDemo from './home/MainDemo';
-import HomePortfolio from './home/HomePortfolio';
-import PersonalPortfolio from './home/PersonalPortfolio';
-import PortfolioLanding from './home/PortfolioLanding';
-import HomeParticles from './home/HomeParticles';
-import InteriorLanding from './home/Interior';
+
 
 // Dark Home Layout 
 import DarkMainDemo from './dark/MainDemo';
@@ -64,14 +61,8 @@ class Root extends Component{
             <BrowserRouter basename={'/'}>
                 <Switch>
                     <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/main-demo`} component={MainDemo}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/dark-main-demo`} component={DarkMainDemo}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/personal-portfolio`} component={PersonalPortfolio}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-home`} component={HomePortfolio}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-landing`} component={PortfolioLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/home-particles`} component={HomeParticles}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/dark-portfolio-landing`} component={DarkPortfolioLanding}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/interior-landing`} component={InteriorLanding}/>
 
 
                     {/* Element Layot */}
