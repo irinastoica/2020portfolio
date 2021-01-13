@@ -122,6 +122,7 @@ body {
                 display: block;
                 position: relative;
                 padding-top: 0;
+                height: 100%;
 
                 .video-react-video {
                     max-height: 660px;
@@ -130,6 +131,7 @@ body {
                     z-index: 1;
                     top: 0;
                     object-fit: cover;
+                    height: 100%;
                 }
             }
         }

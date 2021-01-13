@@ -5,7 +5,6 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
-import BrandOne from "../elements/Brand";
 import BrandTwo from "../elements/BrandTwo";
 
 const Brand = () => {
@@ -23,18 +22,6 @@ const Brand = () => {
 
             {/* Start Page Wrapper  */}
             <main className="page-wrapper">
-                
-                {/* Start Brand Area  */}
-                <div className="rn-brand-area ptb--120 bg_color--5">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <BrandOne branstyle="branstyle--2" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Brand Area  */}
                 
                 {/* Start Brand Area  */}
                 <div className="rn-brand-area brand-separation bg_color--1">
