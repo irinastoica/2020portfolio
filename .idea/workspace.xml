@@ -2,134 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d86ce05-accf-4f2e-9e65-41f35d2bc322" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/elements/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/elements/_portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-16-oo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/bg-image-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/paralax/bg-image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/paralax/bg-image-3-overlay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/paralax/bg-image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/paralax/bg-image-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/paralax/bg-image-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/paralax/bg-image-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/paralax/bg-image-66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/paralax/bg-image-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/paralax/bg-image-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/bg/paralax/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/blog/bl-big-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/blog/blog-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/blog/blog-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/blog/blog-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/blog/blog-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/blog/blog-single-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/blog/fgdfg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/client/image-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/client/image-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/client/testimonial-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/client/testimonial-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/client/testimonial-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/client/testimonial-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/client/testimonial-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/client/testimonial-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/client/testimonial-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/client/testimonial-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/featured/corporate-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/featured/corporate-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/featured/corporate-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/featured/corporate-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/featured/corporate-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/featured/featured-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/blog-details.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/blog-list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/browser-image-top.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/browser-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/business.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/coming-soon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/contact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/corporate-business.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/creative-agency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/creative-landing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/creative-portfolio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/dark-main-demo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/dark-personal-portfolio-landing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/demo-home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/designer-portfolio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/digital-agency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/homeparticles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/interior-design.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/paralax.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/personal-portfolio-landing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/personal-portfolio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/portfolio-details.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/portfolio-home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/portfolio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/preview-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/service-details.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/service.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/startup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/preview/studio-agency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/service/Screenshot_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/service/service-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/service/service-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/service/video.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/images/team/team-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/blog/_blog-details.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/blog/_blog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/elements/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/elements/_portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/elements/_pricing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/elements/_progress.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/elements/_service.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/elements/_team.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/elements/_testimonial.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/template/_dark-version.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/template/_dark-version.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/template/_service-details.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/Brand.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/Brand.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Brand.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/brand/brand-01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/brand/brand-02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/brand/brand-03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/brand/brand-04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/brand/brand-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/brand/brand-06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/brand/roadkrome.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/brand/roadkrome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elements/BrandTwo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/BrandTwo.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -157,8 +37,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page-demo/Demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-824">
-              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="361">
+              <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -178,20 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/build/assets/scss/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
-              <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
+        <entry file="file://$PROJECT_DIR$/public/assets/scss/style.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="795">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -205,44 +76,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/elements/About.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/elements/counters/CounterOne.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#52#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/blocks/Brand.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/elements/BrandTwo.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -279,8 +117,8 @@
       <find>#101010</find>
       <find>/assets/images/brand/brand-01</find>
       <find>Brand</find>
-      <find>service</find>
       <find>BrandTwo</find>
+      <find>service</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -289,7 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/elements/PortfolioMotovan.jsx" />
         <option value="$PROJECT_DIR$/public/assets/scss/default/_extend.scss" />
         <option value="$PROJECT_DIR$/build/assets/scss/default/_shortcode.scss" />
         <option value="$PROJECT_DIR$/build/assets/scss/default/_extend.scss" />
@@ -338,8 +175,9 @@
         <option value="$PROJECT_DIR$/src/elements/Brand.jsx" />
         <option value="$PROJECT_DIR$/src/page-demo/Demo.js" />
         <option value="$PROJECT_DIR$/src/blocks/Brand.jsx" />
-        <option value="$PROJECT_DIR$/src/elements/BrandTwo.jsx" />
         <option value="$PROJECT_DIR$/build/assets/scss/style.scss" />
+        <option value="$PROJECT_DIR$/public/assets/scss/style.scss" />
+        <option value="$PROJECT_DIR$/src/elements/BrandTwo.jsx" />
       </list>
     </option>
   </component>
@@ -457,12 +295,12 @@
       <workItem from="1610134048760" duration="2687000" />
       <workItem from="1610148843245" duration="2190000" />
       <workItem from="1610210531009" duration="4026000" />
-      <workItem from="1610496581071" duration="2599000" />
+      <workItem from="1610496581071" duration="3159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56228000" />
+    <option name="totallyTimeSpent" value="56788000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="804" extended-state="6" />
@@ -494,7 +332,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/elements/PortfolioMotovan.jsx" />
     <entry file="file://$PROJECT_DIR$/public/assets/scss/default/_extend.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
@@ -779,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/assets/scss/elements/_portfolio.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/assets/scss/elements/_portfolio.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
@@ -800,16 +630,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/elements/counters/CounterOne.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/blocks/Brand.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -817,13 +637,6 @@
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/elements/BrandTwo.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="5" lean-forward="true" selection-start-line="37" selection-start-column="5" selection-end-line="37" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -841,11 +654,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/page-demo/Demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-824">
-          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        <state relative-caret-position="361">
+          <caret line="91" column="34" lean-forward="true" selection-start-line="91" selection-start-column="34" selection-end-line="91" selection-end-column="34" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/assets/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="45" column="29" lean-forward="true" selection-end-line="68" />
         </state>
       </provider>
     </entry>
@@ -859,10 +686,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/assets/scss/style.scss">
+    <entry file="file://$PROJECT_DIR$/src/elements/counters/CounterOne.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="45" column="29" selection-start-line="45" selection-start-column="29" selection-end-line="45" selection-end-column="29" />
+        <state relative-caret-position="449">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/assets/scss/elements/_portfolio.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/BrandTwo.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
         </state>
       </provider>
     </entry>
