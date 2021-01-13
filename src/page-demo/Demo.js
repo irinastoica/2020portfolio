@@ -10,23 +10,12 @@ import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 
 
-
-const SlideList = [
-  {
-    textPosition: 'text-left',
-    category: 'Welcome to my World',
-    description: '',
-    buttonText: '',
-    buttonLink: ''
-  }
-]
 const PortfolioLanding = () => {
   let title = 'Irina is a passionate designer with a big desir to craft amazing inspiring stories behind any design.',
     description = 'I am all about tehnology, design and positive vibes';
   return (
     <div className="active-dark">
       <Helmet pageTitle="Portfolio Landing" />
-
       <Header homeLink="/" logo="symbol-dark" color="color-black"/>
       {/* Start About Area */}
       <div id="about" className="fix">
