@@ -5,6 +5,7 @@ import Helmet from "../component/common/Helmet";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
+import BrandTwo from "../elements/BrandTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 
@@ -62,6 +63,17 @@ const PortfolioLanding = () => {
       <div id="service" className="fix">
           <div className="container">
             <h1>Some of the brands that I've worked with</h1>
+            {/* Start Brand Area */}
+            <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-12">
+                    <BrandTwo />
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* End Brand Area */}
           </div>
       </div>
       {/* End Service Area  */}

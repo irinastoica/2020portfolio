@@ -2,37 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d86ce05-accf-4f2e-9e65-41f35d2bc322" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/Brand.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/Counters.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/blocks/Counters.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/GoogleMap.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/PricingTable.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/Team.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/Testimonial.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/team/TeamOne.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/team/TeamTwo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/team/data.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/testimonial/TestimonialOne.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/blocks/testimonial/TestimonialTwo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dark/MainDemo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dark/PortfolioLanding.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Accordion.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Blog.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/BlogDetails.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Brand.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/BrandTwo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/Contact.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/blog/BlogContent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/blog/BlogList.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/team/TeamOne.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/HomeParticles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/HomePortfolio.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/Interior.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/MainDemo.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/PersonalPortfolio.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/home/PortfolioLanding.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page-demo/Demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-demo/Demo.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="65" column="46" lean-forward="true" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+            <state relative-caret-position="283">
+              <caret line="61" column="125" lean-forward="true" selection-start-line="61" selection-start-column="125" selection-end-line="61" selection-end-column="125" />
               <folding>
                 <element signature="e#18#59#0" expanded="true" />
                 <element signature="e#422#463#0" expanded="true" />
@@ -60,11 +29,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/page-demo/Demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="72" lean-forward="true" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
+            <state relative-caret-position="105">
+              <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/elements/Contact.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/elements/About.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -102,12 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.inner</find>
-      <find>#1d1d24</find>
-      <find>$brandDarkGrey</find>
-      <find>.container</find>
-      <find>darkGray</find>
-      <find>h2</find>
       <find>ul.mainmenu</find>
       <find>googleapi</find>
       <find>image-1</find>
@@ -132,6 +113,12 @@
       <find>BlogList</find>
       <find>TeamOne.jsx</find>
       <find>Brand</find>
+      <find>PricingTable</find>
+      <find>Blog</find>
+      <find>brand</find>
+      <find>&lt;BrandTwo /&gt;</find>
+      <find>&lt;BrandTwo</find>
+      <find>BrandTwo</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -185,12 +172,12 @@
         <option value="$PROJECT_DIR$/public/assets/scss/elements/_portfolio.scss" />
         <option value="$PROJECT_DIR$/src/elements/PortfolioVanillaConversations.jsx" />
         <option value="$PROJECT_DIR$/src/blocks/Counters.jsx" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/page-demo/Demo.js" />
         <option value="$PROJECT_DIR$/src/elements/Blog.jsx" />
         <option value="$PROJECT_DIR$/src/blocks/Brand.jsx" />
         <option value="$PROJECT_DIR$/src/elements/Contact.jsx" />
         <option value="$PROJECT_DIR$/src/elements/About.jsx" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/page-demo/Demo.js" />
       </list>
     </option>
   </component>
@@ -297,12 +284,12 @@
       <workItem from="1610134048760" duration="2687000" />
       <workItem from="1610148843245" duration="2190000" />
       <workItem from="1610210531009" duration="4026000" />
-      <workItem from="1610496581071" duration="634000" />
+      <workItem from="1610496581071" duration="1017000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54263000" />
+    <option name="totallyTimeSpent" value="54646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="804" extended-state="6" />
@@ -334,14 +321,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/home/CreativePortfolio.jsx" />
-    <entry file="file://$PROJECT_DIR$/public/assets/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="70" column="17" lean-forward="true" selection-start-line="70" selection-start-column="17" selection-end-line="70" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/elements/portfolio/VideoRender.jsx" />
     <entry file="file://$PROJECT_DIR$/src/home/PersonalPortfolio.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -654,8 +633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="65" column="46" lean-forward="true" selection-start-line="65" selection-start-column="46" selection-end-line="65" selection-end-column="46" />
+        <state relative-caret-position="283">
+          <caret line="61" column="125" lean-forward="true" selection-start-line="61" selection-start-column="125" selection-end-line="61" selection-end-column="125" />
           <folding>
             <element signature="e#18#59#0" expanded="true" />
             <element signature="e#422#463#0" expanded="true" />
@@ -677,13 +656,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/Contact.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="117" column="41" lean-forward="true" selection-start-line="117" selection-start-column="41" selection-end-line="117" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/About.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/page-demo/Demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="72" lean-forward="true" selection-start-line="23" selection-start-column="72" selection-end-line="23" selection-end-column="72" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
         </state>
       </provider>
     </entry>
