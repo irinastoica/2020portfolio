@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import CounterOne from "../elements/counters/CounterOne";
-import Testimonial from "../elements/Testimonial";
 import BrandTwo from "../elements/BrandTwo";
 import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
@@ -170,14 +169,6 @@ class About extends Component{
                     </div>
                 </div>
                 {/* End Team Area  */}
-
-                {/* Start Testimonial Area */}
-                <div className="rn-testimonial-area bg_color--5 ptb--120">
-                    <div className="container">
-                        <Testimonial />
-                    </div>
-                </div>
-                {/* End Testimonial Area */}
 
                 {/* Start Brand Area */}
                 <div className="rn-brand-area brand-separation bg_color--5 ptb--120">

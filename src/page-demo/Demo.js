@@ -2,13 +2,13 @@ import React from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
-import TextLoop from "react-text-loop";
 import Header from "../component/header/Header";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import BlogContent from "../elements/blog/BlogContent";
+
+
 
 const SlideList = [
   {
@@ -22,7 +22,6 @@ const SlideList = [
 const PortfolioLanding = () => {
   let title = 'Irina is a passionate designer with a big desir to craft amazing inspiring stories behind any design.',
     description = 'I am all about tehnology, design and positive vibes';
-  const PostList = BlogContent.slice(0 , 3);
   return (
     <div className="active-dark">
       <Helmet pageTitle="Portfolio Landing" />
