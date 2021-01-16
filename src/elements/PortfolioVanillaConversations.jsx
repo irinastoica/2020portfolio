@@ -1,4 +1,4 @@
-import React, { Component, useRef, useEffect } from "react";
+import React, { useRef, useEffect } from "react";
 import PageHelmet from "../component/common/Helmet";
 import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
@@ -42,7 +42,7 @@ function PortfolioVanillaConversations() {
     const contentButton = content.children[2];
 
 
-
+    //Removing Init Flash
     TweenMax.to(app, 0, {css: {visibility: 'visible'}})
 
     //Images Animations
@@ -60,7 +60,7 @@ function PortfolioVanillaConversations() {
     }, .15, 'Start')
       .from(contentP, 1, { y:20, opacity: 0, ease: Power3.easeOut}, 1.4)
       .from(contentButton, 1, { y:20, opacity: 0, ease: Power3.easeOut}, 1.6)
-    })
+    }, [tl])
 
 
     return(
