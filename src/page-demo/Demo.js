@@ -47,11 +47,10 @@ const PortfolioLanding = () => {
 
       {/* End About Area */}
 
-
       {/* Start Service Area  */}
-      <div id="service" className="fix">
+      <div className="fix">
           <div className="container">
-            <h1>Some of the brands that I've worked with</h1>
+            <h2>Some of the brands that I've worked with</h2>
             {/* Start Brand Area */}
             <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
               <div className="container">
