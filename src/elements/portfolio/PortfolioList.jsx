@@ -47,7 +47,7 @@ const PortfolioListContent = [
         title: 'Intern Community',
         pageLink: '/portfolio-intranet'
     }
-]
+];
 
 class PortfolioList extends Component{
     render(){
