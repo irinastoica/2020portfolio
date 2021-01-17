@@ -33,18 +33,6 @@ function PortfolioVanillaConversations() {
     const contentP = content.children[1];
     const contentButton = content.children[2];
 
-
-    //Removing Init Flash
-    TweenMax.to(app, 0, { css: { visibility: 'visible' } })
-
-    // //Images Animations
-    // tl.from(girlImage, 1.2, {y: 1280, ease: Power3.easeOut}, 'Start')
-    //   .from(girlImage.firstElementChild, 2, {scale: 1.6, ease: Power3.easeOut}, .2)
-    //
-    // tl.from(boyImage, 1.2, {y: 1280, ease: Power3.easeOut}, .2)
-    //   .from(boyImage.firstElementChild, 2, {scale: 1.6, ease: Power3.easeOut}, .2)
-
-
     // //Content Animation
     tl.staggerFrom([headlineFirst.children, headlineSecond.children], 1, {
       y: 20,
