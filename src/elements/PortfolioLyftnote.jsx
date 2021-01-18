@@ -28,14 +28,15 @@ function PortfolioLyftnote() {
     //Content Vars
     const headlineFirst = content.children[0].children[0];
     const headlineSecond = headlineFirst.nextSibling;
+    const headlineThird = headlineSecond.nextSibling;
     const contentP = content.children[1];
     const contentButton = content.children[2];
 
     // //Content Animation
-    tl.staggerFrom([headlineFirst.children, headlineSecond.children], 1, {
+    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
       y: 140,
       ease: Power3.easeOut,
-      delay: .2
+      delay: .8
     }, .15, 'Start')
       .from(contentP, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.4)
       .from(contentButton, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.6)
@@ -72,12 +73,14 @@ function PortfolioLyftnote() {
             <div className="portfolio-details" ref={el => app = el}>
               <div className="container-inner">
                 <div className="col-lg-12" ref={el => content = el}>
-                  <div className="col-4">
-                    <div className="titleProject">
-                      <h3 className="detailsTitle detailsTitle-white">Project</h3>
-                      <span className="role">Lyftnote</span>
+                  <div className="col-lg-4">
+                    <div className="hero-content-line">
+                      <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
-                    <div className="roleWrapper">
+                    <div className="hero-content-line">
+                      <div className="role">Lyftnote</div>
+                    </div>
+                    <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">My role</h3>
                       <span className="role">Co Founder</span>
                       <span className="role">Ux Designer</span>
@@ -85,10 +88,12 @@ function PortfolioLyftnote() {
                     </div>
                   </div>
                   <div className="col-8">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed risus vel elit dapibus mollis.
-                      Quisque lobortis dolor leo, quis vulputate nisl tempor vel. Mauris vel commodo est. Nunc semper scelerisque
-                      lacus at laoreet. Quisque scelerisque volutpat massa vel porttitor. Nam laoreet nibh sit amet ligula
-                      condimentum, a viverra leo gravida. Vestibulum ut dolor varius, varius turpis nec, condimentum sapien.</p>
+                    <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
+                      A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
+                      <p>My main implication in this projects was the UX and UI design of the whole app.
+                        How to make the app as easy as possible to use, student friendly.
+                        I was also in charge of the front end development of the user interface and the user experience of the app.
+                        Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
                   </div>
                 </div>
               </div>
@@ -104,6 +109,9 @@ function PortfolioLyftnote() {
                 <div className="thumb mb--30">
                   <img src="/assets/images/portfolio/lyftnote-1.jpg" alt="Portfolio Images" class="fullWidth"/>
                 </div>
+                <div className="thumb">
+                  <img src="/assets/images/portfolio/lyftnote-4.jpg" alt="Portfolio Images" className="fullWidth"/>
+                </div>
                 <div className="thumb mb--30 greyBackground">
                   <img src="/assets/images/portfolio/lyftnote.gif" alt="Portfolio Images"/>
                 </div>
@@ -111,9 +119,6 @@ function PortfolioLyftnote() {
                   <div className="thumb mb--30">
                     <img src="/assets/images/portfolio/lyftnote-5.jpg" alt="Portfolio Images"/>
                   </div>
-                </div>
-                <div className="thumb mb--30">
-                  <img src="/assets/images/portfolio/lyftnote-4.jpg" alt="Portfolio Images" className="fullWidth"/>
                 </div>
               </div>
             </div>
@@ -126,25 +131,24 @@ function PortfolioLyftnote() {
       <div className="portfolio-related-work pb--120 bg_color--1">
         <div className="col-lg-12">
           <div className="section-title text-center">
-            <h2>Explore Next Project</h2>
+            <h2>
+              <a className="case-wrapper" href="/portfolio-clients">
+                <span className="case-title">
+                  <span>
+                    Explore Next Project
+                  </span>
+                </span>
+              </a>
+            </h2>
           </div>
         </div>
         <div className="related-work text-center mt--30">
           <div className="thumb">
             <a href="/portfolio-clients">
-              <img src="/assets/images/portfolio/asusFeatureImage.png" alt="Portfolio-images"/>
-            </a>
-            <div className="content">
-              <div className="content-wrapper">
-                <div className="inner">
-                  <p>Development</p>
-                  <h4><a href="/portfolio-details">Vanilla's Customers</a></h4>
-                  <div className="portfolio-button">
-                    <a className="rn-btn" href="/portfolio-lyftnote">View Details</a>
-                  </div>
-                </div>
+              <div className="imageRelated">
+                <img src="/assets/images/portfolio/asusFeatureImage.png" alt="Portfolio-images"/>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
