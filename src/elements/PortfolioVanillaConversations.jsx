@@ -117,25 +117,24 @@ function PortfolioVanillaConversations() {
       <div className="portfolio-related-work pb--120 bg_color--1">
         <div className="col-lg-12">
           <div className="section-title text-center">
-            <h2>Explore Next Project</h2>
+            <h2>
+              <a className="case-wrapper" href="/portfolio-clients">
+                <span className="case-title">
+                  <span>
+                    Explore Next Project
+                  </span>
+                </span>
+              </a>
+            </h2>
           </div>
         </div>
         <div className="related-work text-center mt--30">
           <div className="thumb">
-            <a href="/portfolio-lyftnote">
-              <img src="/assets/images/portfolio/lyftnotepreview.png" alt="Portfolio-images"/>
-            </a>
-            <div className="content">
-              <div className="content-wrapper">
-                <div className="inner">
-                  <p>Development</p>
-                  <h4><a href="/portfolio-details">Lyftnote</a></h4>
-                  <div className="portfolio-button">
-                    <a className="rn-btn" href="/portfolio-lyftnote">View Details</a>
-                  </div>
-                </div>
+            <a href="/lyftnote">
+              <div className="imageRelated">
+                <img src="/assets/images/portfolio/asusFeatureImage.png" alt="Portfolio-images"/>
               </div>
-            </div>
+            </a>
           </div>
         </div>
       </div>
