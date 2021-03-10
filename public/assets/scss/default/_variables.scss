@@ -28,17 +28,22 @@ $brandDarkGrey: #232323;
 /*===============================
     Font Family 
 =================================*/
-$body-font: 'Poppins', sans-serif;
-$heading-font: 'Poppins', sans-serif;
+$body-font: aktiv-grotesk, 'Roboto', sans-serif;
+$heading-font: aktiv-grotesk, 'Roboto', sans-serif;
 
 
 // Heading Font List
-$font-1: 'Poppins', sans-serif;
+$font-1: aktiv-grotesk, 'Roboto', sans-serif;
 
 $fontList: $font-1;
 
-
-
+/*===============================
+    Font Weight
+=================================*/
+$font-light: 300;
+$font-regular: 400;
+$font-semibold: 500;
+$font-bold: 600;
 
 /*===============================
     Utility Variables

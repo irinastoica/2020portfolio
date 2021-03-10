@@ -2,9 +2,10 @@
  *  Utilities
 =================================*/
 /*====================================
-    Google Font  
+    Adobe and Google Font
 ===================================*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url("https://use.typekit.net/zwa4heh.css");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 /*----------------------------------------
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
@@ -144,8 +145,8 @@ font-family: 'Poppins', sans-serif;
 }
 
 p {
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 20px;
+    line-height: 40px;
     @media #{$sm-layout} {
         font-size: 16px !important;
         line-height: 28px !important;
@@ -387,10 +388,6 @@ textarea:-ms-input-placeholder {
 
 [data-overlay]:before {
     background-color: $theme-color;
-}
-
-[data-black-overlay]:before {
-    background-color: #00010c;
 }
 
 [data-white-overlay]:before {

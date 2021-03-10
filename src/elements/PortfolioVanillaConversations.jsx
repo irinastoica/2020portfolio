@@ -47,7 +47,7 @@ function PortfolioVanillaConversations() {
   return(
     <React.Fragment>
       <PageHelmet pageTitle='Portfolio Details' />
-      <Header logo="symbol-dark" color="color-black"/>
+      <Header logo="symbol-dark"/>
 
       {/*/!* Start Breadcrump Area *!/*/}
 
@@ -56,24 +56,19 @@ function PortfolioVanillaConversations() {
         <div className='containerApp'>
         </div>
       </div>
-       <div className="details-banner pt--120 pb--190 thumbnail bg_image image-1"  data-black-overlay="7" ref={el => content = el}>
-         <div className="container-inner topDescription">
-           <div className="col-6 leftDescription">
-             <h3 className="detailsTitle detailsTitle-white">Project</h3>
-             <span>Communications by Vanilla Event </span>
-             <div className="btn-row">
-               <button className="explore-button">Explore
-                 <div className="arrow-icon">
-                   <img src={arrow} alt="row"/>
-                 </div>
-               </button>
+       <div className="details-banner pt--120 pb--190"  data-black-overlay="7" ref={el => content = el}>
+         <div className="container-inner topDescription col-4">
+             <h2>Communications by Vanilla Event </h2>
+             <div className="description">
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed risus vel elit dapibus mollis.
+                 Quisque lobortis dolor leo, quis vulputate nisl tempor vel. Mauris vel commodo est. Nunc semper scelerisque
+                 lacus at laoreet. Quisque scelerisque volutpat massa vel porttitor. Nam laoreet nibh sit amet ligula
+                 condimentum, a viverra leo gravida. Vestibulum ut dolor varius, varius turpis nec, condimentum sapien.</p>
              </div>
-           </div>
-           <div className="col-6">
-             <h3 className="detailsTitle detailsTitle-white">My role</h3>
-             <span className="role">Ux Designer</span>
-             <span className="role">Front End Developer</span>
-           </div>
+         </div>
+         <div className="introImage">
+           <video className="__ds_inline-video playing" loop="" playsinline="" preload="none" autoPlay=""
+                  src="https://marketing.invisionapp-cdn.com/www.invisionapp.com/marketing-pages/deployed/build/6151c7fcd2f5db23c31701d92dbd928c5afde4d2/video/cloud/prototype/hero/desktop.mp4"></video>
          </div>
        </div>
       {/* End Breadcrump Area */}
@@ -83,17 +78,6 @@ function PortfolioVanillaConversations() {
         <div className="row">
           <div className="col-lg-12">
             <div className="portfolio-details">
-              <div className="container-inner">
-                <div className="col-6">
-                  <h3 className="detailsTitle">The Challenge</h3>
-                </div>
-                <div className="col-6">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed risus vel elit dapibus mollis.
-                    Quisque lobortis dolor leo, quis vulputate nisl tempor vel. Mauris vel commodo est. Nunc semper scelerisque
-                    lacus at laoreet. Quisque scelerisque volutpat massa vel porttitor. Nam laoreet nibh sit amet ligula
-                    condimentum, a viverra leo gravida. Vestibulum ut dolor varius, varius turpis nec, condimentum sapien.</p>
-                </div>
-              </div>
               <div className="portfolio-thumb-inner">
                 <div className="thumb position-relative mb--30">
                   <img src="/assets/images/portfolio/conversations-1.jpg" class="fullWidth" alt="Portfolio Images"/>

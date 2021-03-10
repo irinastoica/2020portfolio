@@ -392,13 +392,22 @@ body {
 }
 
 .details-banner {
-    max-height: 500px;
-    z-index: -1;
+    height: calc(100vh - 60px);
+    max-height: 940px;
+    padding: 0 calc(var(--cel,3vw) * 3);
+    display: flex;
 
     .container-inner {
         padding-top: $marginLarge;
         padding-bottom: 0;
         width: 100%;
+
+        h2 {
+            font-weight: 500;
+            font-size: 60px;
+            line-height: 80px;
+            margin-bottom: 40px;
+        }
     }
 
     .leftDescription {
@@ -429,6 +438,8 @@ body {
     }
 }
 
+
+
 .thumbnail{
     position: absolute;
     top: 0;
@@ -443,11 +454,11 @@ body {
     backface-visibility: hidden;
     transition: transform .28s ease;
     z-index: 4;
-    &.image-1{
+    &.image-1 {
         background-image: url(/assets/images/portfolio/conversationsFeatureImage.png);
     }
 
-    &.image-3{
+    &.image-3 {
         background-image: url(/assets/images/portfolio/asusFeatureImage.png);
     }
 
@@ -459,7 +470,7 @@ body {
         background-image: url(/assets/images/portfolio/motovanCommunity.png);
     }
 
-    &::after{
+    &::after {
         position: absolute;
         top: 0;
         left: 0;

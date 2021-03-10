@@ -28,7 +28,7 @@ class PortfolioVanillaClients extends Component{
         return(
             <React.Fragment>
                 <PageHelmet pageTitle='Portfolio Details' />
-                <Header logo="symbol-dark" color="color-black"/>
+                <Header logo="symbol-dark"/>
                 
                 {/* Start Breadcrump Area */}
                 <div className="details-banner pt--120 pb--190 bg_image thumbnail image-3"  data-black-overlay="7">

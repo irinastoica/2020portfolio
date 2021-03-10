@@ -3,7 +3,6 @@
 ----------------------------*/
 
 .active-dark {
-    background: #101010;
     [data-overlay="6"]:before,
     [data-black-overlay="6"]:before,
     [data-white-overlay="6"]:before {
@@ -18,18 +17,6 @@
         color: #ffffff;
     }
 
-    .bg_image--3,
-    .bg_image--1 ,
-    .rn-testimonial-content .inner p::before,
-    .rn-testimonial-content .inner p::after ,
-    .footer-right  {
-        background-image: inherit !important;
-    }
-    .bg_color--1 ,
-    .brand-separation,
-    #service {
-        background: #191919;
-    }
 
     ul.brand-style-2 img {
         filter: invert(1);

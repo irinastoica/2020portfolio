@@ -47,7 +47,7 @@ function PortfolioLyftnote() {
   return (
     <React.Fragment>
       <PageHelmet pageTitle='Portfolio Details'/>
-      <Header logo="symbol-dark" color="color-black"/>
+      <Header logo="symbol-dark" color=""/>
 
       {/* Start Breadcrump Area */}
       <div className="applicationWrapper">

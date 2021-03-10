@@ -11,15 +11,15 @@ import PortfolioList from "../elements/portfolio/PortfolioList";
 
 
 const PortfolioLanding = () => {
-  let title = 'Irina is a passionate designer with a big desir to craft amazing inspiring stories behind any design.',
+  let title = 'Are you ready for a new experience combinaing code and Design.',
     description = 'I am all about tehnology, design and positive vibes';
   return (
-    <div className="active-dark">
+    <div className="">
       <Helmet pageTitle="Portfolio Landing" />
-      <Header homeLink="/" logo="symbol-dark" color="color-black"/>
+      <Header homeLink="/" logo="symbol-dark"/>
       {/* Start About Area */}
       <div id="about" className="fix">
-        <div className="about-area ptb--120  bg_color--1">
+        <div className="about-area ptb--200  bg_color--1">
           <div className="about-wrapper">
             <div className="container">
               <div className="row row--35 align-items-center">
@@ -36,7 +36,7 @@ const PortfolioLanding = () => {
                 </div>
                 <div className="col-lg-5">
                   <div className="thumbnail">
-                    <img className="w-100" src="/assets/images/about/about-8.jpg" alt="About Images"/>
+                    <img className="w-100" src="/assets/images/about/homepageImage.jpg" alt="About Images"/>
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@ const PortfolioLanding = () => {
       {/* End About Area */}
 
       {/* Start Service Area  */}
-      <div className="fix">
+      <div className="brands">
           <div className="container">
             <h2>Some of the brands that I've worked with</h2>
             {/* Start Brand Area */}
@@ -81,7 +81,7 @@ const PortfolioLanding = () => {
       {/* Start COntact Area */}
       <div id="contact" className="fix">
         <div className="rn-contact-area ptb--120 bg_color--1">
-          <ContactThree contactImages="/assets/images/about/about-9.jpg" contactTitle="Let's chat!" />
+          <ContactThree contactImages="/assets/images/about/homepageImage.jpg" contactTitle="Let's chat!" />
         </div>
       </div>
       {/* End COntact Area */}
