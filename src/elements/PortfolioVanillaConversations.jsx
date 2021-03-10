@@ -67,34 +67,36 @@ function PortfolioVanillaConversations() {
              </div>
          </div>
          <div className="introImage">
-           <video className="__ds_inline-video playing" loop="" playsinline="" preload="none" autoPlay=""
-                  src="https://marketing.invisionapp-cdn.com/www.invisionapp.com/marketing-pages/deployed/build/6151c7fcd2f5db23c31701d92dbd928c5afde4d2/video/cloud/prototype/hero/desktop.mp4"></video>
          </div>
        </div>
       {/* End Breadcrump Area */}
 
       {/* Start Portfolio Details */}
       <div className="rn-portfolio-details bg_color--1">
-        <div className="row">
-          <div className="col-lg-12">
             <div className="portfolio-details">
-              <div className="portfolio-thumb-inner">
-                <div className="thumb position-relative mb--30">
-                  <img src="/assets/images/portfolio/conversations-1.jpg" class="fullWidth" alt="Portfolio Images"/>
+                <div className="thumb mb--30">
+                  <img src="/assets/images/portfolio/conversations-1.jpg" className="fullWidth" alt="Portfolio Images"/>
                 </div>
+
                 <div className="container defaultTopMargin">
-                  <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/conversations-2.jpg" alt="Portfolio Images"/>
+                  <div className="thumb mb--30 " data-scroll-speed="4">
+                    <img src="/assets/images/portfolio/conversations-2.jpg" className="animated fadeInUp" alt="Portfolio Images"/>
                   </div>
                 </div>
-                <div className="thumb mb--30">
-                  <img src="/assets/images/portfolio/conversations-3.jpg" class="fullWidth" alt="Portfolio Images"/>
-                </div>
+
+                <div className="images-column-2 content">
+                  <div className="wrapper">
+                    <div className="thumb mb--30 image-boxShadow box" data-scroll-speed="2">
+                      <img src="/assets/images/portfolio/conversations-3a.png" className="fullWidth" alt="Portfolio Images"/>
+                    </div>
+                    <div className="thumb mb--30 image-boxShadow box" data-scroll-speed="1">
+                      <img src="/assets/images/portfolio/conversations-3b.png" className="fullWidth" alt="Portfolio Images"/>
+                    </div>
+                  </div>
               </div>
             </div>
-          </div>
-        </div>
       </div>
+
       {/* End Portfolio Details */}
 
       {/* Start Related Work */}
