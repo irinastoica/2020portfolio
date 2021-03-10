@@ -74,23 +74,23 @@ function PortfolioVanillaConversations() {
       {/* Start Portfolio Details */}
       <div className="rn-portfolio-details bg_color--1">
             <div className="portfolio-details">
-                <div className="thumb mb--30">
+                <div className="thumb mb--30 fadeInDown"  data-scroll-speed="15">
                   <img src="/assets/images/portfolio/conversations-1.jpg" className="fullWidth" alt="Portfolio Images"/>
                 </div>
 
-                <div className="container defaultTopMargin">
-                  <div className="thumb mb--30 " data-scroll-speed="4">
-                    <img src="/assets/images/portfolio/conversations-2.jpg" className="animated fadeInUp" alt="Portfolio Images"/>
+                <div className="container defaultTopMargin content">
+                  <div className="thumb mb--30 box fadeInDown" data-scroll-speed="14">
+                    <img src="/assets/images/portfolio/conversations-2.png"  className="image-boxShadow" alt="Portfolio Images"/>
                   </div>
                 </div>
 
                 <div className="images-column-2 content">
                   <div className="wrapper">
-                    <div className="thumb mb--30 image-boxShadow box" data-scroll-speed="2">
-                      <img src="/assets/images/portfolio/conversations-3a.png" className="fullWidth" alt="Portfolio Images"/>
+                    <div className="thumb mb--30 box mr--40 fadeInDown" data-scroll-speed="-8">
+                      <img src="/assets/images/portfolio/conversations-3a.png" className="fullWidth fadeInDown image-boxShadow" alt="Portfolio Images"/>
                     </div>
-                    <div className="thumb mb--30 image-boxShadow box" data-scroll-speed="1">
-                      <img src="/assets/images/portfolio/conversations-3b.png" className="fullWidth" alt="Portfolio Images"/>
+                    <div className="thumb mb--30 box fadeInDown" data-scroll-speed="-16">
+                      <img src="/assets/images/portfolio/conversations-3b.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
                     </div>
                   </div>
               </div>
