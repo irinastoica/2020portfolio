@@ -180,6 +180,7 @@
                     &.mainmenu{
                         > li {
                             > a {
+                                color: inherit;
                                 position: relative;
                                 &::after {
                                     position: absolute;

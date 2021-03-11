@@ -15,9 +15,10 @@ font-family: 'Poppins', sans-serif;
 .content,
 .wrapper {
     position: relative;
-    height: 2000px;
+    max-height: 2000px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .wrapper {
@@ -47,6 +48,22 @@ font-family: 'Poppins', sans-serif;
     -ms-flex: none;
     flex: none;
     will-change: transform;
+
+    img.singlePhoto {
+        max-width: 800px;
+
+        @media #{$sm-layout} {
+            max-width: 400px;
+        }
+    }
+
+    &.last {
+        height: 500px;
+    }
+
+    &.small img {
+        max-width: 600px;
+    }
 }
 
 .image-boxShadow {
@@ -55,14 +72,86 @@ font-family: 'Poppins', sans-serif;
 
 }
 
+.defaultMargin {
+    margin-bottom: 100px;
+}
+
 .movingRight {
     height: 100px;
 }
 
 .images-column-2 {
     display: flex;
-    justify-content: space-evenly;
     flex-direction: row;
+    z-index: 0;
+
+    .wrapper {
+        z-index: 2;
+
+        .box {
+            max-width: 45%;
+        }
+    }
+
+    .backgroundColor {
+        height: 1500px;
+        width: 100%;
+        background: $theme-color;
+        opacity: .2;
+        top: -250px;
+        position: absolute;
+
+        &:after {
+            content: "";
+            border-top-color: initial;
+            border-top-style: initial;
+            border-top-width: 0px;
+            border-right-color: initial;
+            border-right-style: initial;
+            border-right-width: 0px;
+            border-bottom-color: #fff;
+            border-bottom-style: solid;
+            border-bottom-width: 250px;
+            border-left-color: transparent;
+            border-left-style: solid;
+            border-left-width: 2200px;
+            border-image-source: initial;
+            border-image-slice: initial;
+            border-image-width: initial;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-top: 0;
+            border-right: 0;
+            position: absolute;
+            bottom: 0;
+            z-index: 1;
+        }
+
+        &:before {
+            content: "";
+            border-top-color: initial;
+            border-top-style: initial;
+            border-top-width: 0px;
+            border-right-color: initial;
+            border-right-style: initial;
+            border-right-width: 0px;
+            border-bottom-color: transparent;
+            border-bottom-style: solid;
+            border-bottom-width: 320px;
+            border-left-color: rgb(255, 255, 255);
+            border-left-style: solid;
+            border-left-width: 100vw;
+            border-image-source: initial;
+            border-image-slice: initial;
+            border-image-width: initial;
+            border-image-outset: initial;
+            border-image-repeat: initial;
+            border-top: 0;
+            border-right: 0;
+            position: absolute;
+            top: 0;
+        }
+    }
 }
 
 .hidden {

@@ -121,7 +121,6 @@ body {
 }
 
 .rn-portfolio-details {
-    margin-bottom: 300px;
 
     .portfolio-details {
 
@@ -392,21 +391,63 @@ body {
 }
 
 .details-banner {
-    height: calc(100vh - 60px);
-    max-height: 940px;
-    padding: 0 calc(var(--cel,3vw) * 3);
+    min-height: 100vh;
+    padding-left: calc(var(--cel,3vw) * 3);
     display: flex;
+    position: relative;
+    flex-wrap: wrap;
+
+    @media #{$sm-layout} {
+        padding-left: 5px;
+    }
+
+    .introImage {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .image-boxShadow {
+            width: 500px;
+            height: 500px;
+            position: relative;
+
+            @media #{$sm-layout} {
+                margin-top: 10px;
+                width: 400px;
+                height: 400px;
+            }
+
+            .video-react-controls-enabled .video-react-video {
+                width: 500px;
+                height: auto;
+                display: flex;
+
+                @media #{$sm-layout} {
+                    width: 400px;
+                }
+            }
+        }
+    }
 
     .container-inner {
         padding-top: $marginLarge;
         padding-bottom: 0;
         width: 100%;
 
+        @media #{$sm-layout} {
+            padding-top: 0px;
+        }
+
         h2 {
             font-weight: 500;
-            font-size: 60px;
+            font-size: 4.2em;
             line-height: 80px;
             margin-bottom: 40px;
+
+            @media #{$sm-layout} {
+                font-size: 3.5em;
+            }
         }
     }
 
