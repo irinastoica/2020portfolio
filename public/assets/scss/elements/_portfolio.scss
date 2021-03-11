@@ -125,7 +125,7 @@ body {
     .portfolio-details {
 
         .container-inner {
-            max-width: 960px;
+            max-width: 1060px;
             margin: 0 auto;
             padding-top: $marginLarge;
             padding-bottom: $marginLarge;
@@ -177,6 +177,7 @@ body {
             .role {
                 font-size: $font-bigger;
                 text-transform: initial;
+                line-height: 35px;
             }
 
             .col-6 {
@@ -392,7 +393,7 @@ body {
 
 .details-banner {
     min-height: 100vh;
-    padding-left: calc(var(--cel,3vw) * 3);
+    padding-left: calc(var(--cel, 3vw) * 3);
     display: flex;
     position: relative;
     flex-wrap: wrap;
@@ -400,35 +401,36 @@ body {
     @media #{$sm-layout} {
         padding-left: 5px;
     }
+}
 
-    .introImage {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+.introImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-        .image-boxShadow {
+    .image-boxShadow {
+        width: 500px;
+        height: 500px;
+        position: relative;
+
+        @media #{$sm-layout} {
+            margin-top: 10px;
+            width: 400px;
+            height: 400px;
+        }
+
+        .video-react-controls-enabled .video-react-video {
             width: 500px;
-            height: 500px;
-            position: relative;
+            height: auto;
+            display: flex;
 
             @media #{$sm-layout} {
-                margin-top: 10px;
                 width: 400px;
-                height: 400px;
-            }
-
-            .video-react-controls-enabled .video-react-video {
-                width: 500px;
-                height: auto;
-                display: flex;
-
-                @media #{$sm-layout} {
-                    width: 400px;
-                }
             }
         }
     }
+}
 
     .container-inner {
         padding-top: $marginLarge;
@@ -455,10 +457,6 @@ body {
         margin-right: $marginDefaultBig;
     }
 
-    &.thumbnail {
-        position: relative;
-        transform: none;
-    }
 
     .video-react-controls-enabled {
         top: -150px;
@@ -477,7 +475,6 @@ body {
             object-fit: cover;
         }
     }
-}
 
 
 

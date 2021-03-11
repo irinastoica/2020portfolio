@@ -49,21 +49,6 @@ function PortfolioLyftnote() {
       <PageHelmet pageTitle='Portfolio Details'/>
       <Header logo="symbol-dark" color=""/>
 
-      {/* Start Breadcrump Area */}
-      <div className="applicationWrapper">
-        <div className='containerApp'>
-        </div>
-      </div>
-      <div className="details-banner pt--120 pb--190 thumbnail"  data-black-overlay="7">
-        <Player
-          autoPlay
-          loop
-          muted
-          poster="/assets/poster.png"
-          src={`../assets/videos/lyftnotepreview.mp4`}
-        />
-      </div>
-
       {/* End Breadcrump Area */}
 
       {/* Start Portfolio Details */}
@@ -71,14 +56,15 @@ function PortfolioLyftnote() {
         <div className="row">
           <div className="col-lg-12">
             <div className="portfolio-details" ref={el => app = el}>
+              {/* Start Breadcrump Area */}
               <div className="container-inner">
                 <div className="col-lg-12" ref={el => content = el}>
-                  <div className="col-lg-4">
+                  <div className="col-lg-6">
                     <div className="hero-content-line">
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
                     <div className="hero-content-line">
-                      <div className="role">Lyftnote</div>
+                      <h2 className="animated ">Communications by Vanilla Event </h2>
                     </div>
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">My role</h3>
@@ -87,7 +73,7 @@ function PortfolioLyftnote() {
                       <span className="role">Front End Developer</span>
                     </div>
                   </div>
-                  <div className="col-8">
+                  <div className="col-6">
                     <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
                       A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
                       <p>My main implication in this projects was the UX and UI design of the whole app.
@@ -97,20 +83,66 @@ function PortfolioLyftnote() {
                   </div>
                 </div>
               </div>
-              <div className="portfolio-thumb-inner">
-                <div className="thumb mb--30">
-                  <img src="/assets/images/portfolio/lyftnote-3.jpg" alt="Portfolio Images" class="fullWidth"/>
+              <div className="portfolio-thumb-inner mt--150">
+                <div className="images-column-2 content">
+                  <div className="wrapper">
+                    <div className="thumb mb--30 box mr--40"  data-scroll-speed="5">
+                      <img src="/assets/images/portfolio/lyftnote-3a.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
+                    </div>
+                    <div className="thumb mb--30 box mr--40"  data-scroll-speed="9">
+                      <img src="/assets/images/portfolio/lyftnote-3b.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
+                    </div>
+                    <div className="thumb mb--30 box mr--40"  data-scroll-speed="4">
+                      <img src="/assets/images/portfolio/lyftnote-3c.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
+                    </div>
+                  </div>
+                  <div className="backgroundColor"></div>
                 </div>
-                <div className="container defaultTopMargin">
-                  <div className="thumb mb--30">
+                <div className="container defaultTopMargin mt--150">
+                  <div className="thumb mb--30" data-scroll-speed="6">
                     <img src="/assets/images/portfolio/lyftnote-2.jpg" alt="Portfolio Images"/>
                   </div>
+                  <div className="images-column-2 content mt--150">
+                    <div className="wrapper">
+                      <div className="thumb mb--30 box mr--40"  data-scroll-speed="6">
+                        <img src="/assets/images/portfolio/lyftnote-2a.jpg" className="fullWidth" alt="Portfolio Images"/>
+                      </div>
+                      <div className="thumb mb--30 box mr--40"  data-scroll-speed="5">
+                        <img src="/assets/images/portfolio/lyftnote-2b.jpg" className="fullWidth" alt="Portfolio Images"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="images-column-2 content">
+                    <div className="wrapper">
+                      <div className="thumb mb--30 box mr--40"  data-scroll-speed="9">
+                        <img src="/assets/images/portfolio/lyftnote-2c.jpg" className="fullWidth" alt="Portfolio Images"/>
+                      </div>
+                      <div className="thumb mb--30 box mr--40"  data-scroll-speed="6">
+                        <img src="/assets/images/portfolio/lyftnote-2d.jpg" className="fullWidth" alt="Portfolio Images"/>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div className="thumb mb--30">
-                  <img src="/assets/images/portfolio/lyftnote-1.jpg" alt="Portfolio Images" class="fullWidth"/>
+                <div className="images-column-2 content">
+                  <div className="wrapper">
+                    <div className="thumb mb--30 box mr--40">
+                      <img src="/assets/images/portfolio/lyftnote-1a.jpg" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
+                    </div>
+                    <div className="thumb mb--30 box mr--40"  data-scroll-speed="12">
+                      <img src="/assets/images/portfolio/lyftnote-1b.jpg" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
+                    </div>
+                  </div>
                 </div>
-                <div className="thumb">
-                  <img src="/assets/images/portfolio/lyftnote-4.jpg" alt="Portfolio Images" className="fullWidth"/>
+                <div className="images-column-2 content mt--150">
+                  <div className="wrapper">
+                    <div className="thumb mb--30 box mr--40">
+                      <img src="/assets/images/portfolio/lyftnote-4.jpg" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
+                    </div>
+                    <div className="thumb mb--30 box mr--40"  data-scroll-speed="12">
+                      <img src="/assets/images/portfolio/lyftnote-4a.png" className="fullWidth" alt="Portfolio Images"/>
+                    </div>
+                    <div className="backgroundColor"></div>
+                  </div>
                 </div>
                 <div className="thumb mb--30 greyBackground">
                   <img src="/assets/images/portfolio/lyftnote.gif" alt="Portfolio Images"/>

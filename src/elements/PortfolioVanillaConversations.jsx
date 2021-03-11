@@ -6,9 +6,9 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderDetails";
 import Footer from "../component/footer/Footer";
 
-
-//Assets
+import {TweenMax, TimelineLite, Power3} from 'gsap'
 import { Player } from "video-react";
+import arrow from "../images/arrow-right.svg";
 
 const SocialShare = [
   {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
@@ -17,50 +17,73 @@ const SocialShare = [
   {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]
 
-
-function PortfolioVanillaConversations() {
+function PortfolioLyftnote() {
   let app = useRef(null);
   // let images =useRef(null);
   let content = useRef(null);
+  let tl = new TimelineLite({ delay: .8 })
 
-  return(
+  useEffect(() => {
+
+    //Content Vars
+    const headlineFirst = content.children[0].children[0];
+    const headlineSecond = headlineFirst.nextSibling;
+    const headlineThird = headlineSecond.nextSibling;
+    const contentP = content.children[1];
+    const contentButton = content.children[2];
+
+    // //Content Animation
+    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
+      y: 140,
+      ease: Power3.easeOut,
+      delay: .8
+    }, .15, 'Start')
+      .from(contentP, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.4)
+      .from(contentButton, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.6)
+
+  }, [tl])
+
+
+  return (
     <React.Fragment>
-      <PageHelmet pageTitle='Portfolio Details' />
-      <Header logo="symbol-dark"/>
+      <PageHelmet pageTitle='Portfolio Details'/>
+      <Header logo="symbol-dark" color=""/>
 
-      {/*/!* Start Breadcrump Area *!/*/}
-
-
-      <div className="applicationWrapper" ref={el => app = el}>
-        <div className='containerApp'>
-        </div>
-      </div>
-       <div className="details-banner defaultMargin"  data-black-overlay="7" ref={el => content = el}>
-         <div className="container-inner topDescription col-lg-5 col-md-12 animatedParent">
-             <h2 className="animated fadeInUp">Communications by Vanilla Event </h2>
-             <div className="description animated fadeInUp">
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed risus vel elit dapibus mollis.
-                 Quisque lobortis dolor leo, quis vulputate nisl tempor vel. Mauris vel commodo est. Nunc semper scelerisque
-                 lacus at laoreet. Quisque scelerisque volutpat massa vel porttitor. Nam laoreet nibh sit amet ligula
-                 condimentum, a viverra leo gravida. Vestibulum ut dolor varius, varius turpis nec, condimentum sapien.</p>
-             </div>
-         </div>
-         <div className="introImage col-xl-7 col-lg-7 col-md-12">
-           <div className="image-boxShadow">
-             <Player
-               autoPlay
-               loop
-               muted
-               poster="/assets/poster.png"
-               src={`../assets/videos/conversations.mp4`} />
-           </div>
-         </div>
-       </div>
       {/* End Breadcrump Area */}
 
       {/* Start Portfolio Details */}
       <div className="rn-portfolio-details bg_color--1">
-            <div className="portfolio-details">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="portfolio-details" ref={el => app = el}>
+              {/* Start Breadcrump Area */}
+              <div className="container-inner">
+                <div className="col-lg-12" ref={el => content = el}>
+                  <div className="col-lg-6">
+                    <div className="hero-content-line">
+                      <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
+                    </div>
+                    <div className="hero-content-line">
+                      <h2 className="animated ">Communications by Vanilla Event </h2>
+                    </div>
+                    <div className="hero-content-line roleWrapper">
+                      <h3 className="detailsTitle detailsTitle-white">My role</h3>
+                      <span className="role">Co Founder</span>
+                      <span className="role">Ux Designer</span>
+                      <span className="role">Front End Developer</span>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
+                      A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
+                    <p>My main implication in this projects was the UX and UI design of the whole app.
+                      How to make the app as easy as possible to use, student friendly.
+                      I was also in charge of the front end development of the user interface and the user experience of the app.
+                      Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
+                  </div>
+                </div>
+              </div>
+              <div className="portfolio-thumb-inner">
                 <div className="thumb mb--30"  data-scroll-speed="10">
                   <img src="/assets/images/portfolio/conversations-1.jpg" className="fullWidth" alt="Portfolio Images"/>
                 </div>
@@ -81,13 +104,28 @@ function PortfolioVanillaConversations() {
                     </div>
                   </div>
                   <div className="backgroundColor"></div>
-              </div>
-              <div className="thumb mb--30 box last small" data-scroll-speed="14">
-                <img src="/assets/images/portfolio/conversations-3c.png" className="fullWidth" alt="Portfolio Images"/>
+                </div>
+                <div className="images-column-2">
+                    <div className="thumb mb--30 box last small" data-scroll-speed="14">
+                      <img src="/assets/images/portfolio/conversations-3c.png" className="fullWidth" alt="Portfolio Images"/>
+                    </div>
+                  <div className="introImage" data-scroll-speed="20">
+                    <div className="image-boxShadow">
+                      <Player
+                        autoPlay
+                        loop
+                        muted
+                        poster="/assets/poster.png"
+                        src={`../assets/videos/conversations.mp4`} />
+                    </div>
+
+                  </div>
+                </div>
               </div>
             </div>
+          </div>
+        </div>
       </div>
-
       {/* End Portfolio Details */}
 
       {/* Start Related Work */}
@@ -107,7 +145,7 @@ function PortfolioVanillaConversations() {
         </div>
         <div className="related-work text-center mt--30">
           <div className="thumb">
-            <a href="/lyftnote">
+            <a href="/portfolio-clients">
               <div className="imageRelated">
                 <img src="/assets/images/portfolio/asusFeatureImage.png" alt="Portfolio-images"/>
               </div>
@@ -115,21 +153,21 @@ function PortfolioVanillaConversations() {
           </div>
         </div>
       </div>
+
       {/* End Related Work */}
 
       {/* Start Back To Top */}
       <div className="backto-top">
         <ScrollToTop showUnder={160}>
-          <FiChevronUp />
+          <FiChevronUp/>
         </ScrollToTop>
       </div>
       {/* End Back To Top */}
 
-      <Footer />
+      <Footer/>
 
 
     </React.Fragment>
   )
 }
-
-export default PortfolioVanillaConversations;
+export default PortfolioLyftnote;

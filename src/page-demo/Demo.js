@@ -45,7 +45,7 @@ const PortfolioLanding = () => {
         </div>
       </div>
 
-      {/* End About Area */}
+      {/* End About Area
 
       {/* Start Service Area  */}
       <div className="brands">
