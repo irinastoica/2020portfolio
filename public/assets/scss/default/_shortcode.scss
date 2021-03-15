@@ -12,6 +12,11 @@ font-family: 'Poppins', sans-serif;
 
 -------------------------------------*/
 
+.out-flow-right {
+    position: absolute;
+    right: 0;
+}
+
 .content,
 .wrapper {
     position: relative;
@@ -37,6 +42,7 @@ font-family: 'Poppins', sans-serif;
     -ms-justify-content: center;
     -o-justify-content: center;
     justify-content: center;
+    width: 100%;
 }
 
 .box {
@@ -93,6 +99,11 @@ font-family: 'Poppins', sans-serif;
         }
     }
 
+    .backgroundColor.darkGrey {
+        background: $theme-color;
+        opacity: .2;
+    }
+
     .backgroundColor {
         height: 1500px;
         width: 100%;
@@ -100,6 +111,7 @@ font-family: 'Poppins', sans-serif;
         opacity: .2;
         top: -250px;
         position: absolute;
+        z-index: -1;
 
         &:after {
             content: "";

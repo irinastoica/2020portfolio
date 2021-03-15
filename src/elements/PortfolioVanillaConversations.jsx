@@ -118,7 +118,9 @@ function PortfolioLyftnote() {
                         poster="/assets/poster.png"
                         src={`../assets/videos/conversations.mp4`} />
                     </div>
-
+                  </div>
+                  <div className="thumb mb--30 box last small" data-scroll-speed="14">
+                    <img src="/assets/images/portfolio/conversations-3c.png" className="fullWidth" alt="Portfolio Images"/>
                   </div>
                 </div>
               </div>

@@ -86,7 +86,7 @@ function PortfolioLyftnote() {
               <div className="portfolio-thumb-inner mt--150">
                 <div className="images-column-2 content">
                   <div className="wrapper">
-                    <div className="thumb mb--30 box mr--40"  data-scroll-speed="5">
+                    <div className="thumb box mr--40"  data-scroll-speed="5">
                       <img src="/assets/images/portfolio/lyftnote-3a.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
                     </div>
                     <div className="thumb mb--30 box mr--40"  data-scroll-speed="9">
@@ -98,10 +98,12 @@ function PortfolioLyftnote() {
                   </div>
                   <div className="backgroundColor"></div>
                 </div>
-                <div className="container defaultTopMargin mt--150">
-                  <div className="thumb mb--30" data-scroll-speed="6">
-                    <img src="/assets/images/portfolio/lyftnote-2.jpg" alt="Portfolio Images"/>
-                  </div>
+                <div className="mt--150">
+                    <div className="thumb mb--30 box"  data-scroll-speed="6">
+                      <img src="/assets/images/portfolio/lyftnote-artboard.png" className="fullWidth" alt="Portfolio Images"/>
+                    </div>
+                 </div>
+                <div className="container defaultTopMargin">
                   <div className="images-column-2 content mt--150">
                     <div className="wrapper">
                       <div className="thumb mb--30 box mr--40"  data-scroll-speed="6">
@@ -133,23 +135,40 @@ function PortfolioLyftnote() {
                     </div>
                   </div>
                 </div>
+
+                <div className="portfolio-details" ref={el => app = el}>
+                  <div className="container-inner">
+                      <div className="col-6">
+                        <h3 className="detailsTitle detailsTitle-white">Made for Students</h3>
+                        <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
+                          A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
+                        <p>My main implication in this projects was the UX and UI design of the whole app.
+                          How to make the app as easy as possible to use, student friendly.
+                          I was also in charge of the front end development of the user interface and the user experience of the app.
+                          Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
+                      </div>
+                    <div className="backgroundColor darkGrey"></div>
+                  </div>
+                </div>
+
+
                 <div className="images-column-2 content mt--150">
                   <div className="wrapper">
                     <div className="thumb mb--30 box mr--40">
                       <img src="/assets/images/portfolio/lyftnote-4.jpg" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
                     </div>
-                    <div className="thumb mb--30 box mr--40"  data-scroll-speed="12">
+                    <div className="out-flow-right"  data-scroll-speed="20">
                       <img src="/assets/images/portfolio/lyftnote-4a.png" className="fullWidth" alt="Portfolio Images"/>
                     </div>
                     <div className="backgroundColor"></div>
                   </div>
                 </div>
-                <div className="thumb mb--30 greyBackground">
+                <div className="thumb mb--30">
                   <img src="/assets/images/portfolio/lyftnote.gif" alt="Portfolio Images"/>
                 </div>
                 <div className="container">
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/lyftnote-5.jpg" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/lyftnote-5.png" alt="Portfolio Images"/>
                   </div>
                 </div>
               </div>
