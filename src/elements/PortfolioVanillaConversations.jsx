@@ -49,14 +49,12 @@ function PortfolioLyftnote() {
       <PageHelmet pageTitle='Portfolio Details'/>
       <Header logo="symbol-dark" color=""/>
 
-      {/* End Breadcrump Area */}
-
       {/* Start Portfolio Details */}
       <div className="rn-portfolio-details bg_color--1">
         <div className="row">
           <div className="col-lg-12">
             <div className="portfolio-details" ref={el => app = el}>
-              {/* Start Breadcrump Area */}
+              {/* Start Top Description */}
               <div className="container-inner">
                 <div className="col-lg-12" ref={el => content = el}>
                   <div className="col-lg-6">
@@ -83,6 +81,7 @@ function PortfolioLyftnote() {
                   </div>
                 </div>
               </div>
+              {/*End Top Description*/}
               <div className="portfolio-thumb-inner">
                 <div className="thumb mb--30"  data-scroll-speed="10">
                   <img src="/assets/images/portfolio/conversations-1.jpg" className="fullWidth" alt="Portfolio Images"/>

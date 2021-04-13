@@ -8,6 +8,7 @@ import TabTwo from "../elements/tab/TabTwo";
 import BrandTwo from "../elements/BrandTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
+import { Player } from "video-react";
 
 
 const PortfolioLanding = () => {
@@ -16,28 +17,38 @@ const PortfolioLanding = () => {
   return (
     <div className="">
       <Helmet pageTitle="Portfolio Landing" />
-      <Header homeLink="/" logo="symbol-dark"/>
+      {/*<Header homeLink="/" logo="symbol-dark"/>*/}
       {/* Start About Area */}
-      <div id="about" className="fix">
-        <div className="about-area ptb--200  bg_color--1">
+      <div id="about" className="home-intro-wrapper">
+        <div className="about-area fullHeight bg_color--1">
           <div className="about-wrapper">
-            <div className="container">
-              <div className="row row--35 align-items-center">
-                <div className="col-lg-7">
-                  <div className="about-inner inner">
-                    <div className="section-title">
-                      <h2 className="title">{title}</h2>
-                      <p className="description">{description}</p>
-                    </div>
-                    <div className="row mt--30">
-                      <TabTwo tabStyle="tab-style--1" />
-                    </div>
+            <div className="container col-2">
+              {/*Video*/}
+              <div className="col-lg-5 home-intro-left section">
+                <div className="home-video-intro">
+                  {/*<img className="w-100" src="/assets/images/about/homepageImage.jpg" alt="About Images"/>*/}
+                  <div className="image-boxShadow">
+                    <Player
+                      autoPlay
+                      loop
+                      muted
+                      poster="/assets/poster.png"
+                      src={`../assets/videos/intro.mp4`} />
                   </div>
                 </div>
-                <div className="col-lg-5">
-                  <div className="thumbnail">
-                    <img className="w-100" src="/assets/images/about/homepageImage.jpg" alt="About Images"/>
+                <div className="home-left-title">
+                  <h2 className="title">{title}</h2>
+                </div>
+              </div>
+              {/*Intro*/}
+              <div className="col-lg-7 section">
+                <div className="about-inner home-intro-inner">
+                  <div className="section-title home-left-title">
+                    <h2 className="title home-intro-title-nomask">{title}</h2>
                   </div>
+                  {/*<div className="row mt--30">*/}
+                  {/*<TabTwo tabStyle="tab-style--1" />*/}
+                  {/*</div>*/}
                 </div>
               </div>
             </div>

@@ -34,7 +34,14 @@
     }
 }
 
+.fullHeight {
+    height: 100vh;
+}
 
+.col-2 {
+    display: flex;
+    
+}
 
 .pl--0 {
     padding-left: 0 !important;
