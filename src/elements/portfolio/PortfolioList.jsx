@@ -4,7 +4,7 @@ import { Player } from 'video-react';
 const PortfolioListContent = [
     {
         image: 'image-1',
-        companyLogo: 'logo-1',
+        companyLogoName: 'Vanilla Forums',
         category: 'UX Design & Development',
         title: 'Leading Design for \nVanilla’s Conversations \nEvent',
         pageLink: '/portfolio-conversations'
@@ -56,7 +56,8 @@ class PortfolioList extends Component{
         return(
             <React.Fragment>
                 {list.map((value , index) => (
-                    <div className={`${column}`} key={index}>
+                    <div className="project-item">
+                      <a href={`${value.pageLink}`}>
                         <div className={`portfolio ${styevariation}`}>
                             <div className="thumbnail-inner">
                               <Player
@@ -67,22 +68,20 @@ class PortfolioList extends Component{
                                 src={`${value.video}`}
                               />
                                 <div className={`thumbnail ${value.image}`}></div>
-                                <div className={`bg-blr-image ${value.image}`}></div>
                             </div>
                             <div className="content">
                               <div className="content-wrapper">
-                                <div className={`companyLogo ${value.companyLogo}`}></div>
-                                  <div className="inner">
-                                      <p>{value.category}</p>
-                                      <h4><a href="/portfolio-details">{value.title}</a></h4>
-                                      <div className="portfolio-button">
-                                          <a className="rn-btn" href={`${value.pageLink}`}>View Details</a>
-                                      </div>
-                                  </div>
+                                <div className="companyLogo">{value.companyLogoName}</div>
+                                <div className="inner">
+                                  <p>{value.category}</p>
+                                  <h4>{value.title}</h4>
+                                </div>
                               </div>
                             </div>
                         </div>
+                      </a>
                     </div>
+
                 ))}
 
             </React.Fragment>

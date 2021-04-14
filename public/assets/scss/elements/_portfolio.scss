@@ -67,40 +67,50 @@ body {
 }
 
 .projectsWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
 
-    .col-12 {
-        max-height: 660px;
-        overflow: hidden;
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
 
-        .video-react,
-        .video-react-big-play-button,
-        .video-react-control-bar {
-            display: none;
-        }
+        .project-item {
+            overflow: hidden;
+            flex: 1;
+            min-width: 40%;
+            padding: 40px;
+            margin-bottom: 300px;
 
-        &:nth-child(2),
-        &:nth-child(4),
-        &:nth-child(6) {
-
-            .thumbnail {
-                background-color: transparent;
-                background-image: none;
+            .video-react,
+            .video-react-big-play-button,
+            .video-react-control-bar {
+                display: none;
             }
 
-            .video-react {
-                display: block;
-                position: relative;
-                padding-top: 0;
-                height: 100%;
+            &:nth-child(2),
+            &:nth-child(4),
+            &:nth-child(6) {
 
-                .video-react-video {
-                    max-height: 660px;
-                    width: 100%;
-                    position: absolute;
-                    z-index: 1;
-                    top: 0;
-                    object-fit: cover;
+                .thumbnail {
+                    background-color: transparent;
+                    background-image: none;
+                }
+
+                .video-react {
+                    display: block;
+                    padding-top: 0!important;
                     height: 100%;
+
+                    .video-react-video {
+                        max-height: 660px;
+                        width: 100%;
+                        position: absolute;
+                        z-index: 1;
+                        top: 0;
+                        object-fit: cover;
+                        height: 100%;
+                    }
                 }
             }
         }
@@ -214,9 +224,6 @@ body {
 
     .thumbnail-inner{
         transition: transform .28s ease;
-        position: absolute;
-        top: 0;
-        left: 0;
         height: 100%;
         width: 100%;
         background-size: cover;
@@ -224,19 +231,7 @@ body {
         overflow: hidden;
         border-radius: 5px;
         cursor: pointer;
-
-        &::before{
-            background-image: linear-gradient($brandGreen -40%, transparent 100%);
-            position: absolute;
-            content: "";
-            top: 0;
-            left: 0;
-            width: 100%;
-            height : 100%;
-            z-index: 5;
-            opacity: 0;
-            @extend %transition;
-        }
+        position: relative;
     }
 
     .bg-blr-image {
@@ -269,38 +264,10 @@ body {
     }
 
     .content {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        max-width: 100%!important;
-        z-index: 10;
-        padding: 0;
-        @media #{$lg-layout} {
-            left: 20px;
-            right: 20px;
-        }
-        @media #{$md-layout} {
-            left: 20px;
-            right: 20px;
-        }
-        @media #{$sm-layout} {
-            left: 20px;
-            right: 20px;
-        }
 
         .content-wrapper {
-            margin: $marginLarge;
-
-            .companyLogo {
-                height: $logoSize;
-                background-repeat: no-repeat;
-                margin-bottom: $marginLargeXl;
-
-                &.logo-1 {
-                    background-image: url(/assets/images/logo/vanilla.png);
-                }
-            }
+            margin-top: $marginDefaultBig;
+            width: 100%;
 
             .inner {
                 p {
@@ -467,7 +434,7 @@ body {
         }
 
         .video-react-video {
-            max-height: 660px;
+            max-height: 620px;
             width: 100%;
             position: absolute;
             z-index: 1;
@@ -479,19 +446,16 @@ body {
 
 
 .thumbnail{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
     background-size: cover;
     background-position: center;
     border-radius: 5px;
     background-color: #0a0a0a;
-    transform: scale(1.13) translateZ(0);
     backface-visibility: hidden;
     transition: transform .28s ease;
     z-index: 4;
+    height: 620px;
+    width: 420px;
+
     &.image-1 {
         background-image: url(/assets/images/portfolio/conversationsFeatureImage.png);
     }
