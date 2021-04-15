@@ -9,24 +9,30 @@ const PortfolioListContent = [
         title: 'Leading Design for \nVanilla’s Conversations \nEvent',
         pageLink: '/portfolio-conversations'
     },
+
+    {
+      video: "../assets/videos/clients-preview.mp4",
+      image: 'image-3',
+      category: 'Development',
+      title: 'Theming Coding',
+      pageLink: '/portfolio-clients'
+    },
+
+    {
+      image: 'preview-blog',
+      category: 'UX Design & Development',
+      title: 'Improving blog',
+      pageLink: '/portfolio-blog'
+    },
+
     {
         video: "../assets/videos/lyftnotepreview.mp4",
         category: 'Development',
         title: 'Lyftnote',
         pageLink: '/portfolio-lyftnote'
     },
-    {
-        image: 'image-3',
-        category: 'Development',
-        title: 'Theming Coding',
-        pageLink: '/portfolio-clients'
-    },
-    {
-        video: "../assets/videos/library.mp4",
-        category: 'UX Design & Development',
-        title: 'Improving blog',
-        pageLink: '/portfolio-blog'
-    },
+
+
     {
         image: 'image-motovan',
         category: 'Development',

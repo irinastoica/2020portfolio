@@ -234,34 +234,6 @@ body {
         position: relative;
     }
 
-    .bg-blr-image {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 100%;
-        background-size: cover;
-        background-position: center;
-        background-color: #0a0a0a;
-        background-image: url(/assets/images/portfolio/portfolio-1.jpg);
-        @extend %transition;
-        transform: translateY(38px);
-        opacity: 0;
-        z-index: 1;
-
-        &.image-1{
-            background-image: url(/assets/images/portfolio/conversationsFeatureImage.png);
-        }
-        &.image-2{
-            background-image: url(/assets/images/portfolio/portfolio-2.jpg);
-        }
-        &.image-3{
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
-        }
-        &.image-4 {
-            background-image: url(/assets/images/portfolio/portfolio-1.jpg);
-        }
-    }
 
     .content {
 
@@ -434,8 +406,7 @@ body {
         }
 
         .video-react-video {
-            max-height: 620px;
-            width: 100%;
+            width: 420px !important;
             position: absolute;
             z-index: 1;
             top: 0;
@@ -457,11 +428,15 @@ body {
     width: 420px;
 
     &.image-1 {
-        background-image: url(/assets/images/portfolio/conversationsFeatureImage.png);
+        background-image: url(/assets/images/portfolio/preview/vanilla-landingPages.png);
     }
 
     &.image-3 {
         background-image: url(/assets/images/portfolio/asusFeatureImage.png);
+    }
+
+    &.preview-blog {
+        background-image: url(/assets/images/portfolio/preview/blog-preview.png);
     }
 
     &.image-motovan {
