@@ -26,6 +26,7 @@
         const button = document.querySelector('.toggle');
         const overlay = document.querySelector('.overlay');
         const exit = document.querySelector('.exit');
+        const logo = document.querySelector('.logo');
 
         var tl = gsap.timeline({ defaults: { duration: 1, ease: Back.easeOut.config(2) } });
 
@@ -36,10 +37,12 @@
         button.addEventListener('click', () => {
           tl.play();
           button.classList.add("isOpen");
+          logo.classList.add("logo--white");
         });
 
         exit.addEventListener('click', () => {
-          tl.reverse(.7);
+          tl.reverse(.8);
+          logo.classList.remove("logo--white");
         })
       }
 

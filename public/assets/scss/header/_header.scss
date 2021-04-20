@@ -4,6 +4,20 @@
 
 .header-area {
 
+    .logo {
+        position: fixed;
+        top: 2em;
+        left: 2em;
+        z-index: 100;
+        padding: 30px;
+        display: block;
+        width: 100px;
+
+        &.logo--white svg {
+            fill: white;
+        }
+    }
+
     .toggle {
         position: fixed;
         top: 2em;
@@ -101,8 +115,24 @@
             flex-direction: column;
         }
 
+        .header-left {
+            padding-left: 25vw;
+        }
+
+        .header-right {
+            padding-right: 25vh;
+        }
+
         ul.mainmenu {
             flex-direction: column;
+        }
+
+        ul.social-share {
+            flex-direction: column;
+
+            li a {
+                color: white;
+            }
         }
 
         a{
@@ -117,8 +147,8 @@
                 line-height: 42px;
                 border: 2px solid #b1b4c1;
                 border-radius: 6px;
-                color: #c6c9d8;
-                font-size: 14px;
+                color: white;
+                font-size: 40px;
                 @extend %transition;
                 position: relative;
                 z-index: 2;
@@ -154,39 +184,6 @@
                 img {
                     @media #{$sm-layout} {
                         width: 120px;
-                    }
-                }
-            }
-        }
-    }
-    &.color-white{
-        a{
-            &.rn-btn {
-                border: 2px solid #ffffff;
-                color: #ffffff;
-            }
-        }
-    }
-
-    &.color-black {
-        a{
-            &.rn-btn {
-                border: 2px solid rgba(29, 29, 36, 0.5);
-            }
-        }
-    }
-
-    // Static Header 
-    &.header--static {
-        padding: 0 50px;
-        .header-wrapper {
-            padding: 7px 0;
-            .logo {
-                a{
-                    img{
-                        @media #{$sm-layout} {
-                            width: auto;
-                        }
                     }
                 }
             }
@@ -464,76 +461,5 @@
         }
     }
 
-    &.header-style-two {
-        .header-wrapper {
-            @media #{$md-layout} {
-                padding: 30px 0;
-            }
-            @media #{$sm-layout} {
-                padding: 15px 0;
-            }
-            .logo {
-                a{
-                    img {
-                        @media #{$md-layout} {
-                            width: auto;
-                        }
-                        @media #{$sm-layout} {
-                            width: auto;
-                        }
-                    }
-                }
-            }
-            .mainmenunav{
-                ul {
-                    &.mainmenu {
-                        li {
-                            a {
-
-                            }
-                        }
-                    }
-                }
-            }
-
-            ul {
-                &.social-share {
-                    li{
-                        @media #{$sm-layout} {
-                            margin: 0;
-                        }
-                    }
-                }
-            }
-
-        }
-    }
-}
-
-.header-style-two{
-    .header-right {
-        .header-btn {
-            @media #{$lg-layout} {
-                margin-left: 7px;
-            }
-        }
-    }
-}
-/*------------------------
-    Hamberger Menu  
----------------------------*/
-.humberger-menu {
-    span {
-        cursor: pointer;
-        @media #{$sm-layout} {
-            font-size: 28px;
-        }
-        @media #{$md-layout} {
-            font-size: 28px;
-        }
-    }
-}
-.header-wrapper.menu-open .humberger-menu span{
-    opacity: 0;
 }
 

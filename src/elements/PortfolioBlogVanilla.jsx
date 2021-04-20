@@ -43,7 +43,7 @@ function PortfolioBlogVanilla() {
   }, [tl])
   return(
     <React.Fragment>
-      <PageHelmet pageTitle='Portfolio Details' />
+      <PageHelmet pageTitle='Blog Vanilla' />
       <Header logo="symbol-dark"/>
 
       {/* Start Portfolio Details */}

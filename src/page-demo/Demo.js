@@ -2,7 +2,7 @@ import React from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
-import Header from "../component/header/Header";
+import Header from "../component/header/HeaderDetails";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
 import BrandTwo from "../elements/BrandTwo";
@@ -12,12 +12,12 @@ import { Player } from "video-react";
 
 
 const PortfolioLanding = () => {
-  let title = 'Are you ready for a new experience combinaing code and Design.',
+  let title = 'ready for a new experience combinaing code and Design.',
     description = 'I am all about tehnology, design and positive vibes';
   return (
     <div className="">
-      <Helmet pageTitle="Portfolio Landing" />
-      {/*<Header homeLink="/" logo="symbol-dark"/>*/}
+      <Helmet pageTitle="Home Page" />
+      <Header logo="symbol-dark" color=""/>
       {/* Start About Area */}
       <div id="about" className="home-intro-wrapper">
         <div className="about-area fullHeight bg_color--1">
