@@ -2,7 +2,66 @@
     Header Area 
 =======================*/
 
-.header-area{
+.header-area {
+
+    .toggle {
+        position: fixed;
+        top: 2em;
+        right: 2em;
+        z-index: 10;
+        padding: 30px;
+        display: block;
+
+        &>div {
+            pointer-events: none;
+            height: 14px;
+            width: 22px;
+        }
+
+        &>div>div {
+            width: 100%;
+            height: 2px;
+            margin: 0 0 5px;
+            background-color: $black;
+            -webkit-transition-duration: .3s;
+            transition-duration: .3s;
+            -webkit-transition-delay: 0s,0s,0s,0s;
+            transition-delay: 0s,0s,0s,0s;
+        }
+
+        &>div>div:nth-child(2) {
+            width: 16px;
+            margin-bottom: 0;
+            float: right;
+        }
+    }
+
+    .toggle.exit {
+
+        >div>div {
+            background-color: white;
+        }
+
+        &>div>div:first-child {
+            -webkit-transform: translateY(3.5px) rotate(
+                    45deg
+            );
+            transform: translateY(3.5px) rotate(
+                    45deg
+            );
+        }
+
+        &>div>div:nth-child(2) {
+            width: 100%;
+            -webkit-transform: translateX(0) translateY(-3.5px) rotate(
+                    -45deg
+            );
+            transform: translateX(0) translateY(-3.5px) rotate(
+                    -45deg
+            );
+        }
+    }
+
     &.header--transparent {
         position: absolute;
         top: 0;
@@ -21,28 +80,31 @@
             padding-right: 30px;
         }
     }
-    .header-wrapper {
-        display: flex;
+    .header-wrapper.overlay {
+        clip-path: circle(0%);
         justify-content: space-between;
         align-items: center;
         padding: 50px 0;
         flex-wrap: wrap;
-        @media #{$sm-layout} {
-            padding: 15px 0;
-        }
-        @media #{$md-layout} {
-            padding: 30px 0;
-        }
-        @media #{$lg-layout} {
-            padding: 30px 0;
-        }
-        .header-hamberger {
+        height: 100%;
+        width: 100%;
+        background: $blackish;
+        z-index: 10;
+        position: fixed;
+        overflow: hidden;
+        display: flex;
+        padding: 80px;
+
+        .header-left,
+        .header-right {
             display: flex;
-            align-items: center;
-            .hamberger {
-                margin-right: 27px;
-            }
+            flex-direction: column;
         }
+
+        ul.mainmenu {
+            flex-direction: column;
+        }
+
         a{
             &.rn-btn {
                 &.theme-color {
@@ -130,146 +192,6 @@
             }
         }
     }
-
-    // Header Fixed 
-    &.header--fixed {
-        z-index: 999;
-        padding-left: 50px;
-        padding-right: 50px;
-        width: 100%;
-        background: transparent;
-        transition: 0.3s;
-        
-        @media #{$lg-layout} {
-            padding-left: 30px;
-            padding-right: 30px;
-        }
-
-        @media #{$md-layout} {
-            padding-left: 30px;
-            padding-right: 30px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-
-        @media #{$sm-layout} {
-            padding-left: 30px;
-            padding-right: 30px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-
-        .header-wrapper{
-            padding: 20px 0;
-            transition: 0.3s;
-            .logo {
-                a{
-                    img {
-                        transition: 0.5s;
-                        &.logo-1 {
-                            display: block;
-                        }
-                        &.logo-2 {
-                            display: none;
-                        }
-                    }
-                }
-            }
-            .mainmenunav {
-                ul{
-                    &.mainmenu{
-                        > li {
-                            > a {
-                                color: inherit;
-                                position: relative;
-                                &::after {
-                                    position: absolute;
-                                    content: "";
-                                    left: 0;
-                                    width: 0;
-                                    height: 3px;
-                                    background: $theme-color;
-                                    transition: 0.3s;
-                                    bottom: 0;
-                                }
-                            }
-                            &.is-current {
-                                a{
-                                    color: $theme-color;
-                                    &::after {
-                                        width: 100%;
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        &.default-color{
-            &.sticky {
-                .mainmenunav {
-                    ul{
-                        &.mainmenu{
-                            > li {
-                                > a {
-                                    color: $heading-color;
-                                }
-                                &.is-current {
-                                    a{
-                                        color: $theme-color;
-                                        &::after {
-                                            width: 100%;
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-
-        &.sticky {
-            position: fixed;
-            background: #ffffff;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            .header-wrapper {
-                padding: 0px;
-                a {
-                    &.rn-btn {
-                        color: $heading-color;
-                        border-color: $heading-color;
-                        &:hover {
-                            color: #ffffff;
-                            border-color: $theme-color;
-                        }
-                    }
-                }
-            }
-            .logo {
-                a {
-                    img {
-                        height: 50px;
-                        &.logo-1 {
-                            display: none;
-                        }
-                        &.logo-2 {
-                            display: block;
-                        }
-                    }
-                }
-            }
-            .humberger-menu {
-                span {
-                    &.text-white {
-                        color: $heading-color !important;
-                    }
-                }
-            }
-        }
-    }
     
     &.color-black {
         .humberger-menu {
@@ -297,9 +219,6 @@
 
 }
 
-
-
-
 .header-right {
     display: flex;
     align-items: center;
@@ -311,7 +230,6 @@
         }
     }
 }
-
 
 
 /*-----------------------------

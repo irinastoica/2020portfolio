@@ -68,14 +68,21 @@ class HeaderDetails extends Component{
         
         return(
             <header className={`header-area header-style-two header--fixed ${color}`}>
-                <div className="header-wrapper">
+              <div className="toggle">
+                <div>
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+                <div className="header-wrapper overlay">
+                  <a href="#" className="exit toggle">
+                    <div>
+                      <div></div>
+                      <div></div>
+                    </div>
+                  </a>
                     <div className="header-left d-flex align-items-center">
-                        <div className="logo">
-                            <a href={this.props.homeLink}>
-                                {logoUrl}
-                            </a>
-                        </div>
-                        <nav className="mainmenunav d-lg-block ml--50">
+                        <nav className="mainmenunav">
                             <Scrollspy className="mainmenu" items={['home','about','service','portfolio','blog','contact']} currentClassName="is-current" offset={-200}>
                                 <li><a href="../#home">Home</a></li>
                                 <li><a href="../#about">About</a></li>

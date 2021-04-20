@@ -34,9 +34,9 @@ function PortfolioLyftnote() {
 
     // //Content Animation
     tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 140,
+      y: 240,
       ease: Power3.easeOut,
-      delay: .8
+      delay: .6
     }, .15, 'Start')
       .from(contentP, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.4)
       .from(contentButton, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.6)
