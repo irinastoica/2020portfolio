@@ -129,6 +129,19 @@ body {
     }
 }
 
+.images-column-1 {
+    position: relative;
+
+    .video-react-controls-enabled {
+        display: flex;
+        justify-content: center;
+
+        .video-react-video {
+            width: 600px !important;
+        }
+    }
+}
+
 .rn-portfolio-details {
 
     .portfolio-details {
@@ -146,8 +159,8 @@ body {
             }
 
             p {
-                font-size: $font-xBig;
-                line-height: $font-title;
+                font-size: 1.5em;
+                line-height: 38px;
             }
 
             .col-lg-12 {

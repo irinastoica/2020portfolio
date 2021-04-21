@@ -19,35 +19,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <script>
-
-      window.onload=function() {
-
-        const button = document.querySelector('.toggle');
-        const overlay = document.querySelector('.overlay');
-        const exit = document.querySelector('.exit');
-        const logo = document.querySelector('.logo');
-
-        var tl = gsap.timeline({ defaults: { duration: 1, ease: Back.easeOut.config(2) } });
-
-        tl.paused(true);
-        tl.to(".overlay", {clipPath: 'circle(100%)'});
-
-
-        button.addEventListener('click', () => {
-          tl.play();
-          button.classList.add("isOpen");
-          logo.classList.add("logo--white");
-        });
-
-        exit.addEventListener('click', () => {
-          tl.reverse(.8);
-          logo.classList.remove("logo--white");
-        })
-      }
-
-
-    </script>
     <div id="root"></div>
 
   </body>

@@ -82,6 +82,11 @@ font-family: 'Poppins', sans-serif;
     margin-bottom: 100px;
 }
 
+.parallexMargin {
+    margin-top: 300px;
+    padding-top: 50px;
+}
+
 .movingRight {
     height: 100px;
 }
@@ -90,6 +95,7 @@ font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: row;
     z-index: 0;
+    position: relative;
 
     .wrapper {
         z-index: 2;

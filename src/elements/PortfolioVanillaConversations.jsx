@@ -34,9 +34,9 @@ function PortfolioLyftnote() {
 
     // //Content Animation
     tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 240,
+      y: 140,
       ease: Power3.easeOut,
-      delay: .6
+      delay: .8
     }, .15, 'Start')
       .from(contentP, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.4)
       .from(contentButton, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.6)
@@ -48,6 +48,8 @@ function PortfolioLyftnote() {
     <React.Fragment>
       <PageHelmet pageTitle='Portfolio Details'/>
       <Header logo="symbol-dark" color=""/>
+
+      {/* End Breadcrump Area */}
 
       {/* Start Portfolio Details */}
       <div className="rn-portfolio-details bg_color--1">
@@ -83,43 +85,35 @@ function PortfolioLyftnote() {
               </div>
               {/*End Top Description*/}
               <div className="portfolio-thumb-inner">
-                <div className="thumb mb--30"  data-scroll-speed="10">
+                <div className="thumb mb--30"  data-scroll-speed="-0.2">
                   <img src="/assets/images/portfolio/conversations-1.jpg" className="fullWidth" alt="Portfolio Images"/>
                 </div>
 
                 <div className="container defaultTopMargin content">
-                  <div className="thumb mb--30 box" data-scroll-speed="8">
+                  <div className="thumb mb--30 box" data-scroll-speed="0.1">
                     <img src="/assets/images/portfolio/conversations-2.png"  className="image-boxShadow singlePhoto" alt="Portfolio Images"/>
                   </div>
                 </div>
 
-                <div className="images-column-2 content">
+                <div className="images-column-2 parallexMargin content">
                   <div className="wrapper">
-                    <div className="thumb mb--30 box mr--40 ">
+                    <div className="thumb mb--30 box mr--40">
                       <img src="/assets/images/portfolio/conversations-3a.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
                     </div>
-                    <div className="thumb mb--30 box" data-scroll-speed="16">
+                    <div className="thumb mb--30 box box-parallax-1" data-scroll-speed="16">
                       <img src="/assets/images/portfolio/conversations-3b.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
                     </div>
                   </div>
                   <div className="backgroundColor"></div>
                 </div>
-                <div className="images-column-2">
-                    <div className="thumb mb--30 box last small" data-scroll-speed="14">
-                      <img src="/assets/images/portfolio/conversations-3c.png" className="fullWidth" alt="Portfolio Images"/>
-                    </div>
-                  <div className="introImage" data-scroll-speed="20">
-                    <div className="image-boxShadow">
-                      <Player
-                        autoPlay
-                        loop
-                        muted
-                        poster="/assets/poster.png"
-                        src={`../assets/videos/conversations.mp4`} />
-                    </div>
-                  </div>
-                  <div className="thumb mb--30 box last small" data-scroll-speed="14">
-                    <img src="/assets/images/portfolio/conversations-3c.png" className="fullWidth" alt="Portfolio Images"/>
+                <div className="images-column-1">
+                  <div className="introImage box-parallax-1">
+                    <Player
+                      autoPlay
+                      loop
+                      muted
+                      poster="/assets/poster.png"
+                      src={`../assets/videos/conversations.mp4`} />
                   </div>
                 </div>
               </div>

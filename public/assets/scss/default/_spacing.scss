@@ -123,6 +123,10 @@
     margin-right: 40px;
 }
 
+.box-parallax-1 {
+    top: 10%;
+}
+
 @for $i from 1 through 40 {
     .ptb--#{5 * $i} { padding: 5px *$i 0; }
     .plr--#{5 * $i} { padding: 0 5px *$i; }
