@@ -34,7 +34,7 @@ function PortfolioLyftnote() {
 
     // //Content Animation
     tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 140,
+      y: 200,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
@@ -52,7 +52,7 @@ function PortfolioLyftnote() {
       {/* End Breadcrump Area */}
 
       {/* Start Portfolio Details */}
-      <div className="rn-portfolio-details bg_color--1">
+      <div className="rn-portfolio-details">
         <div className="row">
           <div className="col-lg-12">
             <div className="portfolio-details" ref={el => app = el}>
@@ -106,16 +106,30 @@ function PortfolioLyftnote() {
                   </div>
                   <div className="backgroundColor"></div>
                 </div>
+                <section></section>
                 <div className="images-column-1">
-                  <div className="introImage box-parallax-1">
-                    <Player
-                      autoPlay
-                      loop
-                      muted
-                      poster="/assets/poster.png"
-                      src={`../assets/videos/conversations.mp4`} />
+                  <div className="smallContainer">
+                    <div className="introImage">
+                      <Player
+                        autoPlay
+                        loop
+                        muted
+                        poster="/assets/poster.png"
+                        src={`../assets/videos/conversations.mp4`} />
+                    </div>
+                    <img src="/assets/images/svgs/shape.svg" data-scroll-speed="20" className="shapeTop image-boxShadow" alt="Portfolio Images"/>
                   </div>
                 </div>
+                <section className="images-column-2 parallexMargin content defaultMargin">
+                  <div className="wrapper">
+                    <div className="thumb mb--30 box mr--40" data-scroll-speed="18">
+                      <img src="/assets/images/portfolio/conversations-5.png" className="shapeTop" alt="Portfolio Images"/>
+                    </div>
+                    <div className="thumb mb--30 box box-parallax-1">
+                      <img src="/assets/images/portfolio/conversations-6.png" className="shapeBottom" alt="Portfolio Images"/>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
           </div>
@@ -124,29 +138,14 @@ function PortfolioLyftnote() {
       {/* End Portfolio Details */}
 
       {/* Start Related Work */}
-      <div className="portfolio-related-work pb--120 bg_color--1">
-        <div className="col-lg-12">
+      <div className="portfolio-related-work pb--120">
           <div className="section-title text-center">
             <h2>
               <a className="case-wrapper" href="/portfolio-clients">
-                <span className="case-title">
-                  <span>
-                    Explore Next Project
-                  </span>
-                </span>
+                Next Project
               </a>
             </h2>
           </div>
-        </div>
-        <div className="related-work text-center mt--30">
-          <div className="thumb">
-            <a href="/portfolio-clients">
-              <div className="imageRelated">
-                <img src="/assets/images/portfolio/asusFeatureImage.png" alt="Portfolio-images"/>
-              </div>
-            </a>
-          </div>
-        </div>
       </div>
 
       {/* End Related Work */}

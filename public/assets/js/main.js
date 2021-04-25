@@ -4,6 +4,8 @@ window.onload=function() {
   const overlay = document.querySelector('.overlay');
   const exit = document.querySelector('.exit');
   const logo = document.querySelector('.logo');
+  const colors = ['', 'lightPink', 'darkSkyBlue', 'aquamarine', 'electricBlue']
+  const sections = [...document.getElementsByTagName('section')]
 
   var tl = gsap.timeline({ defaults: { duration: 1, ease: Back.easeOut.config(2) } });
 
@@ -20,8 +22,24 @@ window.onload=function() {
   exit.addEventListener('click', () => {
     tl.reverse(.8);
     logo.classList.remove("logo--white");
-  })
-}
+  });
+
+
+  window.addEventListener('scroll', function () {
+
+    const scrollFromTop = window.pageYOffset;
+
+    for (let i = 0; sections.length > i; i++) {
+
+      if (scrollFromTop <= sections[i].offsetTop) {
+        document.body.className = colors[i];
+        break
+      }
+
+    }
+
+  });
+};
 
 $.fn.moveIt = function(){
 
