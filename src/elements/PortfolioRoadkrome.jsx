@@ -34,7 +34,7 @@ function PortfolioRoadkrome() {
 
     // //Content Animation
     tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 140,
+      y: 200,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
@@ -48,7 +48,7 @@ function PortfolioRoadkrome() {
       <Header logo="symbol-dark"/>
 
       {/* Start Portfolio Details */}
-      <div className="rn-portfolio-details ptb--120 bg_color--1">
+      <div className="rn-portfolio-details bg_color--1">
         <div className="row">
           <div className="col-lg-12">
             <div className="portfolio-details" ref={el => app = el}>

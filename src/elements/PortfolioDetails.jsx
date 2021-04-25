@@ -34,7 +34,7 @@ function PortfolioDetails() {
 
     // //Content Animation
     tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 140,
+      y: 200,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
@@ -48,7 +48,7 @@ function PortfolioDetails() {
       <Header logo="symbol-dark"/>
 
       {/* Start Portfolio Details */}
-      <div className="rn-portfolio-details ptb--120 bg_color--1">
+      <div className="rn-portfolio-details bg_color--1">
         <div className="row">
           <div className="col-lg-12">
             <div className="portfolio-details" ref={el => app = el}>
@@ -120,28 +120,13 @@ function PortfolioDetails() {
       {/* End Portfolio Details */}
 
       {/* Start Related Work */}
-      <div className="portfolio-related-work pb--120 bg_color--1">
-        <div className="col-lg-12">
-          <div className="section-title text-center">
-            <h2>
-              <a className="case-wrapper" href="/portfolio-roadkrome">
-                <span className="case-title">
-                  <span>
-                    Explore Next Project
-                  </span>
-                </span>
-              </a>
-            </h2>
-          </div>
-        </div>
-        <div className="related-work text-center mt--30">
-          <div className="thumb">
-            <a href="/portfolio-roadkrome">
-              <div className="imageRelated">
-                <img src="/assets/images/portfolio/asusFeatureImage.png" alt="Portfolio-images"/>
-              </div>
+      <div className="portfolio-related-work pb--120">
+        <div className="section-title text-center">
+          <h2>
+            <a className="case-wrapper" href="/portfolio-roadkrome">
+              Next Project
             </a>
-          </div>
+          </h2>
         </div>
       </div>
       {/* End Related Work */}

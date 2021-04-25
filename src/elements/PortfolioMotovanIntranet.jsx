@@ -33,7 +33,7 @@ function PortfolioMotovanIntranet() {
 
     // //Content Animation
     tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 140,
+      y: 200,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
@@ -47,7 +47,7 @@ function PortfolioMotovanIntranet() {
       <Header logo="symbol-dark"/>
 
       {/* Start Portfolio Details */}
-      <div className="rn-portfolio-details ptb--120 bg_color--1">
+      <div className="rn-portfolio-details bg_color--1">
         <div className="row">
           <div className="col-lg-12">
             <div className="portfolio-details" ref={el => app = el}>
@@ -119,48 +119,13 @@ function PortfolioMotovanIntranet() {
       {/* End Portfolio Details */}
 
       {/* Start Related Work */}
-      <div className="portfolio-related-work pb--120 bg_color--1">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="section-title text-center">
-                <span className="theme-color font--18 fontWeight600">Related Work</span>
-                <h2>Our More Projects</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row mt--10">
-            {/* Start Single Portfolio */}
-            <div className="col-lg-6 col-md-6 col-12">
-              <div className="related-work text-center mt--30">
-                <div className="thumb">
-                  <a href="/portfolio-details">
-                    <img src="/assets/images/portfolio/related-image-01.jpg" alt="Portfolio-images"/>
-                  </a>
-                </div>
-                <div className="inner">
-                  <h4><a href="/portfolio-details">Digital Analysis</a></h4>
-                  <span className="category">Technique</span>
-                </div>
-              </div>
-            </div>
-            {/* End Single Portfolio */}
-            {/* Start Single Portfolio */}
-            <div className="col-lg-6 col-md-6 col-12">
-              <div className="related-work text-center mt--30">
-                <div className="thumb">
-                  <a href="/portfolio-details">
-                    <img src="/assets/images/portfolio/related-image-02.jpg" alt="Portfolio-images"/>
-                  </a>
-                </div>
-                <div className="inner">
-                  <h4><a href="/portfolio-details">Plan Management</a></h4>
-                  <span className="category">PLANNING</span>
-                </div>
-              </div>
-            </div>
-            {/* End Single Portfolio */}
-          </div>
+      <div className="portfolio-related-work pb--120">
+        <div className="section-title text-center">
+          <h2>
+            <a className="case-wrapper" href="/portfolio-conversations">
+              Next Project
+            </a>
+          </h2>
         </div>
       </div>
       {/* End Related Work */}
