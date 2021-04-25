@@ -20,7 +20,6 @@ font-family: 'Poppins', sans-serif;
 .content,
 .wrapper {
     position: relative;
-    max-height: 2000px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -89,6 +88,22 @@ font-family: 'Poppins', sans-serif;
 
 .movingRight {
     height: 100px;
+}
+
+.images-column-3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    img {
+        height: 100%;
+        width: 30%;
+    }
+
+    .mobile {
+        width: 250px;
+    }
 }
 
 .images-column-2 {

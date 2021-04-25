@@ -33,7 +33,7 @@ function PortfolioBlogVanilla() {
 
     // //Content Animation
     tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 140,
+      y: 200,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
@@ -47,7 +47,7 @@ function PortfolioBlogVanilla() {
       <Header logo="symbol-dark"/>
 
       {/* Start Portfolio Details */}
-      <div className="rn-portfolio-details ptb--120 bg_color--1">
+      <div className="rn-portfolio-details">
         <div className="row">
           <div className="col-lg-12">
             <div className="portfolio-details" ref={el => app = el}>
@@ -80,20 +80,15 @@ function PortfolioBlogVanilla() {
               </div>
               {/*End Top Description*/}
               <div className="portfolio-thumb-inner">
-                <div className="thumb position-relative mb--30 darkGray">
-                  <div className="container-inner">
-                    <div className="col-6">
-                      <h2>Improving the User Experience</h2>
-                      <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
-                    </div>
-                  </div>
+                <div className="images-column-1 thumb position-relative mb--30 content">
                   <img src="/assets/images/portfolio/blog-2.jpg" alt="Portfolio Images"/>
                 </div>
-                <div className="thumb position-relative">
-                  <img src="/assets/images/portfolio/blog-1.jpg" alt="Portfolio Images"/>
+                <div className="images-column-2 thumb parallexMargin content">
+                  <img src="/assets/images/portfolio/blog-mobile1.png" data-scroll-speed="18" alt="Portfolio Images"/>
+                  <img src="/assets/images/portfolio/blog-mobile2.png" alt="Portfolio Images"/>
                 </div>
-                <div className="thumb position-relative mb--30 darkGray">
+                <section></section>
+                <div className="thumb position-relative mb--30">
                   <div className="container-inner">
                     <div className="col-6">
                       <h2>Improving the User Experience</h2>
@@ -101,8 +96,22 @@ function PortfolioBlogVanilla() {
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
                     </div>
                   </div>
-                  <img src="/assets/images/portfolio/blog-3.jpg" alt="Portfolio Images"/>
                 </div>
+                <section>
+                  <div className="justify-content-end mb--30">
+                    <div className="video col-sm-8 col-md-7">
+                      <Player
+                        autoPlay
+                        loop
+                        muted
+                        poster="/assets/poster.png"
+                        src={`../assets/videos/library-2.mp4`} />
+                    </div>
+                    <div className="hex">
+                      <img src="/assets/images/svgs/hex.svg" data-scroll-speed="18" alt="Portfolio Images"/>
+                    </div>
+                  </div>
+                </section>
               </div>
             </div>
           </div>
@@ -111,28 +120,13 @@ function PortfolioBlogVanilla() {
       {/* End Portfolio Details */}
 
       {/* Start Related Work */}
-      <div className="portfolio-related-work pb--120 bg_color--1">
-        <div className="col-lg-12">
-          <div className="section-title text-center">
-            <h2>
-              <a className="case-wrapper" href="/portfolio-details">
-                <span className="case-title">
-                  <span>
-                    Explore Next Project
-                  </span>
-                </span>
-              </a>
-            </h2>
-          </div>
-        </div>
-        <div className="related-work text-center mt--30">
-          <div className="thumb">
-            <a href="/portfolio-details">
-              <div className="imageRelated">
-                <img src="/assets/images/portfolio/asusFeatureImage.png" alt="Portfolio-images"/>
-              </div>
+      <div className="portfolio-related-work pb--120">
+        <div className="section-title text-center">
+          <h2>
+            <a className="case-wrapper" href="/portfolio-lyftnote">
+              Next Project
             </a>
-          </div>
+          </h2>
         </div>
       </div>
       {/* End Related Work */}
@@ -144,7 +138,7 @@ function PortfolioBlogVanilla() {
         </ScrollToTop>
       </div>
       {/* End Back To Top */}
-                
+
       <Footer />
 
     </React.Fragment>

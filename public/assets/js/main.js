@@ -5,7 +5,8 @@ window.onload=function() {
   const exit = document.querySelector('.exit');
   const logo = document.querySelector('.logo');
   const colors = ['', 'lightPink', 'darkSkyBlue', 'aquamarine', 'electricBlue']
-  const sections = [...document.getElementsByTagName('section')]
+  const sections = [...document.getElementsByTagName('section')];
+
 
   var tl = gsap.timeline({ defaults: { duration: 1, ease: Back.easeOut.config(2) } });
 

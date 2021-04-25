@@ -179,31 +179,15 @@ function PortfolioLyftnote() {
       {/* End Portfolio Details */}
 
       {/* Start Related Work */}
-      <div className="portfolio-related-work pb--120 bg_color--1">
-        <div className="col-lg-12">
-          <div className="section-title text-center">
-            <h2>
-              <a className="case-wrapper" href="/portfolio-clients">
-                <span className="case-title">
-                  <span>
-                    Explore Next Project
-                  </span>
-                </span>
-              </a>
-            </h2>
-          </div>
-        </div>
-        <div className="related-work text-center mt--30">
-          <div className="thumb">
-            <a href="/portfolio-clients">
-              <div className="imageRelated">
-                <img src="/assets/images/portfolio/asusFeatureImage.png" alt="Portfolio-images"/>
-              </div>
+      <div className="portfolio-related-work pb--120">
+        <div className="section-title text-center">
+          <h2>
+            <a className="case-wrapper" href="/portfolio-details">
+              Next Project
             </a>
-          </div>
+          </h2>
         </div>
       </div>
-
       {/* End Related Work */}
 
       {/* Start Back To Top */}

@@ -95,7 +95,7 @@ function PortfolioLyftnote() {
                   </div>
                 </div>
 
-                <div className="images-column-2 parallexMargin content">
+                <div className="images-column-2 parallexMargin content defaultMargin">
                   <div className="wrapper">
                     <div className="thumb mb--30 box mr--40">
                       <img src="/assets/images/portfolio/conversations-3a.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
