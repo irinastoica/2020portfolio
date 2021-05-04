@@ -34,7 +34,7 @@ const PortfolioListContent = [
 
 
   {
-    image: 'image-motovan',
+    image: '../assets/images/portfolio/preview/intranet-mtv.png',
     category: 'Development',
     title: 'Motovan',
     pageLink: '/portfolio-details'
@@ -59,40 +59,55 @@ class PortfolioList extends Component {
 
 
   render(){
-    const {column , styevariation } = this.props;
-    const list = PortfolioListContent.slice(0 , this.props.item);
     return(
       <React.Fragment>
-        {list.map((value , index) => (
-          //Project1
-          <div className="project-item" data-scroll-container>
-            <a href={`${value.pageLink}`}>
-              <div className={`portfolio ${styevariation}`} data-scroll-section>
+        <div className="project-wrapper">
+
+          <div className="splitshow-left col-6">
+
+            {/*Vanilla LandingPages*/}
+            <div className="project-item" data-scroll-container>
+              <a href='/portfolio-conversations' className="project-itemLink">
                 <div className="thumbnail-inner">
-                  <Player data-scroll data-scroll-speed="8"
-                    autoPlay
-                    loop
-                    muted
-                    poster="/assets/poster.png"
-                    src={`${value.video}`}
-                  />
-                  <div className={`thumbnail ${value.image}`} data-scroll></div>
+                  <picture className={`thumbnail`}>
+                    <img src="/assets/images/portfolio/preview/vanilla-landingPages.png" data-scroll-speed="6" ></img>
+                  </picture>
                 </div>
-                <div className="content">
-                  <div className="content-wrapper">
-                    <div className="companyLogo">{value.companyLogoName}</div>
-                    <div className="inner">
-                      <p>{value.category}</p>
-                      <h4>{value.title}</h4>
+              </a>
+              <div className="content-wrapper">
+                <div className="inner">
+                  <p>Here</p>
+                  <h4>Intranet</h4>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          {/*Project2*/}
+          <div className="splitshow-right col-6">
+            <div className="project-item" data-scroll-container>
+              <a href='#' className="project-itemLink">
+                <div className="portfolio" data-scroll-section>
+                  <div className="thumbnail-inner">
+                    <div className={`thumbnail`}>
+                      <img src="/assets/images/portfolio/preview/intranet-mtv.png" data-scroll-speed="8"></img>
+                    </div>
+                  </div>
+                  <div className="content">
+                    <div className="content-wrapper">
+                      <div className="inner">
+                        <p>Here</p>
+                        <h4>Intranet</h4>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
 
-        ))}
-
+        </div>
       </React.Fragment>
     )
   }

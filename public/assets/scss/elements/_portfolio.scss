@@ -110,14 +110,49 @@ h1 {
     margin-top: 200px;
 
     .project-container {
-        display: flex;
-        flex-wrap: wrap;
+
+        .project-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0 220px;
+        }
 
         .project-item {
             overflow: hidden;
             flex: 1;
             min-width: 40%;
             padding: 40px;
+
+            .project-itemLink {
+                background-color: white;
+                cursor: pointer;
+                display: block;
+                overflow: hidden;
+
+                .thumbnail {
+
+                    img {
+                        -webkit-transition: -webkit-transform .4s;
+                        transition: -webkit-transform .4s;
+                        -o-transition: -o-transform .4s;
+                        -moz-transition: transform .4s, -moz-transform .4s;
+                        transition: transform .4s;
+                        transition: transform .4s, -webkit-transform .4s, -moz-transform .4s, -o-transform .4s;
+                    }
+                }
+
+                &:hover {
+                    opacity: 1;
+
+                    .thumbnail img {
+                        -webkit-transform: scale(.97);
+                        -moz-transform: scale(.97);
+                        -ms-transform: scale(.97);
+                        -o-transform: scale(.97);
+                        transform: scale(.97);
+                    }
+                }
+            }
 
             .video-react,
             .video-react-big-play-button,
@@ -398,7 +433,11 @@ h1 {
         .thumbnail {
             transform: scale(1) translateZ(0);
             &::after{
-                background-color: rgba(25,25,25,.24);
+                -webkit-transform: scale(.97);
+                -moz-transform: scale(.97);
+                -ms-transform: scale(.97);
+                -o-transform: scale(.97);
+                transform: scale(.97);
             }
         }
         .bg-blr-image{
@@ -455,82 +494,71 @@ h1 {
     }
 }
 
-    .container-inner {
-        padding-top: $marginLarge;
-        padding-bottom: 0;
-        width: 100%;
+.container-inner {
+    padding-top: $marginLarge;
+    padding-bottom: 0;
+    width: 100%;
+
+    @media #{$sm-layout} {
+        padding-top: 0px;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 4.2em;
+        line-height: 80px;
+        margin-bottom: 40px;
 
         @media #{$sm-layout} {
-            padding-top: 0px;
-        }
-
-        h2 {
-            font-weight: 500;
-            font-size: 4.2em;
-            line-height: 80px;
-            margin-bottom: 40px;
-
-            @media #{$sm-layout} {
-                font-size: 3.5em;
-            }
+            font-size: 3.5em;
         }
     }
+}
 
-    .leftDescription {
-        margin-right: $marginDefaultBig;
+.leftDescription {
+    margin-right: $marginDefaultBig;
+}
+
+
+.video-react-controls-enabled {
+    top: -150px;
+    padding-top: 0!important;
+
+    [type=button],
+    .video-react-control-bar {
+        display: none;
     }
 
+    .video-react-video {
+        max-width: 420px !important;
+        z-index: 1;
+        top: 0;
+        object-fit: cover;
+        padding-top: 0!important;
+    }
+}
+
+//Video Home Page Size
+
+.home-video-intro {
 
     .video-react-controls-enabled {
-        top: -150px;
-        padding-top: 0!important;
-
-        [type=button],
-        .video-react-control-bar {
-            display: none;
-        }
 
         .video-react-video {
-            width: 420px !important;
-            z-index: 1;
-            top: 0;
-            object-fit: cover;
-            padding-top: 0!important;
+            min-width: 550px !important;
         }
     }
 
+}
 
 
 .thumbnail{
     background-size: cover;
     background-position: center;
     border-radius: 5px;
-    background-color: #0a0a0a;
     backface-visibility: hidden;
     transition: transform .28s ease;
     z-index: 4;
-    height: 620px;
-    width: 420px;
-
-    &.image-1 {
-        background-image: url(/assets/images/portfolio/preview/vanilla-landingPages.png);
-    }
-
-    &.image-3 {
-        background-image: url(/assets/images/portfolio/asusFeatureImage.png);
-    }
-
-    &.preview-blog {
-        background-image: url(/assets/images/portfolio/preview/blog-preview.png);
-    }
-
-    &.image-motovan {
-        background-image: url(/assets/images/portfolio/motovanFeatureImage.png);
-    }
-
-    &.image-5 {
-        background-image: url(/assets/images/portfolio/motovanCommunity.png);
-    }
 
     &::after {
         position: absolute;
@@ -545,7 +573,6 @@ h1 {
         @extend %transition;
     }
 }
-
 
 .portfolio-related-work {
     position: fixed;

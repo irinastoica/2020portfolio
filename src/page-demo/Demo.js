@@ -58,31 +58,12 @@ const PortfolioLanding = () => {
 
       {/* End About Area
 
-      {/* Start Service Area  */}
-      {/*<div className="brands">*/}
-          {/*<div className="container">*/}
-            {/*<h2>Some of the brands that I've worked with</h2>*/}
-            {/*/!* Start Brand Area *!/*/}
-            {/*<div className="rn-brand-area brand-separation bg_color--5 ptb--120">*/}
-              {/*<div className="container">*/}
-                {/*<div className="row">*/}
-                  {/*<div className="col-lg-12">*/}
-                    {/*<BrandTwo />*/}
-                  {/*</div>*/}
-                {/*</div>*/}
-              {/*</div>*/}
-            {/*</div>*/}
-            {/*/!* End Brand Area *!/*/}
-          {/*</div>*/}
-      {/*</div>*/}
-      {/* End Service Area  */}
-
       {/* Start Portfolio Area */}
       <div id="portfolio" className="fix">
         <div className="portfolio-area ptb--120 bg_color--1">
           <div className="portfolio-sacousel-inner">
               <div className="projectsWrapper">
-                  <div className="project-container col-sm-10 col-md-10 col-lg-10">
+                  <div className="project-container">
                     <PortfolioList styevariation="text-left mt--40" item="7" />
                   </div>
               </div>
