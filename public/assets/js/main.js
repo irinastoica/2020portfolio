@@ -7,6 +7,14 @@ window.onload=function() {
   const colors = ['', 'lightPink', 'darkSkyBlue', 'aquamarine', 'electricBlue']
   const sections = [...document.getElementsByTagName('section')];
 
+  import simpleParallax from 'simple-parallax-js';
+  const simpleParallax = require('simple-parallax-js');
+// CommonJS
+  var image = document.getElementsByClassName('thumbnail');
+  console.log("here");
+  new simpleParallax(image);
+
+
 
   var tl = gsap.timeline({ defaults: { duration: 1, ease: Back.easeOut.config(2) } });
 
@@ -283,12 +291,7 @@ $(function(){
       actually_setTimeout();
 
     } else if ( data.fn ) {
-      // No callback passed. If force_mode (delay) is true, execute the data.fn
-      // callback immediately, continuing any callback return-true polling loop.
-      // If force_mode is false, execute the data.fn callback immediately but do
-      // NOT continue a callback return-true polling loop. If force_mode is
-      // undefined, simply clean up. Since data.fn was still defined, whatever
-      // was supposed to happen hadn't yet, so return true.
+
       delay === undefined ? cleanup() : data.fn( delay === false );
       return true;
 

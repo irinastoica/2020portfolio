@@ -2,10 +2,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
+
 // Create Import File
 import './index.scss';
 
-// Home layout
+import simpleParallax from 'simple-parallax-js';
+
 
 // ScrollMagic
 import Demo from './page-demo/Demo';

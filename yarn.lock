@@ -8861,6 +8861,11 @@ react-transition-group@^4.4.1:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
+react-use-controller@^1.0.0-beta.44:
+  version "1.0.0-beta.45"
+  resolved "https://registry.yarnpkg.com/react-use-controller/-/react-use-controller-1.0.0-beta.45.tgz#aea8b1b2b21cb2de6f44b509df83c35c91ddb0ec"
+  integrity sha512-YLV6UUrut+LZPfEhMnR1WLnOIWngYgPcizX298QAObkVIvAKNlWVAuk2t7SKZgXRFuWHmrogQArFR2aZhsjerA==
+
 react-video-tag@0.0.10:
   version "0.0.10"
   resolved "https://registry.yarnpkg.com/react-video-tag/-/react-video-tag-0.0.10.tgz#eace2386a77cd17351a9cac7497856aa7d4be25d"
@@ -9393,6 +9398,11 @@ scriptjs@^2.5.7:
   resolved "https://registry.yarnpkg.com/scriptjs/-/scriptjs-2.5.9.tgz#343915cd2ec2ed9bfdde2b9875cd28f59394b35f"
   integrity sha512-qGVDoreyYiP1pkQnbnFAUIS5AjenNwwQBdl7zeos9etl+hYKWahjRTfzAZZYBv5xNHx7vNKCmaLDQZ6Fr2AEXg==
 
+scrollmagic@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.yarnpkg.com/scrollmagic/-/scrollmagic-2.0.8.tgz#e0d7aff804c393c022fdc0c566f1edce3b4e9ed7"
+  integrity sha512-UYXEGBPVLziovXl3FjHGkY9c4UXKUKopIdXwWR2JapWxCo0U345wYegi7rcsv5vHf/ktc1bSNWy4QRFiV+Yccw==
+
 scss-tokenizer@^0.2.3:
   version "0.2.3"
   resolved "https://registry.yarnpkg.com/scss-tokenizer/-/scss-tokenizer-0.2.3.tgz#8eb06db9a9723333824d3f5530641149847ce5d1"
@@ -9583,6 +9593,11 @@ signal-exit@^3.0.0, signal-exit@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.3.tgz#a1410c2edd8f077b08b4e253c8eacfcaf057461c"
   integrity sha512-VUJ49FC8U1OxwZLxIbTTrDvLnf/6TDgxZcK8wxR8zs13xpx7xbG60ndBlhNrFi2EMuFRoeDoJO7wthSLq42EjA==
+
+simple-parallax-js@^5.6.2:
+  version "5.6.2"
+  resolved "https://registry.yarnpkg.com/simple-parallax-js/-/simple-parallax-js-5.6.2.tgz#6515432c9e265d8e5e0f8a6691a8b0d6333b3acb"
+  integrity sha512-qJPZgg37BstDyvNqONU1YffiJ9P5n4B9IPl5h3kzZ2oEinTRwy1syxfEwTMLXYFHAFCRWXUcWD8yBnVcp8nxdA==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"

@@ -1,5 +1,6 @@
 import React, { Component, useEffect, useRef } from "react";
 import { Player } from 'video-react';
+import simpleParallax from 'simple-parallax-js';
 
 const PortfolioListContent = [
   {
@@ -64,13 +65,16 @@ class PortfolioList extends Component {
         <div className="project-wrapper">
 
           <div className="splitshow-left col-6">
+            <img className="thumbnail" src="/assets/images/portfolio/preview/vanilla-landingPages.png" alt="image"></img>
+
+
 
             {/*Vanilla LandingPages*/}
             <div className="project-item" data-scroll-container>
               <a href='/portfolio-conversations' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={`thumbnail`}>
-                    <img src="/assets/images/portfolio/preview/vanilla-landingPages.png" data-scroll-speed="6" ></img>
+                    <img src="/assets/images/portfolio/preview/vanilla-landingPages.png" className="thumbnail" ></img>
                   </picture>
                 </div>
               </a>
