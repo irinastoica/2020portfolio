@@ -75,7 +75,7 @@ class PortfolioList extends Component {
               <a href='/portfolio-conversations' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
-                    <img src="/assets/images/portfolio/preview/vanilla-landingPages.png" className="" ></img>
+                    <img src="/assets/images/portfolio/preview/vanilla-landingPages.png" className="thumbnail" ></img>
                   </picture>
                 </div>
               </a>
@@ -89,26 +89,22 @@ class PortfolioList extends Component {
 
           </div>
 
-          {/*Project2*/}
           <div className="splitshow-right col-6">
+            {/*Project2*/}
             <div className="project-item" data-scroll-container>
-              <a href='#' className="project-itemLink">
-                <div className="portfolio" data-scroll-section>
-                  <div className="thumbnail-inner">
-                    <div className={`thumbnail`}>
-                      <img src="/assets/images/portfolio/preview/intranet-mtv.png" data-scroll-speed="8"></img>
-                    </div>
-                  </div>
-                  <div className="content">
-                    <div className="content-wrapper">
-                      <div className="inner">
-                        <p>Here</p>
-                        <h4>Intranet</h4>
-                      </div>
-                    </div>
-                  </div>
+              <a href='/portfolio-conversations' className="project-itemLink">
+                <div className="thumbnail-inner">
+                  <picture className={``}>
+                    <img src="/assets/images/portfolio/preview/intranet-mtv.png" className="thumbnail" ></img>
+                  </picture>
                 </div>
               </a>
+              <div className="content-wrapper">
+                <div className="inner">
+                  <p>Here</p>
+                  <h4>Intranet</h4>
+                </div>
+              </div>
             </div>
           </div>
 
