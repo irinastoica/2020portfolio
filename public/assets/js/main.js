@@ -7,14 +7,8 @@ window.onload=function() {
   const colors = ['', 'lightPink', 'darkSkyBlue', 'aquamarine', 'electricBlue']
   const sections = [...document.getElementsByTagName('section')];
 
-  import simpleParallax from 'simple-parallax-js';
-  const simpleParallax = require('simple-parallax-js');
-// CommonJS
-  var image = document.getElementsByClassName('thumbnail');
-  console.log("here");
+  const image = document.getElementsByClassName('thumbnail');
   new simpleParallax(image);
-
-
 
   var tl = gsap.timeline({ defaults: { duration: 1, ease: Back.easeOut.config(2) } });
 

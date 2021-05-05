@@ -10,6 +10,11 @@ import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import { Player } from "video-react";
 
+import simpleParallax from 'simple-parallax-js';
+
+const image = document.getElementsByClassName('thumbnail');
+new simpleParallax(image);
+
 
 const PortfolioLanding = () => {
   let title = 'ready for a new experience combinaing code and Design.',

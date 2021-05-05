@@ -6,9 +6,6 @@ import ReactDOM from 'react-dom';
 // Create Import File
 import './index.scss';
 
-import simpleParallax from 'simple-parallax-js';
-
-
 // ScrollMagic
 import Demo from './page-demo/Demo';
 
