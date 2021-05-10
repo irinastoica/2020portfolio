@@ -63,12 +63,7 @@ class PortfolioList extends Component {
     return(
       <React.Fragment>
         <div className="project-wrapper">
-
           <div className="splitshow-left col-6">
-
-            <img className="thumbnail" src="/assets/images/portfolio/preview/vanilla-landingPages.png" alt="image"></img>
-
-
 
             {/*Vanilla LandingPages*/}
             <div className="project-item" data-scroll-container>
@@ -87,10 +82,72 @@ class PortfolioList extends Component {
               </div>
             </div>
 
-          </div>
+            {/*Lyftnote*/}
+            <div className="project-item" data-scroll-container>
+              <a href='/portfolio-lyftnote' className="project-itemLink">
+                <div className="thumbnail-inner">
+                  <picture className={``}>
+                    <Player
+                      autoPlay
+                      loop
+                      muted
+                      poster="/assets/poster.png"
+                      src="../assets/videos/preview-lytnote.mp4"
+                    />
+                  </picture>
+                </div>
+              </a>
+              <div className="content-wrapper">
+                <div className="inner">
+                  <p>Here</p>
+                  <h4>Intranet</h4>
+                </div>
+              </div>
+            </div>
 
+            {/*Roadkrome*/}
+            <div className="project-item" data-scroll-container>
+              <a href='/portfolio-roadkrome' className="project-itemLink">
+                <div className="thumbnail-inner">
+                  <picture className={``}>
+                    <Player
+                      autoPlay
+                      loop
+                      muted
+                      poster="/assets/poster.png"
+                      src="../assets/videos/roadkrome.mp4"
+                    />
+                  </picture>
+                </div>
+              </a>
+              <div className="content-wrapper">
+                <div className="inner">
+                  <p>Here</p>
+                  <h4>Intranet</h4>
+                </div>
+              </div>
+            </div>
+          </div>
           <div className="splitshow-right col-6">
-            {/*Project2*/}
+
+            {/*Asus*/}
+            <div className="project-item" data-scroll-container>
+              <a href='/portfolio-conversations' className="project-itemLink">
+                <div className="thumbnail-inner">
+                  <picture className={``}>
+                    <img src="/assets/images/portfolio/preview/asus.jpg" className="thumbnail" ></img>
+                  </picture>
+                </div>
+              </a>
+              <div className="content-wrapper">
+                <div className="inner">
+                  <p>Here</p>
+                  <h4>Intranet</h4>
+                </div>
+              </div>
+            </div>
+
+            {/*Mtv Intranet*/}
             <div className="project-item" data-scroll-container>
               <a href='/portfolio-conversations' className="project-itemLink">
                 <div className="thumbnail-inner">
@@ -103,6 +160,23 @@ class PortfolioList extends Component {
                 <div className="inner">
                   <p>Here</p>
                   <h4>Intranet</h4>
+                </div>
+              </div>
+            </div>
+
+            {/*  Motovan  */}
+            <div className="project-item" data-scroll-container>
+              <a href='/portfolio-details' className="project-itemLink">
+                <div className="thumbnail-inner">
+                  <picture className={``}>
+                    <img src="../assets/images/portfolio/preview/mtv.jpg" className="thumbnail" ></img>
+                  </picture>
+                </div>
+              </a>
+              <div className="content-wrapper">
+                <div className="inner">
+                  <p>Here</p>
+                  <h4>Motovan</h4>
                 </div>
               </div>
             </div>

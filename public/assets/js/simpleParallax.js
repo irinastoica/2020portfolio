@@ -20,7 +20,7 @@ export default class SimpleParallax {
         this.defaults = {
             delay: 0,
             orientation: 'up',
-            scale: 1.3,
+            scale: 1,
             overflow: false,
             transition: 'cubic-bezier(0,0,0,1)',
             customContainer: '',
