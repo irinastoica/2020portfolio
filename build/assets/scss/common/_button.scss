@@ -73,7 +73,7 @@ a {
         font-size: 16px;
         text-transform: uppercase;
         letter-spacing: 2px;
-        border: 2px solid #b1b4c1;
+        background: $body-color;
         padding: 15px 40px;
         border-radius: 6px;
         display: inline-block;
@@ -113,8 +113,7 @@ a {
             color: #ffffff;
         }
         &:hover{
-            background: transparent;
-            color: #f9004d;
+            opacity: .8;
             box-shadow: 0 10px 15px 0 rgba(0,0,0,0.1);
             transform: translateY(-5px);
         }

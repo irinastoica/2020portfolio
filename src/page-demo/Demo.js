@@ -14,6 +14,8 @@ import simpleParallax from 'simple-parallax-js';
 
 const image = document.getElementsByClassName('thumbnail');
 new simpleParallax(image);
+var video = document.getElementsByClassName('video-animation');
+new simpleParallax(video);
 
 
 const PortfolioLanding = () => {

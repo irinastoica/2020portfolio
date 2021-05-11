@@ -122,7 +122,7 @@ function PortfolioMotovanIntranet() {
       <div className="portfolio-related-work pb--120">
         <div className="section-title text-center">
           <h2>
-            <a className="case-wrapper" href="/portfolio-conversations">
+            <a className="case-wrapper" href="/portfolio-lyftnote">
               Next Project
             </a>
           </h2>

@@ -16,8 +16,6 @@
 @import 'default/shortcode';
 @import 'default/spacing';
 
-
-
 /**************************************
     Header Styles
 ***************************************/
@@ -36,7 +34,7 @@
 @import 'common/pagination';
 @import 'common/socialicon';
 @import 'common/footer';
-
+@import 'common/homepage';
 
 
 /**************************************
@@ -51,10 +49,8 @@
 @import 'elements/tab';
 @import 'elements/list';
 @import 'elements/contact';
-@import 'elements/progress';
 @import 'elements/column';
 @import 'elements/404';
-
 
 
 /**************************************
@@ -63,6 +59,5 @@
 
 @import 'template/about';
 @import 'template/portfolio-details';
-@import 'template/service-details';
 @import 'template/dark-version';
 @import 'template/preview';

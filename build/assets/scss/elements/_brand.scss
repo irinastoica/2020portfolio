@@ -1,5 +1,14 @@
 /* Brand Area */
 
+.brands {
+
+    h2 {
+        font-size: 48px;
+        text-align: center;
+        font-weight: $font-semibold;
+    }
+}
+
 ul {
     &.brand-list {
         @extend %liststyle;

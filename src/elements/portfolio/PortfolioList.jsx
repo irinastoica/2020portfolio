@@ -63,7 +63,7 @@ class PortfolioList extends Component {
     return(
       <React.Fragment>
         <div className="project-wrapper">
-          <div className="splitshow-left col-6">
+          <div className="splitshow-left col-5">
 
             {/*Vanilla LandingPages*/}
             <div className="project-item" data-scroll-container>
@@ -76,8 +76,8 @@ class PortfolioList extends Component {
               </a>
               <div className="content-wrapper">
                 <div className="inner">
-                  <p>Here</p>
-                  <h4>Intranet</h4>
+                  <p className="project-type">UX Design & Development</p>
+                  <h4 className="project-name">Vanilla Forums - Landing Pages</h4>
                 </div>
               </div>
             </div>
@@ -93,8 +93,8 @@ class PortfolioList extends Component {
               </a>
               <div className="content-wrapper">
                 <div className="inner">
-                  <p>Here</p>
-                  <h4>Intranet</h4>
+                  <p className="project-type">UX Design & Development</p>
+                  <h4 className="project-name">Vanilla Forums Blog & Library</h4>
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ class PortfolioList extends Component {
               <a href='/portfolio-lyftnote' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
-                    <video autoPlay loop muted poster="assets/videos/asus.jpg" className="video-smaller">
+                    <video autoPlay loop muted poster="assets/videos/asus.jpg" className="video-smaller video-animation">
                       <source src="assets/videos/preview-lytnote.mp4" type="video/mp4"></source>
                     </video>
                   </picture>
@@ -112,8 +112,8 @@ class PortfolioList extends Component {
               </a>
               <div className="content-wrapper">
                 <div className="inner">
-                  <p>Here</p>
-                  <h4>Intranet</h4>
+                  <p className="project-type">Co-founder</p>
+                  <h4 className="project-name">Lyftnote</h4>
                 </div>
               </div>
             </div>
@@ -122,7 +122,7 @@ class PortfolioList extends Component {
             <div className="project-item" data-scroll-container>
               <a href='/portfolio-roadkrome' className="project-itemLink">
                 <div className="thumbnail-inner">
-                  <picture className={``}>
+                  <picture className="video-animation">
                     <Player
                       autoPlay
                       loop
@@ -135,13 +135,13 @@ class PortfolioList extends Component {
               </a>
               <div className="content-wrapper">
                 <div className="inner">
-                  <p>Here</p>
-                  <h4>Intranet</h4>
+                  <p className="project-type">UX Design</p>
+                  <h4 className="project-name">Roadkrome</h4>
                 </div>
               </div>
             </div>
           </div>
-          <div className="splitshow-right col-6">
+          <div className="splitshow-right col-5">
 
             {/*Asus*/}
             <div className="project-item" data-scroll-container>
@@ -154,8 +154,8 @@ class PortfolioList extends Component {
               </a>
               <div className="content-wrapper">
                 <div className="inner">
-                  <p>Here</p>
-                  <h4>Intranet</h4>
+                  <p className="project-type">UX Designer & Development</p>
+                  <h4 className="project-name">Vanilla Forums - Landing Pages</h4>
                 </div>
               </div>
             </div>
@@ -171,8 +171,8 @@ class PortfolioList extends Component {
               </a>
               <div className="content-wrapper">
                 <div className="inner">
-                  <p>Here</p>
-                  <h4>Intranet</h4>
+                  <p className="project-type">UX Design & Development</p>
+                  <h4 className="project-name">Motovan/ MTA Intranet</h4>
                 </div>
               </div>
             </div>
@@ -188,8 +188,8 @@ class PortfolioList extends Component {
               </a>
               <div className="content-wrapper">
                 <div className="inner">
-                  <p>Here</p>
-                  <h4>Motovan</h4>
+                  <p className="project-type">Graphic Design</p>
+                  <h4 className="project-name">Motovan Corporation</h4>
                 </div>
               </div>
             </div>

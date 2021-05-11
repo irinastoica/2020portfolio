@@ -19,7 +19,8 @@
     }
 
     .greyBackground {
-        background: $lyftnotetGrey;
+        background: rgb(152,152,152);
+        background: linear-gradient(90deg, #989898 61%, #4a4a4a 93%);
         display: flex;
         justify-content: center;
     }
@@ -187,10 +188,7 @@
             font-size: 24px;
             line-height: 39px;
             margin-bottom: 7px;
-            a {
-                color: $heading-color;
-                @extend %transition;
-            }
+
             &:hover{
                 a{
                     color: $theme-color;

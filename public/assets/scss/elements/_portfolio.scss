@@ -114,6 +114,7 @@ h1 {
         .project-wrapper {
             display: flex;
             flex-wrap: wrap;
+            justify-content: space-between;
             padding: 0 220px;
         }
 
@@ -121,11 +122,20 @@ h1 {
             margin-top: 200px;
         }
 
+        .content-wrapper {
+            margin-top: 30px;
+
+            p.project-type {
+                font-size: 14px;
+                opacity: .6;
+            }
+        }
+
         .project-item {
             overflow: hidden;
             flex: 1;
             min-width: 40%;
-            padding: 40px;
+            margin-bottom: 200px;
 
             .video-smaller {
                 width: 450px!important;
@@ -136,6 +146,15 @@ h1 {
                 cursor: pointer;
                 display: block;
                 overflow: hidden;
+
+                &:hover {
+                    -webkit-transform: scale(.97);
+                    -moz-transform: scale(.97);
+                    -ms-transform: scale(.97);
+                    -o-transform: scale(.97);
+                    transform: scale(.97);
+                    box-shadow: 0px -4px 22px -9px rgba(0,0,0,0.2);
+                }
 
                 .thumbnail {
 
@@ -162,7 +181,6 @@ h1 {
                 }
             }
 
-
             .video-react {
                 display: block;
                 padding-top: 0!important;
@@ -170,7 +188,7 @@ h1 {
 
                 .video-react-video {
                     height: 100%;
-                    max-height: 800px;
+                    max-height: 600px;
                 }
             }
         }
@@ -240,7 +258,7 @@ h1 {
     .portfolio-details {
 
         .container-inner {
-            max-width: 1300px;
+            max-width: 1200px;
             margin: 0 auto;
             padding-top: $marginLarge;
             padding-bottom: $marginLarge;

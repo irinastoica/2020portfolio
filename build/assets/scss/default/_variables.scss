@@ -5,6 +5,7 @@ $heading-color: #1f1f25;
 $border-color: #d4d4d4;
 $white:#fff;
 
+
 /*===============================
     Color Variation
 =================================*/
@@ -22,22 +23,29 @@ $brandNavy: #101b58;
 $brandLightGrey: #E1E1E1;
 $lyftnotetGrey: #989898;
 $brandDarkGrey: #232323;
+$black: #000;
+$blackish : #202020;
 
 
 /*===============================
     Font Family 
 =================================*/
-$body-font: 'Poppins', sans-serif;
-$heading-font: 'Poppins', sans-serif;
+$body-font: aktiv-grotesk, 'Roboto', sans-serif;
+$heading-font: aktiv-grotesk, 'Roboto', sans-serif;
 
 
 // Heading Font List
-$font-1: 'Poppins', sans-serif;
+$font-1: aktiv-grotesk, 'Roboto', sans-serif;
 
 $fontList: $font-1;
 
-
-
+/*===============================
+    Font Weight
+=================================*/
+$font-light: 300;
+$font-regular: 400;
+$font-semibold: 500;
+$font-bold: 600;
 
 /*===============================
     Utility Variables
@@ -45,9 +53,9 @@ $fontList: $font-1;
 
 $logoSize: 40px;
 $marginDefault: 10px;
-$marginDefaultBig: 40px;
 $marginDouble: $marginDefault *2;
 $marginLarge: 100px;
+$marginDefaultBig: 40px;
 $marginHalfLarge: $marginLarge / 2;
 $marginLargeXl: 150px;
 $marginLargeDouble: $marginLarge *2;
@@ -63,11 +71,12 @@ $h2: 54px;
 $h3: 24px;
 $h4: 20px;
 $h5: 18px;
-$font-small: 12px;
+$font-small: 14px;
 $font-regular: 16px;
 $font-bigger: 18px;
+$font-xBig: 22px;
 $font-big: 35px;
-$font-title: 40px;
+$font-title: 25px;
 $font-regularHeight: 22px;
 $font-titleHeight: 45px;
 

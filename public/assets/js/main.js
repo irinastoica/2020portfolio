@@ -1,3 +1,5 @@
+import simpleParallax from "simple-parallax-js";
+
 window.onload=function() {
 
   const button = document.querySelector('.toggle');
@@ -9,6 +11,8 @@ window.onload=function() {
 
   const image = document.getElementsByClassName('thumbnail');
   new simpleParallax(image);
+  var video = document.getElementsByClassName('video-animation');
+  new simpleParallax(video);
 
   var tl = gsap.timeline({ defaults: { duration: 1, ease: Back.easeOut.config(2) } });
 

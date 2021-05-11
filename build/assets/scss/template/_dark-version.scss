@@ -17,22 +17,7 @@
         color: #ffffff;
     }
 
-    .bg_image--3,
-    .bg_image--1 ,
-    .rn-testimonial-content .inner p::before,
-    .rn-testimonial-content .inner p::after ,
-    .footer-right  {
-        background-image: inherit !important;
-    }
-    .bg_color--1 ,
-    .brand-separation,
-    #service {
-        background: #191919;
-    }
-    .bg_color--5,
-    .footer-right {
-        background: #101010;
-    }
+
     ul.brand-style-2 img {
         filter: invert(1);
     }
@@ -77,6 +62,13 @@
     ul.tab-style--1 li {
         color: #ffffff; 
     }
+
+    .color-black .mainmenunav ul.mainmenu>li>a {
+        color: $white !important;
+    }
+
+
+
     .portfolio-sacousel-inner .slick-dots li button::after,
     .rn-slick-dot .slick-dots li button::after {
         background: #ffffff;

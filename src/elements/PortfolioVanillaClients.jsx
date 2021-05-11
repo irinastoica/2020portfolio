@@ -42,102 +42,100 @@ function PortfolioVanillaClients() {
       .from(contentButton, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.6)
 
   }, [tl])
-        return(
-            <React.Fragment>
-                <PageHelmet pageTitle='Portfolio Details' />
-                <Header logo="symbol-dark"/>
+  return(
+    <React.Fragment>
+      <PageHelmet pageTitle='Portfolio Details' />
+      <Header logo="symbol-dark"/>
 
-                {/* Start Portfolio Details */}
-                <div className="rn-portfolio-details bg_color--1">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                  <div className="portfolio-details" ref={el => app = el}>
-                                    {/* Start Top Description */}
-                                    <div className="container-inner">
-                                      <div className="col-lg-12" ref={el => content = el}>
-                                        <div className="col-lg-6">
-                                          <div className="hero-content-line">
-                                            <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
-                                          </div>
-                                          <div className="hero-content-line">
-                                            <h2 className="animated ">Communications by Vanilla Event </h2>
-                                          </div>
-                                          <div className="hero-content-line roleWrapper">
-                                            <h3 className="detailsTitle detailsTitle-white">My role</h3>
-                                            <span className="role">Co Founder</span>
-                                            <span className="role">Ux Designer</span>
-                                            <span className="role">Front End Developer</span>
-                                          </div>
-                                        </div>
-                                        <div className="col-6">
-                                          <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
-                                            A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
-                                          <p>My main implication in this projects was the UX and UI design of the whole app.
-                                            How to make the app as easy as possible to use, student friendly.
-                                            I was also in charge of the front end development of the user interface and the user experience of the app.
-                                            Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
-                                        </div>
-                                      </div>
-                                    </div>
-                                    {/*End Top Description*/}
-
-                                    <div className="portfolio-thumb-inner">
-                                      <div className="thumb position-relative mb--30">
-                                        <img src="/assets/images/portfolio/asus-1.jpg" alt="Portfolio Images"/>
-                                      </div>
-                                      <div className="grayBackground">
-                                        <div className="container videos">
-                                          <video autoPlay loop muted poster="assets/videos/hp.jpg" id="hp-video" class="videos">
-                                              <source src="assets/videos/hp.mp4" type="video/mp4"></source>
-                                              <source src="assets/videos/hp.webm" type="video/webm"></source>
-                                              <source src="assets/videos/hp.ogv" type="video/ogg"></source>
-                                          </video>
-                                          <video autoPlay loop muted poster="assets/videos/asus.jpg" id="asus-video" class="videos">
-                                            <source src="assets/videos/asus.mp4" type="video/mp4"></source>
-                                            <source src="assets/videos/asus.webm" type="video/webm"></source>
-                                            <source src="assets/videos/asus.ogv" type="video/ogg"></source>
-                                          </video>
-                                        </div>
-                                      </div>
-                                      <div className="thumb position-relative mb--30">
-                                        <img src="/assets/images/portfolio/hp-1.jpg" alt="Portfolio Images"/>
-                                      </div>
-                                      <div className="images-column-3 thumb position-relative mb--30 parallexMargin">
-                                        <img src="/assets/images/portfolio/zapier-1.jpg" alt="Portfolio Images"  data-scroll-speed="15" />
-                                        <img src="/assets/images/portfolio/zapier-2.jpg" className="mobile" alt="Portfolio Images" data-scroll-speed="25" />
-                                        <img src="/assets/images/portfolio/zapier-3.jpg" alt="Portfolio Images" data-scroll-speed="10" />
-                                      </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+      {/* Start Portfolio Details */}
+      <div className="rn-portfolio-details bg_color--1">
+        <div className="row">
+          <div className="col-lg-12">
+            <div className="portfolio-details" ref={el => app = el}>
+              {/* Start Top Description */}
+              <div className="container-inner">
+                <div className="col-lg-12" ref={el => content = el}>
+                  <div className="col-lg-6">
+                    <div className="hero-content-line">
+                      <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
-                {/* End Portfolio Details */}
-
-              {/* Start Related Work */}
-              <div className="portfolio-related-work pb--120">
-                <div className="section-title text-center">
-                  <h2>
-                    <a className="case-wrapper" href="/portfolio-blog">
-                      Next Project
-                    </a>
-                  </h2>
+                    <div className="hero-content-line">
+                      <h2 className="animated ">Communications by Vanilla Event </h2>
+                    </div>
+                    <div className="hero-content-line roleWrapper">
+                      <h3 className="detailsTitle detailsTitle-white">My role</h3>
+                      <span className="role">Co Founder</span>
+                      <span className="role">Ux Designer</span>
+                      <span className="role">Front End Developer</span>
+                    </div>
+                  </div>
+                  <div className="col-6">
+                    <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
+                      A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
+                    <p>My main implication in this projects was the UX and UI design of the whole app.
+                      How to make the app as easy as possible to use, student friendly.
+                      I was also in charge of the front end development of the user interface and the user experience of the app.
+                      Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
+                  </div>
                 </div>
               </div>
-                {/* End Related Work */}
+              {/*End Top Description*/}
 
-                {/* Start Back To Top */}
-                <div className="backto-top">
-                    <ScrollToTop showUnder={160}>
-                        <FiChevronUp />
-                    </ScrollToTop>
+              <div className="portfolio-thumb-inner">
+                <div className="thumb position-relative mb--30">
+                  <img src="/assets/images/portfolio/asus-1.jpg" alt="Portfolio Images"/>
                 </div>
-                {/* End Back To Top */}
-                
-                <Footer />
+                <div className="grayBackground">
+                  <div className="container videos">
+                    <video autoPlay loop muted poster="assets/videos/hp.jpg" id="hp-video" class="videos">
+                      <source src="assets/videos/hp.mp4" type="video/mp4"></source>
+                      <source src="assets/videos/hp.webm" type="video/webm"></source>
+                      <source src="assets/videos/hp.ogv" type="video/ogg"></source>
+                    </video>
+                    <video autoPlay loop muted poster="assets/videos/asus.jpg" id="asus-video" class="videos">
+                      <source src="assets/videos/asus.mp4" type="video/mp4"></source>
+                      <source src="assets/videos/asus.webm" type="video/webm"></source>
+                      <source src="assets/videos/asus.ogv" type="video/ogg"></source>
+                    </video>
+                  </div>
+                </div>
+                <div className="thumb position-relative mb--30">
+                  <img src="/assets/images/portfolio/hp-1.jpg" alt="Portfolio Images"/>
+                </div>
+                <div className="thumb position-relative mb--30">
+                  <img src="/assets/images/portfolio/zapier.jpg" alt="Portfolio Images"/>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* End Portfolio Details */}
+
+      {/* Start Related Work */}
+      <div className="portfolio-related-work pb--120">
+        <div className="section-title text-center">
+          <h2>
+            <a className="case-wrapper" href="/portfolio-blog">
+              Next Project
+            </a>
+          </h2>
+        </div>
+      </div>
+      {/* End Related Work */}
+
+      {/* Start Back To Top */}
+      <div className="backto-top">
+        <ScrollToTop showUnder={160}>
+          <FiChevronUp />
+        </ScrollToTop>
+      </div>
+      {/* End Back To Top */}
+
+      <Footer />
 
 
-            </React.Fragment>
-        )
+    </React.Fragment>
+  )
 }
 export default PortfolioVanillaClients;

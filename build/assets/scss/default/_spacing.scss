@@ -34,7 +34,14 @@
     }
 }
 
+.fullHeight {
+    height: 100vh;
+}
 
+.col-2 {
+    display: flex;
+    
+}
 
 .pl--0 {
     padding-left: 0 !important;
@@ -54,8 +61,13 @@
 .ml--0 {
     margin-left: 0 !important;
 }
+
 .mt--0 {
     margin-top: 0 !important;
+}
+
+.mt--150 {
+    margin-top: 150px;
 }
 
 .mb--0 {
@@ -101,6 +113,18 @@
 }
 .pt--300{
     padding-top: 300px;
+}
+
+.mt--600 {
+    margin-top: 600px;
+}
+
+.mr--40 {
+    margin-right: 40px;
+}
+
+.box-parallax-1 {
+    top: 10%;
 }
 
 @for $i from 1 through 40 {
