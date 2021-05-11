@@ -127,6 +127,10 @@ h1 {
             min-width: 40%;
             padding: 40px;
 
+            .video-smaller {
+                width: 450px!important;
+            }
+
             .project-itemLink {
                 background-color: white;
                 cursor: pointer;
@@ -158,30 +162,15 @@ h1 {
                 }
             }
 
-            .video-react,
-            .video-react-big-play-button,
-            .video-react-control-bar {
-                display: none;
-            }
 
-            &:nth-child(2),
-            &:nth-child(4),
-            &:nth-child(6) {
+            .video-react {
+                display: block;
+                padding-top: 0!important;
+                height: 100%;
 
-                .thumbnail {
-                    background-color: transparent;
-                    background-image: none;
-                }
-
-                .video-react {
-                    display: block;
-                    padding-top: 0!important;
+                .video-react-video {
                     height: 100%;
-
-                    .video-react-video {
-                        height: 100%;
-                        max-height: 800px;
-                    }
+                    max-height: 800px;
                 }
             }
         }

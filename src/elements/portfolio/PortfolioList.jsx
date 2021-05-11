@@ -82,18 +82,31 @@ class PortfolioList extends Component {
               </div>
             </div>
 
+            {/*Blog*/}
+            <div className="project-item" data-scroll-container>
+              <a href='/portfolio-blog' className="project-itemLink">
+                <div className="thumbnail-inner">
+                  <picture className={``}>
+                    <img src="/assets/images/portfolio/preview/blog.jpg" className="thumbnail" ></img>
+                  </picture>
+                </div>
+              </a>
+              <div className="content-wrapper">
+                <div className="inner">
+                  <p>Here</p>
+                  <h4>Intranet</h4>
+                </div>
+              </div>
+            </div>
+
             {/*Lyftnote*/}
             <div className="project-item" data-scroll-container>
               <a href='/portfolio-lyftnote' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
-                    <Player
-                      autoPlay
-                      loop
-                      muted
-                      poster="/assets/poster.png"
-                      src="../assets/videos/preview-lytnote.mp4"
-                    />
+                    <video autoPlay loop muted poster="assets/videos/asus.jpg" className="video-smaller">
+                      <source src="assets/videos/preview-lytnote.mp4" type="video/mp4"></source>
+                    </video>
                   </picture>
                 </div>
               </a>
