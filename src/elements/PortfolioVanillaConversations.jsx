@@ -120,9 +120,9 @@ function PortfolioLyftnote() {
                     <img src="/assets/images/svgs/shape.svg" data-scroll-speed="20" className="shapeTop image-boxShadow" alt="Portfolio Images"/>
                   </div>
                 </div>
-                <section className="images-column-2 parallexMargin content defaultMargin">
+                <section className="images-column-2 parallexMargin content">
                   <div className="wrapper">
-                    <div className="thumb mb--30 box mr--40" data-scroll-speed="18">
+                    <div className="thumb mb--30 box mr--40" data-scroll-speed="25">
                       <img src="/assets/images/portfolio/conversations-5.png" className="shapeTop" alt="Portfolio Images"/>
                     </div>
                     <div className="thumb mb--30 box box-parallax-1">

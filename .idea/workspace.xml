@@ -2,179 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d86ce05-accf-4f2e-9e65-41f35d2bc322" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/about/about-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/about/about-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-16-oo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-16.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-17.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-18.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-19.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-20.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-21.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-22.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-23.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-24.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-25.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-26.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-27.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-28.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-29.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-30.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-31.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-32.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/bg-image-9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/paralax/bg-image-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/paralax/bg-image-3-overlay.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/paralax/bg-image-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/paralax/bg-image-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/paralax/bg-image-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/paralax/bg-image-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/paralax/bg-image-66.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/paralax/bg-image-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/paralax/bg-image-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/bg/paralax/bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/blog/bl-big-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/blog/blog-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/blog/blog-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/blog/blog-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/blog/blog-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/blog/blog-single-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/blog/fgdfg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/brand/brand-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/brand/brand-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/brand/brand-03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/brand/brand-04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/brand/brand-05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/brand/brand-06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/client/image-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/client/image-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/client/testimonial-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/client/testimonial-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/client/testimonial-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/client/testimonial-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/client/testimonial-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/client/testimonial-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/client/testimonial-7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/client/testimonial-8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/featured/corporate-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/featured/corporate-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/featured/corporate-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/featured/corporate-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/featured/corporate-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/featured/featured-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/portfolio/blog-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/images/portfolio/blog-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/portfolio/lyftnote-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/images/portfolio/lyftnote-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/portfolio/lyftnote-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/portfolio/lyftnote-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/images/portfolio/lyftnote-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/404.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/about.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/blog-details.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/blog-list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/browser-image-top.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/browser-image.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/business.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/coming-soon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/contact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/corporate-business.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/creative-agency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/creative-landing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/creative-portfolio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/dark-main-demo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/dark-personal-portfolio-landing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/demo-home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/designer-portfolio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/digital-agency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/homeparticles.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/interior-design.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/paralax.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/personal-portfolio-landing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/personal-portfolio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/portfolio-details.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/portfolio-home.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/portfolio.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/preview-bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/service-details.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/service.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/startup.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/preview/studio-agency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/service/Screenshot_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/service/service-01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/service/service-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/service/video.mp4" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/images/team/team-12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/blog/_blog-details.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/blog/_blog.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/common/_breadcrump.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/common/_breadcrump.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/common/_button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/common/_button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/common/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/common/_footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/common/_section-title.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/common/_section-title.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/common/_socialicon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/common/_socialicon.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/default/_animations.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/default/_animations.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/default/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/default/_reset.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/default/_shortcode.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/default/_shortcode.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/default/_spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/default/_spacing.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/default/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/default/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/elements/_brand.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/elements/_brand.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/elements/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/elements/_portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/elements/_pricing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/elements/_progress.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/elements/_service.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/elements/_slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/elements/_slider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/elements/_testimonial.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/header/_mainmenu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/header/_mainmenu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/template/_about.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/template/_about.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/template/_dark-version.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/template/_dark-version.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/template/_portfolio-details.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/template/_portfolio-details.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/template/_preview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/build/assets/scss/template/_preview.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/assets/scss/template/_service-details.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/precache-manifest.c2408a652717b07de52dee9ab609b1e5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/2.e091b183.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/2.e091b183.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.942f050e.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/css/main.942f050e.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.e25c7ae0.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.e25c7ae0.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.f7a4d64a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.f7a4d64a.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/images/portfolio/conversations-5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/images/portfolio/conversations-5.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/elements/_portfolio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/elements/_portfolio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/PortfolioBlogVanilla.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/PortfolioBlogVanilla.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/PortfolioMotovanIntranet.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/PortfolioMotovanIntranet.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/portfolio/PortfolioList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/portfolio/PortfolioList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/elements/PortfolioVanillaConversations.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/elements/PortfolioVanillaConversations.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/page-demo/Demo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/page-demo/Demo.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -188,8 +19,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/elements/PortfolioVanillaConversations.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="143" column="66" selection-start-line="143" selection-start-column="66" selection-end-line="143" selection-end-column="66" />
+            <state relative-caret-position="189">
+              <caret line="122" column="74" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="74" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-151">
+              <caret line="159" column="51" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -209,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="118" column="47" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
+            <state relative-caret-position="462">
+              <caret line="120" column="61" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -233,7 +76,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/elements/PortfolioMotovanIntranet.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="239">
@@ -248,8 +91,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/page-demo/Demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="26" />
+            <state relative-caret-position="184">
+              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -260,9 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-            </state>
+            <state relative-caret-position="-55" />
           </provider>
         </entry>
       </file>
@@ -287,22 +128,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/simple-parallax-js/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>content</find>
-      <find>800px</find>
       <find>420px</find>
       <find>img sr</find>
       <find>25,25,25,</find>
@@ -331,6 +160,8 @@
       <find>.project-item</find>
       <find>.container-inner</find>
       <find>thumbnail</find>
+      <find>data-scroll-speed</find>
+      <find>de</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -389,13 +220,13 @@
         <option value="$PROJECT_DIR$/public/assets/js/simpleParallax.js" />
         <option value="$PROJECT_DIR$/public/assets/scss/elements/_portfolio.scss" />
         <option value="$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx" />
-        <option value="$PROJECT_DIR$/src/page-demo/Demo.js" />
         <option value="$PROJECT_DIR$/src/elements/portfolio/PortfolioList.jsx" />
+        <option value="$PROJECT_DIR$/src/elements/PortfolioBlogVanilla.jsx" />
+        <option value="$PROJECT_DIR$/src/elements/PortfolioMotovanIntranet.jsx" />
+        <option value="$PROJECT_DIR$/src/page-demo/Demo.js" />
         <option value="$PROJECT_DIR$/public/assets/js/main.js" />
         <option value="$PROJECT_DIR$/src/elements/PortfolioVanillaConversations.jsx" />
         <option value="$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx" />
-        <option value="$PROJECT_DIR$/src/elements/PortfolioBlogVanilla.jsx" />
-        <option value="$PROJECT_DIR$/src/elements/PortfolioMotovanIntranet.jsx" />
       </list>
     </option>
   </component>
@@ -544,12 +375,12 @@
       <workItem from="1620173032771" duration="3895000" />
       <workItem from="1620684670931" duration="1327000" />
       <workItem from="1620689254018" duration="717000" />
-      <workItem from="1620764930613" duration="5966000" />
+      <workItem from="1620764930613" duration="6844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183247000" />
+    <option name="totallyTimeSpent" value="184125000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="25" width="1440" height="804" extended-state="0" />
@@ -903,53 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="159" column="51" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/page-demo/Demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="16" selection-start-line="16" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/elements/PortfolioVanillaConversations.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="143" column="66" selection-start-line="143" selection-start-column="66" selection-end-line="143" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="118" column="47" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/elements/PortfolioBlogVanilla.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="261">
@@ -974,6 +758,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="239">
           <caret line="124" column="47" selection-start-line="124" selection-start-column="47" selection-end-line="124" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/PortfolioLyftnote.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-151">
+          <caret line="159" column="51" selection-start-line="159" selection-start-column="51" selection-end-line="159" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/page-demo/Demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/PortfolioVanillaConversations.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="122" column="74" selection-start-line="122" selection-start-column="74" selection-end-line="122" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/elements/PortfolioVanillaClients.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="120" column="61" selection-start-line="120" selection-start-column="61" selection-end-line="120" selection-end-column="61" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>

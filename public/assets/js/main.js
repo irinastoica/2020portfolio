@@ -1,5 +1,3 @@
-import simpleParallax from "simple-parallax-js";
-
 window.onload=function() {
 
   const button = document.querySelector('.toggle');

@@ -102,8 +102,10 @@ function PortfolioVanillaClients() {
                 <div className="thumb position-relative mb--30">
                   <img src="/assets/images/portfolio/hp-1.jpg" alt="Portfolio Images"/>
                 </div>
-                <div className="thumb position-relative mb--30">
-                  <img src="/assets/images/portfolio/zapier.jpg" alt="Portfolio Images"/>
+                <div className="images-column-3 thumb position-relative mb--30 parallexMargin">
+                  <img src="/assets/images/portfolio/zapier-1.jpg" alt="Portfolio Images"  data-scroll-speed="15" />
+                  <img src="/assets/images/portfolio/zapier-2.jpg" className="mobile" alt="Portfolio Images" data-scroll-speed="25" />
+                  <img src="/assets/images/portfolio/zapier-3.jpg" alt="Portfolio Images" data-scroll-speed="10" />
                 </div>
               </div>
             </div>
