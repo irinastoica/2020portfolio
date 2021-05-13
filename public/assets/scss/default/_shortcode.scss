@@ -111,6 +111,7 @@ font-family: 'Poppins', sans-serif;
     flex-direction: row;
     z-index: 0;
     position: relative;
+    justify-content: space-around;
 
     .wrapper {
         z-index: 2;

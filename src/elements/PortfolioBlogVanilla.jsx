@@ -81,11 +81,11 @@ function PortfolioBlogVanilla() {
               {/*End Top Description*/}
               <div className="portfolio-thumb-inner">
                 <div className="images-column-1 thumb position-relative mb--30 content">
-                  <img src="/assets/images/portfolio/blog-2.jpg" alt="Portfolio Images"/>
+                  <img src="/assets/images/portfolio/blog-2.jpg" class="smaller-image" alt="Portfolio Images"/>
                 </div>
                 <div className="images-column-2 thumb parallexMargin content">
-                  <img src="/assets/images/portfolio/blog-mobile1.png" data-scroll-speed="18" alt="Portfolio Images"/>
-                  <img src="/assets/images/portfolio/blog-mobile2.png" alt="Portfolio Images"/>
+                  <img src="/assets/images/portfolio/blog-mobile1.png" data-scroll-speed="18" className="smaller-image" alt="Portfolio Images"/>
+                  <img src="/assets/images/portfolio/blog-mobile2.png" className="smaller-image" alt="Portfolio Images"/>
                 </div>
                 <section></section>
                 <div className="thumb position-relative mb--30">

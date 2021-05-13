@@ -35,6 +35,12 @@ h1 {
     background-color: #90BEDE;
 }
 
+.darkGrayLight {
+    background-color: #848484;
+    display: flex;
+    justify-content: center;
+}
+
 .aquamarine {
     background-color: #68EDC6;
 }
@@ -102,6 +108,15 @@ h1 {
 
 .defaultTopMargin {
     margin-top: $marginHalfLarge;
+}
+
+.fullWidth {
+
+    .video-react-controls-enabled .video-react-video {
+        max-width: 100%!important;
+        min-width: 100%;
+        height: 100%;
+    }
 }
 
 .projectsWrapper {
@@ -233,6 +248,10 @@ h1 {
 .images-column-1 {
     position: relative;
 
+    .smaller-image {
+        max-width: 900px;
+    }
+
     .video-react-controls-enabled {
         display: flex;
         justify-content: center;
@@ -252,6 +271,21 @@ h1 {
         z-index: -1;
     }
 }
+
+.images-column-2 {
+
+    .smaller-image {
+        max-width: 400px;
+    }
+}
+
+.video {
+
+    .video-react-controls-enabled .video-react-video {
+        max-width: 600px!important;
+    }
+}
+
 
 .rn-portfolio-details {
 
