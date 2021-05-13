@@ -41,6 +41,10 @@ h1 {
     justify-content: center;
 }
 
+.lightGray {
+    background-color: #EBEBEB;
+}
+
 .aquamarine {
     background-color: #68EDC6;
 }
@@ -143,6 +147,7 @@ h1 {
             p.project-type {
                 font-size: 14px;
                 opacity: .6;
+                margin-bottom: 0;
             }
         }
 
@@ -151,6 +156,10 @@ h1 {
             flex: 1;
             min-width: 40%;
             margin-bottom: 200px;
+
+            h4 {
+                font-size: 40px;
+            }
 
             .video-smaller {
                 width: 450px!important;
@@ -247,6 +256,9 @@ h1 {
 
 .images-column-1 {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
     .smaller-image {
         max-width: 900px;
@@ -259,7 +271,7 @@ h1 {
         height: 700px;
 
         .video-react-video {
-            width: 600px !important;
+            width: 700px !important;
         }
     }
 

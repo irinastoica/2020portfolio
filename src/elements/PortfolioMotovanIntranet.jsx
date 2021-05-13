@@ -80,35 +80,9 @@ function PortfolioMotovanIntranet() {
               </div>
               {/*End Top Description*/}
               <div className="portfolio-thumb-inner">
-                <div className="backgroundGrey">
+                <div className="images-column-1 lightGray">
                   <div className="thumb position-relative mb--30">
-                    <img src="/assets/images/portfolio/motovan-1a.png" alt="Portfolio Images"/>
-                  </div>
-                </div>
-                <div className="container defaultTopMargin">
-                  <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-1.png" alt="Portfolio Images"/>
-                  </div>
-                  <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-2.png" alt="Portfolio Images"/>
-                  </div>
-                  <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-3.png" alt="Portfolio Images"/>
-                  </div>
-                  <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-4.png" alt="Portfolio Images"/>
-                  </div>
-                  <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-5.png" alt="Portfolio Images"/>
-                  </div>
-                  <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-6.png" alt="Portfolio Images"/>
-                  </div>
-                  <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-7.png" alt="Portfolio Images"/>
-                  </div>
-                  <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-8.png" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/intranet.jpg" className="smaller-image" alt="Portfolio Images"/>
                   </div>
                 </div>
               </div>

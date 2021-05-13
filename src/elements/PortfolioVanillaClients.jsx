@@ -1,25 +1,15 @@
 import React, { useRef, useEffect } from "react";
 import PageHelmet from "../component/common/Helmet";
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn} from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderDetails";
 import Footer from "../component/footer/Footer";
 
-import {TweenMax, TimelineLite, Power3} from 'gsap'
-import { Player } from "video-react";
-import arrow from "../images/arrow-right.svg";
+import {TimelineLite, Power3} from 'gsap'
 
-const SocialShare = [
-  {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-  {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-  {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-  {Social: <FaTwitter /> , link: 'https://twitter.com/'},
-]
 
 function PortfolioVanillaClients() {
   let app = useRef(null);
-  // let images =useRef(null);
   let content = useRef(null);
   let tl = new TimelineLite({ delay: .8 })
 

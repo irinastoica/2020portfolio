@@ -6,19 +6,11 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderDetails";
 import Footer from "../component/footer/Footer";
 
-import {TweenMax, TimelineLite, Power3} from 'gsap'
+import { TimelineLite, Power3} from 'gsap'
 import { Player } from "video-react";
-
-const SocialShare = [
-  {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-  {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
-  {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-  {Social: <FaTwitter /> , link: 'https://twitter.com/'},
-]
 
 function PortfolioBlogVanilla() {
   let app = useRef(null);
-  // let images =useRef(null);
   let content = useRef(null);
   let tl = new TimelineLite({ delay: .8 })
 

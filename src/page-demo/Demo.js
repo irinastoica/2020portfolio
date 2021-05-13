@@ -4,8 +4,6 @@ import { FiChevronUp } from "react-icons/fi";
 import Helmet from "../component/common/Helmet";
 import Header from "../component/header/HeaderDetails";
 import FooterTwo from "../component/footer/FooterTwo";
-import TabTwo from "../elements/tab/TabTwo";
-import BrandTwo from "../elements/BrandTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import { Player } from "video-react";
@@ -60,9 +58,7 @@ const PortfolioLanding = () => {
           </div>
         </div>
       </div>
-
       {/* End About Area
-
       {/* Start Portfolio Area */}
       <div id="portfolio" className="fix">
         <div className="portfolio-area ptb--120 bg_color--1">
@@ -79,7 +75,7 @@ const PortfolioLanding = () => {
 
       {/* Start COntact Area */}
       <div id="contact" className="fix">
-        <div className="rn-contact-area ptb--120 bg_color--1">
+        <div className="rn-contact-area bg_color--1">
           <ContactThree contactImages="/assets/images/about/homepageImage.jpg" contactTitle="Let's chat!" />
         </div>
       </div>

@@ -1,60 +1,5 @@
-import React, { Component, useEffect, useRef } from "react";
+import React, { Component } from "react";
 import { Player } from 'video-react';
-
-
-const PortfolioListContent = [
-  {
-    image: 'image-1',
-    companyLogoName: 'Vanilla Forums',
-    category: 'UX Design & Development',
-    title: 'Leading Design for \nVanilla’s Conversations \nEvent',
-    pageLink: '/portfolio-conversations'
-  },
-
-  {
-    video: "../assets/videos/clients-preview.mp4",
-    image: 'image-3',
-    category: 'Development',
-    title: 'Theming Coding',
-    pageLink: '/portfolio-clients'
-  },
-
-  {
-    image: 'preview-blog',
-    category: 'UX Design & Development',
-    title: 'Improving blog',
-    pageLink: '/portfolio-blog'
-  },
-
-  {
-    video: "../assets/videos/lyftnotepreview.mp4",
-    category: 'Development',
-    title: 'Lyftnote',
-    pageLink: '/portfolio-lyftnote'
-  },
-
-
-  {
-    image: '../assets/images/portfolio/preview/intranet-mtv.png',
-    category: 'Development',
-    title: 'Motovan',
-    pageLink: '/portfolio-details'
-  },
-
-  {
-    video: '../assets/videos/roadkrome.mp4',
-    category: 'UX Design',
-    title: 'Roadkrome',
-    pageLink: '/portfolio-roadkrome'
-  },
-
-  {
-    image: 'image-5',
-    category: 'UX Design & Development',
-    title: 'Intern Community',
-    pageLink: '/portfolio-intranet'
-  }
-];
 
 class PortfolioList extends Component {
 
@@ -70,7 +15,7 @@ class PortfolioList extends Component {
               <a href='/portfolio-conversations' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
-                    <img src="/assets/images/portfolio/preview/vanilla-landingPages.png" className="thumbnail" ></img>
+                    <img src="/assets/images/portfolio/preview/vanilla-landingPages.png" className="thumbnail" alt="blog-image"></img>
                   </picture>
                 </div>
               </a>
@@ -87,7 +32,7 @@ class PortfolioList extends Component {
               <a href='/portfolio-blog' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
-                    <img src="/assets/images/portfolio/preview/blog.jpg" className="thumbnail" ></img>
+                    <img src="/assets/images/portfolio/preview/blog.jpg" className="thumbnail" alt="blog-image"></img>
                   </picture>
                 </div>
               </a>
@@ -148,7 +93,7 @@ class PortfolioList extends Component {
               <a href='/portfolio-conversations' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
-                    <img src="/assets/images/portfolio/preview/asus.jpg" className="thumbnail" ></img>
+                    <img src="/assets/images/portfolio/preview/asus.jpg" className="thumbnail" alt="asus" ></img>
                   </picture>
                 </div>
               </a>
@@ -165,7 +110,7 @@ class PortfolioList extends Component {
               <a href='/portfolio-conversations' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
-                    <img src="/assets/images/portfolio/preview/intranet-mtv.png" className="thumbnail" ></img>
+                    <img src="/assets/images/portfolio/preview/intranet-mtv.png" className="thumbnail" alt="intranet-montovan" ></img>
                   </picture>
                 </div>
               </a>
@@ -182,7 +127,7 @@ class PortfolioList extends Component {
               <a href='/portfolio-details' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
-                    <img src="../assets/images/portfolio/preview/mtv.jpg" className="thumbnail" ></img>
+                    <img src="../assets/images/portfolio/preview/mtv.jpg" className="thumbnail" alt="motovan"></img>
                   </picture>
                 </div>
               </a>
