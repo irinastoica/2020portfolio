@@ -5,7 +5,7 @@ import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
-    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/'},
+    {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/irina-stoica/'},
     {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
     {Social: <FaTwitter /> , link: 'https://twitter.com/'},
 ]

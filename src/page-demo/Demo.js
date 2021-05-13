@@ -61,7 +61,7 @@ const PortfolioLanding = () => {
       {/* End About Area
       {/* Start Portfolio Area */}
       <div id="portfolio" className="fix">
-        <div className="portfolio-area ptb--120 bg_color--1">
+        <div className="portfolio-area ptb--120">
           <div className="portfolio-sacousel-inner">
               <div className="projectsWrapper">
                   <div className="project-container">

@@ -9,7 +9,7 @@ class PortfolioList extends Component {
       <React.Fragment>
         <div className="project-wrapper">
           <div className="splitshow-left col-5">
-
+            <section></section>
             {/*Vanilla LandingPages*/}
             <div className="project-item" data-scroll-container>
               <a href='/portfolio-conversations' className="project-itemLink">
@@ -28,7 +28,7 @@ class PortfolioList extends Component {
             </div>
 
             {/*Blog*/}
-            <div className="project-item" data-scroll-container>
+            <section className="project-item" data-scroll-container>
               <a href='/portfolio-blog' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
@@ -42,7 +42,7 @@ class PortfolioList extends Component {
                   <h4 className="project-name">Vanilla Forums Blog & Library</h4>
                 </div>
               </div>
-            </div>
+            </section>
 
             {/*Lyftnote*/}
             <div className="project-item" data-scroll-container>
