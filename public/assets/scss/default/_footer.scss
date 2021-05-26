@@ -1,0 +1,99 @@
+.footer {
+    background-color: #000000;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 120px 0;
+
+    .cb-outro-header,
+    .email {
+
+        h2 {
+            color: white;
+            font-weight: 300;
+            margin-bottom: 0;
+            font-size: 80px;
+        }
+
+        a {
+            position: relative;
+
+            &::before {
+                content: "";
+                display: block;
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: -10px;
+                height: 1px;
+                background: white;
+                -webkit-transition: -webkit-transform .5s cubic-bezier(.4, .22, .21, 1.04);
+                transition: -webkit-transform .5s cubic-bezier(.4, .22, .21, 1.04);
+                -o-transition: -o-transform .5s cubic-bezier(.4, .22, .21, 1.04);
+                -moz-transition: transform .5s cubic-bezier(.4, .22, .21, 1.04), -moz-transform .5s cubic-bezier(.4, .22, .21, 1.04);
+                transition: transform .5s cubic-bezier(.4, .22, .21, 1.04);
+                transition: transform .5s cubic-bezier(.4, .22, .21, 1.04), -webkit-transform .5s cubic-bezier(.4, .22, .21, 1.04), -moz-transform .5s cubic-bezier(.4, .22, .21, 1.04), -o-transform .5s cubic-bezier(.4, .22, .21, 1.04);
+            }
+
+            &:hover {
+
+                &::before {
+                    -webkit-transform: scaleX(0);
+                    -moz-transform: scaleX(0);
+                    -ms-transform: scaleX(0);
+                    -o-transform: scaleX(0);
+                    transform: scaleX(0);
+                }
+            }
+        }
+    }
+
+    .cb-outro-header a {
+        font-size: 80px;
+    }
+
+    .footer-bottom {
+        display: flex;
+        margin-top: 100px;
+
+        .copyright {
+
+            p {
+                font-size: 16px;
+            }
+        }
+
+       .col-12 {
+            padding: 0;
+        }
+
+        .email {
+            margin-bottom: 40px;
+
+            a {
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+        }
+
+        .address {
+            opacity: 0.6;
+            margin-bottom: 40px;
+
+            p {
+                font-siez: 16px;
+                line-height: 36px;
+                margin: 0;
+            }
+        }
+    }
+
+    .social-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+
+        .social-share {
+            float: right;
+        }
+    }
+}

@@ -4,12 +4,12 @@ window.onload=function() {
   const overlay = document.querySelector('.overlay');
   const exit = document.querySelector('.exit');
   const logo = document.querySelector('.logo');
-  const colors = ['', 'lightPink', 'darkSkyBlue', 'aquamarine', 'electricBlue']
+  const colors = ['', 'lightPink', 'paleGreen', 'aquamarine', 'paleGreen']
   const sections = [...document.getElementsByTagName('section')];
 
   const image = document.getElementsByClassName('thumbnail');
   new simpleParallax(image);
-  var video = document.getElementsByTagName('video');
+  var video = document.getElementsByClassName('video-animation');
   new simpleParallax(video);
 
   var tl = gsap.timeline({ defaults: { duration: 1, ease: Back.easeOut.config(2) } });
@@ -298,6 +298,50 @@ $(function(){
     }
 
   };
+
+//  Form
+  $(function(){
+    $("#wizard").steps({
+      headerTag: "h4",
+      bodyTag: "section",
+      transitionEffect: "fade",
+      enableAllSteps: true,
+      transitionEffectSpeed: 500,
+      onStepChanging: function (event, currentIndex, newIndex) {
+        if ( newIndex >= 1 ) {
+          $('.actions ul').addClass('actions-next');
+        } else {
+          $('.actions ul').removeClass('actions-next');
+        }
+        return true;
+      },
+      labels: {
+        finish: "Finish",
+        next: "Continue",
+        previous: "Back"
+      }
+    });
+    // Custom Steps
+    $('.wizard > .steps li a').click(function(){
+      $(this).parent().addClass('checked');
+      $(this).parent().prevAll().addClass('checked');
+      $(this).parent().nextAll().removeClass('checked');
+    });
+    // Custom Button Jquery Step
+    $('.forward').click(function(){
+      $("#wizard").steps('next');
+    });
+    $('.backward').click(function(){
+      $("#wizard").steps('previous');
+    });
+    // Input Focus
+    $('.form-holder').delegate("input", "focus", function(){
+      $('.form-holder').removeClass("active");
+      $(this).parent().addClass("active");
+    });
+  });
+
+
 
 })(jQuery);
 

@@ -28,7 +28,6 @@ import Counters from "./blocks/Counters";
 import Portfolio from "./blocks/Portfolio";
 import Brand from "./blocks/Brand";
 import ProgressBar from "./blocks/ProgressBar";
-import ContactForm from "./blocks/ContactForm";
 import Columns from "./blocks/Columns";
 
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
@@ -60,7 +59,6 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio`} component={Portfolio}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/clint-logo`} component={Brand}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/progressbar`} component={ProgressBar}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/contact-form`} component={ContactForm}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/columns`} component={Columns}/>
 
 

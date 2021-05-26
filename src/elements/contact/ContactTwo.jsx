@@ -12,70 +12,117 @@ class ContactTwo extends Component{
     }
     render(){
         return(
-            <div className="contact-form--1">
-                <div className="container">
-                    <div className="row row--35 align-items-start">
-                        <div className="col-lg-6 order-2 order-lg-1">
-                            <div className="section-title text-left mb--50">
-                                <h2 className="title">Contact Us.</h2>
-                                <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cupiditate aperiam neque.</p>
-                            </div>
-                            <div className="form-wrapper">
-                                <form>
-                                    <label htmlFor="item01">
-                                        <input
-                                            type="text"
-                                            name="name"
-                                            id="item01"
-                                            value={this.state.rnName}
-                                            onChange={(e)=>{this.setState({rnName: e.target.value});}}
-                                            placeholder="Your Name *"
-                                        />
-                                    </label>
 
-                                    <label htmlFor="item02">
-                                        <input
-                                            type="text"
-                                            name="email"
-                                            id="item02"
-                                            value={this.state.rnEmail}
-                                            onChange={(e)=>{this.setState({rnEmail: e.target.value});}}
-                                            placeholder="Your email *"
-                                        />
-                                    </label>
-
-                                    <label htmlFor="item03">
-                                        <input
-                                            type="text"
-                                            name="subject"
-                                            id="item03"
-                                            value={this.state.rnSubject}
-                                            onChange={(e)=>{this.setState({rnSubject: e.target.value});}}
-                                            placeholder="Write a Subject"
-                                        />
-                                    </label>
-                                    <label htmlFor="item04">
-                                        <textarea
-                                            type="text"
-                                            id="item04"
-                                            name="message"
-                                            value={this.state.rnMessage}
-                                            onChange={(e)=>{this.setState({rnMessage: e.target.value});}}
-                                            placeholder="Your Message"
-                                        />
-                                    </label>
-                                    <button className="rn-button-style--2 btn-solid" type="submit" value="submit" name="submit" id="mc-embedded-subscribe">Submit</button>
-                                </form>
-                            </div>
-                        </div>
-                        <div className="col-lg-6 order-1 order-lg-2">
-                            <div className="thumbnail mb_md--30 mb_sm--30">
-                                <img src="/assets/images/about/about-6.jpg" alt="trydo"/>
-                            </div>
-                        </div>
+          <div className="wrapper">
+            <form action="">
+              <div id="wizard">
+                <h4></h4>
+                <section>
+                  <div className="form-header">
+                    <div className="avartar">
+                      <a href="#">
+                        <img src="images/avartar.png" alt=""></img>
+                      </a>
+                      <div className="avartar-picker">
+                        <input type="file" name="file-1[]" id="file-1" className="inputfile"
+                               data-multiple-caption="{count} files selected" multiple/>
+                        <label htmlFor="file-1">
+                          <i className="zmdi zmdi-camera"></i>
+                          <span>Choose Picture</span>
+                        </label>
+                      </div>
                     </div>
-                </div>
-            </div>
+                    <div className="form-group">
+                      <div className="form-holder active">
+                        <input type="text" placeholder="First Name" className="form-control"></input>
+                      </div>
+                      <div className="form-holder">
+                        <input type="text" placeholder="Last Name" className="form-control"></input>
+                      </div>
+                      <div className="form-holder">
+                        <input type="text" placeholder="Team Name" className="form-control"></input>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="form-holder">
+                    <input type="text" placeholder="Email" className="form-control"></input>
+                  </div>
+                  <div className="form-holder">
+                    <input type="password" placeholder="Create a password" className="form-control"></input>
+                  </div>
+                </section>
+
+                <h4></h4>
+                <section>
+                  <div className="grid">
+                    <div className="row">
+                      <a href="#" className="grid-item">
+                        <div className="inner">
+                          <img src="images/programming.png" alt=""></img>
+                            <span>Programming</span>
+                        </div>
+                      </a>
+                      <a href="#" className="grid-item">
+                        <div className="inner">
+                          <img src="images/research.png" alt=""></img>
+                            <span>Research</span>
+                        </div>
+
+                      </a>
+                      <a href="#" className="grid-item">
+                        <div className="inner">
+                          <img src="images/teacher.png" alt=""></img>
+                            <span>Teacher</span>
+                        </div>
+
+                      </a>
+                    </div>
+                    <div className="row">
+                      <a href="#" className="grid-item">
+                        <div className="inner">
+                          <img src="images/tour-guide.png" alt=""></img>
+                            <span>Tour Guide</span>
+                        </div>
+                      </a>
+                      <a href="#" className="grid-item">
+                        <div className="inner">
+                          <img src="images/business.png" alt=""></img>
+                            <span>Business</span>
+                        </div>
+                      </a>
+                      <a href="#" className="grid-item">
+                        <div className="inner">
+                          <img src="images/artist.png" alt=""></img>
+                            <span>Artist</span>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </section>
+
+                <h4></h4>
+                <section>
+
+                  <div className="form-row">
+                    <div className="form-holder">
+                      <input type="text" placeholder="Street Name" className="form-control"></input>
+                    </div>
+                    <div className="form-holder">
+                      <input type="text" placeholder="Street Number" className="form-control"></input>
+                    </div>
+                  </div>
+                  <div className="form-row">
+                    <div className="form-holder">
+                      <input type="text" placeholder="City" className="form-control"></input>
+                    </div>
+                    <div className="form-holder">
+                      <input type="text" placeholder="Country" className="form-control"></input>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </form>
+          </div>
         )
     }
 }

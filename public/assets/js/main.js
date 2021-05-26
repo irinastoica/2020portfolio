@@ -4,7 +4,7 @@ window.onload=function() {
   const overlay = document.querySelector('.overlay');
   const exit = document.querySelector('.exit');
   const logo = document.querySelector('.logo');
-  const colors = ['', 'lightPink', 'darkSkyBlue', 'aquamarine', 'electricBlue']
+  const colors = ['', 'lightPink', 'paleGreen', 'aquamarine', 'paleGreen']
   const sections = [...document.getElementsByTagName('section')];
 
   const image = document.getElementsByClassName('thumbnail');
@@ -46,21 +46,17 @@ window.onload=function() {
   });
 };
 
-$.fn.moveIt = function(){
+//  Textarea
 
-  var $window = $(window);
-  var instances = [];
+const tx = document.getElementsByTagName("textarea");
+for (let i = 0; i < tx.length; i++) {
+  tx[i].setAttribute("style", "height:" + (tx[i].scrollHeight) + "px;overflow-y:hidden;");
+  tx[i].addEventListener("input", OnInput, false);
+}
 
-  $(this).each(function(){
-    instances.push(new moveItItem($(this)));
-  });
-
-  window.onscroll = function(){
-    var scrollTop = $window.scrollTop();
-    instances.forEach(function(inst){
-      inst.update(scrollTop);
-    });
-  }
+function OnInput() {
+  this.style.height = "auto";
+  this.style.height = (this.scrollHeight) + "px";
 }
 
 var moveItItem = function(el){
@@ -71,7 +67,6 @@ var moveItItem = function(el){
 
 moveItItem.prototype.update = function(scrollTop){
   this.el.css('transform', 'translateY(' + -(scrollTop / this.speed) + 'px)');
-  this.el.css('transform', 'scale(' + -(scrollTop / this.speed) + 'px)');
 };
 
 
@@ -298,6 +293,8 @@ $(function(){
     }
 
   };
+
+
 
 })(jQuery);
 

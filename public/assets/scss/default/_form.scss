@@ -1,0 +1,74 @@
+.form {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-right: 0;
+    padding-left: 0;
+
+    input,
+    textarea {
+        position: relative;
+        margin: 0;
+        width: 100%;
+        z-index: 1;
+        color: #000;
+        background: 0 0;
+        border: 0;
+        -webkit-border-radius: 0;
+        -moz-border-radius: 0;
+        border-radius: 0;
+        outline: 0;
+        resize: none;
+        font-weight: 400;
+        letter-spacing: -.03em;
+        line-height: 100%;
+        -webkit-transition: all .3s,height 0s;
+        -o-transition: all .3s,height 0s;
+        -moz-transition: all .3s,height 0s;
+        transition: all .3s,height 0s;
+        font-size: 35px;
+        margin: 20px 0;
+        padding-left: 20px;
+    }
+
+    .bottom-line {
+        position: relative;
+        margin-bottom: 30px;
+
+        .textura {
+            outline: none;
+            padding-right: 50px;
+            padding-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        &::before {
+            content: '';
+            position: absolute;
+            background-color: $theme-color;
+            width: 90%;
+            height: 3px;
+            bottom: 0;
+            left: 0;
+            opacity: .2;
+        }
+
+        &:hover,
+        :active,
+        :focus {
+
+            &::before {
+                opacity: 1;
+            }
+
+        }
+    }
+
+    .form-title {
+        margin: 0 0 50px 0;
+        padding-top: 100px;
+        max-width: 60%;
+        font-size: 60px;
+        text-align: left;
+    }
+
+}

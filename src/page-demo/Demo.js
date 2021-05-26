@@ -7,6 +7,7 @@ import FooterTwo from "../component/footer/FooterTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import { Player } from "video-react";
+import TabTwo from "../elements/tab/TabTwo";
 
 import simpleParallax from 'simple-parallax-js';
 
@@ -49,9 +50,9 @@ const PortfolioLanding = () => {
                   <div className="section-title home-left-title">
                     <h2 className="title home-intro-title-nomask">{title}</h2>
                   </div>
-                  {/*<div className="row mt--30">*/}
-                  {/*<TabTwo tabStyle="tab-style--1" />*/}
-                  {/*</div>*/}
+                  <div className="row mt--30">
+                  <TabTwo tabStyle="tab-style--1" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -72,14 +73,6 @@ const PortfolioLanding = () => {
         </div>
       </div>
       {/* End Portfolio Area */}
-
-      {/* Start COntact Area */}
-      <div id="contact" className="fix">
-        <div className="rn-contact-area bg_color--1">
-          <ContactThree contactImages="/assets/images/about/homepageImage.jpg" contactTitle="Let's chat!" />
-        </div>
-      </div>
-      {/* End COntact Area */}
 
       <FooterTwo />
       {/* Start Back To Top */}

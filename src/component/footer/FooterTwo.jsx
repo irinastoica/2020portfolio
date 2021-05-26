@@ -10,36 +10,45 @@ const SocialShare = [
 
 const FooterTwo = () => {
     return (
-        <div className="footer-style-2 ptb--30 bg_image bg_image--1" data-black-overlay="6">
-            <div className="wrapper plr--50 plr_sm--20">
-                <div className="row align-items-center justify-content-between">
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div className="inner">
-                            <div className="logo text-center text-sm-left mb_sm--20">
-                                <a href="/home-one">
-                                    <img src="/assets/images/logo/logo.png" alt="Logo images"/>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                        <div className="inner text-center">
-                            <ul className="social-share rn-lg-size d-flex justify-content-center liststyle">
-                                {SocialShare.map((val , i) => (
-                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-md-12 col-sm-12 col-12">
-                        <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
-                            <div className="text">
-                                <p>Copyright © 2021 Irina Stoica All Rights Reserved.</p>
-                            </div>
-                        </div>
-                    </div>
+        <div className="footer">
+          <div className="container justify-content-between">
+            <div className="cb-outro-content">
+              <div className="cb-outro-body">
+                <div className="cb-outro-container">
+                  <div className="cb-outro-header">
+                    <h2>Have an intresting idea?</h2>
+                    <a href="/contact/">Let's chat.</a>
+                  </div>
                 </div>
+              </div>
+              <div className="footer-bottom">
+                <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                  <div className="inner mt_md--20 mt_sm--20">
+                    <div className="email">
+                      <a href = "mailto: irinaioanastoica.com">irinaioanastoica@gmail.com</a>
+                    </div>
+                    <div className="address">
+                      <p>198 Ann street suite 512</p>
+                      <p>Montreal, QC H3C 0T2, Canada</p>
+                    </div>
+
+                    <div className="copyright">
+                      <p>Copyright © 2021 Irina Stoica All Rights Reserved.</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 col-sm-6 col-12 social-wrapper">
+                  <div className="inner text-center">
+                    <ul className="social-share social-style--2 d-flex justify-content-start liststyle">
+                      {SocialShare.map((val , i) => (
+                        <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
     )
 }

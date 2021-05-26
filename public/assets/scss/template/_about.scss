@@ -144,6 +144,11 @@
 }
 
 .about-wrapper {
+
+    .container {
+        padding-left: 0;
+    }
+
     .thumbnail {
         position: relative;
         z-index: 2;

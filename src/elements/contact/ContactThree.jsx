@@ -22,7 +22,7 @@ class ContactThree extends Component{
                                     <a href="mailto:admin@example.com"> admin@example.com</a> </p>
                             </div>
                             <div className="form-wrapper">
-                                <form>
+                              <form action='mailto:irinaioanastoica@gmail.com'>
                                     <label htmlFor="item01">
                                         <input
                                             type="text"

@@ -1,150 +1,139 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
+import { db } from "../firebase";
 import PageHelmet from "../component/common/Helmet";
-import { FiHeadphones , FiMail , FiMapPin } from "react-icons/fi";
-import GoogleMapReact from 'google-map-react';
-import ContactTwo from "../elements/contact/ContactTwo";
-import BrandTwo from "../elements/BrandTwo";
-import ScrollToTop from 'react-scroll-up';
-import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
-import Footer from "../component/footer/Footer";
-
-const AnyReactComponent = ({ text }) => <div>{text}</div>;
-
-class Contact extends Component{
-    static defaultProps = {
-        center: {
-            lat: 59.95,
-            lng: 30.33
-        },
-        zoom: 11
-    };
-
-    render(){
-        return(
-            <React.Fragment>
-                <PageHelmet pageTitle='Contact' />
-
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
-
-                 {/* Start Breadcrump Area */}
-                 <div className="rn-page-title-area pt--120 pb--190 bg_image bg_image--17"  data-black-overlay="6">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="rn-page-title text-center pt--100">
-                                    <h2 className="title theme-gradient">Cntact With Us</h2>
-                                    <p>Contrary to popular belief, Lorem Ipsum is not simply random text. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Breadcrump Area */}
+import Header from "../component/header/HeaderDetails";
+import Footer from "../component/footer/FooterTwo";
 
 
-                {/* Start Contact Top Area  */}
-                <div className="rn-contact-top-area ptb--120 bg_color--5">
-                    <div className="container">
-                       
-                        <div className="row">
-                            {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="rn-address">
-                                    <div className="icon">
-                                        <FiHeadphones />
-                                    </div>
-                                    <div className="inner">
-                                        <h4 className="title">Contact With Phone Number</h4>
-                                        <p><a href="tel:+057 254 365 456">+057 254 365 456</a></p>
-                                        <p><a href="tel:+856 325 652 984">+856 325 652 984</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Single Address  */}
+const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-                            {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_mobile--50">
-                                <div className="rn-address">
-                                    <div className="icon">
-                                        <FiMail />
-                                    </div>
-                                    <div className="inner">
-                                        <h4 className="title">Email Address</h4>
-                                        <p><a href="mailto:admin@gmail.com">admin@gmail.com</a></p>
-                                        <p><a href="mailto:example@gmail.com">example@gmail.com</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Single Address  */}
+  const [loader, setLoader] = useState(false);
 
-                            {/* Start Single Address  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12 mt_md--50 mt_sm--50">
-                                <div className="rn-address">
-                                    <div className="icon">
-                                        <FiMapPin />
-                                    </div>
-                                    <div className="inner">
-                                        <h4 className="title">Location</h4>
-                                        <p>5678 Bangla Main Road, cities 580 <br /> GBnagla, example 54786</p>
-                                    </div>
-                                </div>
-                            </div>
-                            {/* End Single Address  */}
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoader(true);
 
-                        </div>
-                    </div>
-                </div>
-                {/* End Contact Top Area  */}
+    db.collection("contacts")
+      .add({
+        name: name,
+        email: email,
+        message: message,
+      })
+      .then(() => {
+        setLoader(false);
+        alert("Your message has been submitted👍");
+      })
+      .catch((error) => {
+        alert(error.message);
+        setLoader(false);
+      });
 
-                {/* Start Contact Page Area  */}
-                <div className="rn-contact-page ptb--120 bg_color--1">
-                    <ContactTwo />
-                </div>
-                {/* End Contact Page Area  */}
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
 
-                {/* Start Contact Map  */}
-                <div className="rn-contact-map-area position-relative">
-                    <div style={{ height: '650px', width: '100%' }}>
-                        <GoogleMapReact
-                        defaultCenter={this.props.center}
-                        defaultZoom={this.props.zoom}
-                        >
-                        <AnyReactComponent
-                            lat={59.955413}
-                            lng={30.337844}
-                            text="My Marker"
-                        />
-                        </GoogleMapReact>
-                    </div>
-                </div>
-                {/* End Contact Map  */}
-                
 
-                {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <BrandTwo />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Brand Area */}
+  return(
+    <React.Fragment>
+      <PageHelmet pageTitle='Contact Me' />
+      <Header logo="symbol-dark"/>
 
-                {/* Start Back To Top */}
-                <div className="backto-top">
-                    <ScrollToTop showUnder={160}>
-                        <FiChevronUp />
-                    </ScrollToTop>
-                </div>
-                {/* End Back To Top */}
-                
-                <Footer />
-                
-            </React.Fragment>
-        )
-    }
-}
-export default Contact
+    <form className="form defaultMargin" onSubmit={handleSubmit}>
+      <h1 className="form-title">Hey! Tell me all about your project  🤳</h1>
+
+      {/* Name */}
+      <div className="bottom-line">
+        <input
+          placeholder="Name"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
+      </div>
+
+      {/* Email */}
+      <div className="bottom-line">
+        <input
+          placeholder="Email"
+          value={email}
+          onChange={(e) => setEmail(e.target.value)}
+        />
+      </div>
+
+      {/*Message*/}
+      <div className="bottom-line">
+          <textarea
+            placeholder="Message"
+            value={message}
+            id="text"
+            onChange={(e) => setMessage(e.target.value)}
+          ></textarea>
+      </div>
+
+      {/* Budget */}
+      <div className="budget-group">
+        <div className="checkbox_rounded">
+          <label><input type="radio" name="budget" value="10-20k"></input>
+              <span className="cb-checkbox_rounded-box">
+                <span className="cb-checkbox_rounded-title">
+                  <span data-text="<10k">10-20k</span>
+                </span>
+                <span className="cb-checkbox_rounded-ripple -oofix">
+                  <span></span>
+                </span>
+              </span>
+          </label>
+        </div>
+
+        <div className="checkbox_rounded">
+          <label>
+            <input type="radio" name="budget" value="30-40k"></input>
+            <span className="cb-checkbox_rounded-box">
+              <span className="cb-checkbox_rounded-title">
+                <span data-text="30-40k">30-40k</span>
+              </span>
+              <span className="cb-checkbox_rounded-ripple">
+                <span></span>
+              </span>
+            </span>
+          </label>
+        </div>
+        <div className="checkbox_rounded">
+          <label>
+            <input type="radio" name="budget" value="40-50k"></input>
+						<span className="cb-checkbox_rounded-box">
+							<span className="cb-checkbox_rounded-title">
+								<span data-text="40-50k">40-50k</span>
+							</span>
+							<span className="cb-checkbox_rounded-ripple -oofix">
+								<span></span>
+							</span>
+						</span>
+          </label>
+        </div>
+
+        <div className="checkbox_rounded">
+          <label>
+            <input type="radio" name="budget" value="50-100k"></input>
+							<span className="checkbox-title">
+									<span data-text="50-100k">>50</span>
+							</span>
+          </label>
+        </div>
+      </div>
+
+      <button type="submit" className="rn-button-style--2 btn-solid">Submit</button>
+    </form>
+
+      <Footer />
+      </React.Fragment>
+
+
+  );
+};
+
+export default Contact;
+
