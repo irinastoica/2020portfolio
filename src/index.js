@@ -7,13 +7,13 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 
 // ScrollMagic
-import Demo from './page-demo/Demo';
+import Demo from './homepage';
 
 // Element Layout
 import About from "./elements/About";
 import Contact from "./elements/Contact";
 import PortfolioDetails from "./elements/PortfolioDetails";
-import PortfolioVanillaConversations from "./elements/PortfolioVanillaConversations";
+import PortfolioVanillaConversations from "./elements/PortfolioVanillaLandingPages";
 import PortfolioLyftnote from "./elements/PortfolioLyftnote";
 import PortfolioVanillaClients from "./elements/PortfolioVanillaClients";
 import PortfolioBlogVanilla from "./elements/PortfolioBlogVanilla";
@@ -45,13 +45,13 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-conversations`} component={PortfolioVanillaConversations}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-lyftnote`} component={PortfolioLyftnote}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-clients`} component={PortfolioVanillaClients}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-blog`} component={PortfolioBlogVanilla}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioDetails}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-roadkrome`} component={PortfolioRoadkrome}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/portfolio-intranet`} component={PortfolioMotovanIntranet}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/vanilla-landing-pages`} component={PortfolioVanillaConversations}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/lyftnote`} component={PortfolioLyftnote}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/vanilla-clients`} component={PortfolioVanillaClients}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/vanilla-blog`} component={PortfolioBlogVanilla}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/motovan`} component={PortfolioDetails}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/roadkrome`} component={PortfolioRoadkrome}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/motovan-intranet`} component={PortfolioMotovanIntranet}/>
 
 
                     {/* Blocks Elements  */}

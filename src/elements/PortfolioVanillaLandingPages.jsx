@@ -3,12 +3,12 @@ import PageHelmet from "../component/common/Helmet";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderDetails";
-import Footer from "../component/footer/Footer";
+import Footer from "../component/footer/FooterTwo";
 
 import { TimelineLite, Power3} from 'gsap'
 import { Player } from "video-react";
 
-function PortfolioLyftnote() {
+function PortfolioLandinpage() {
   let app = useRef(null);
   // let images =useRef(null);
   let content = useRef(null);
@@ -55,34 +55,35 @@ function PortfolioLyftnote() {
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
                     <div className="hero-content-line">
-                      <h2 className="animated ">Communications by Vanilla Event </h2>
+                      <h2 className="animated">Communications by Vanilla Event </h2>
                     </div>
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">My role</h3>
-                      <span className="role">Co Founder</span>
                       <span className="role">Ux Designer</span>
                       <span className="role">Front End Developer</span>
+                      <span className="role">CRO practices</span>
                     </div>
                   </div>
                   <div className="col-6">
-                    <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
-                      A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
-                    <p>My main implication in this projects was the UX and UI design of the whole app.
-                      How to make the app as easy as possible to use, student friendly.
-                      I was also in charge of the front end development of the user interface and the user experience of the app.
-                      Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
+                    <p>Conversations by Vanilla is an annual free 3 day expo, where you'll find recordings from 30+ speakers on all
+                      things that matter in the community space. Since 2020 took us all by surprise and we couldn’t meet in
+                      person anymore, we are continuing the conversation with this online conference. I was assigned the
+                      mission of constructing the microsite of this event and to incorporate best practices for user experience
+                      in order to increase the conversion  rate. </p>
+                    <p>In order to create diversity and to create different types of animations, I implemented our personas
+                      representing various nationalities. The mockups were done in Sketch and the micro website was coded in Hugo. </p>
                   </div>
                 </div>
               </div>
               {/*End Top Description*/}
               <div className="portfolio-thumb-inner">
-                <div className="thumb mb--30"  data-scroll-speed="-0.2">
+                <div className="thumb mb--30">
                   <img src="/assets/images/portfolio/conversations-1.jpg" className="fullWidth" alt="Portfolio Images"/>
                 </div>
 
                 <div className="container defaultTopMargin content">
-                  <div className="thumb mb--30 box" data-scroll-speed="0.1">
-                    <img src="/assets/images/portfolio/conversations-2.png"  className="image-boxShadow singlePhoto" alt="Portfolio Images"/>
+                  <div className="thumb mb--30 box image-boxShadow">
+                    <img src="/assets/images/portfolio/conversations-2.png"  className="singlePhoto thumbnail" alt="Portfolio Images"/>
                   </div>
                 </div>
 
@@ -111,13 +112,29 @@ function PortfolioLyftnote() {
                     <img src="/assets/images/svgs/shape.svg" data-scroll-speed="20" className="shapeTop image-boxShadow" alt="Portfolio Images"/>
                   </div>
                 </div>
-                <section className="images-column-2 parallexMargin content">
+                <div className="container-inner">
+                  <div className="col-lg-12">
+                    <div className="col-6">
+                      <h2>Partner Ecosystem</h2>
+                      <p>Vanilla's mission is to foster connections. With the best tools and people, we assist you in expanding your
+                        business. The purpose of this website is to let the user know more about Vanilla's partners, what they do,
+                        and how they can help them, as well as the possibility of becoming a Vanilla partner themselves.  </p>
+                      <p> My project began in April of 2021, and after I finishing the mockups, we ran into our first obstacle: How will
+                        we add all the partners one by one? My solution was to build a database in Hubspot that can be easily managed
+                        by anyone in the team. </p>
+                      <p>This site used the homepage built in Hugo for storytelling about the purpose of this ecosystem and how it may
+                        help Vanilla’s customers. I led all the design and development work and in May of 2021 we successfully launched
+                        this project. You can click <a className="green" href="https://vanillaforums.com/en/partners/" target="_blank">here</a> to see the final result.</p>
+                    </div>
+                  </div>
+                </div>
+                <section className="images-column-2 content">
                   <div className="wrapper">
-                    <div className="thumb mb--30 box mr--40" data-scroll-speed="25">
-                      <img src="/assets/images/portfolio/conversations-5.png" className="shapeTop" alt="Portfolio Images"/>
+                    <div className="thumb mb--30 box mr--40">
+                      <img src="/assets/images/portfolio/conversations-5.png" className="shapeTop thumbnail" alt="Portfolio Images"/>
                     </div>
                     <div className="thumb mb--30 box box-parallax-1">
-                      <img src="/assets/images/portfolio/conversations-6.png" className="shapeBottom" alt="Portfolio Images"/>
+                      <img src="/assets/images/portfolio/conversations-6.png" className="shapeBottom thumbnail" alt="Portfolio Images"/>
                     </div>
                   </div>
                 </section>
@@ -132,7 +149,7 @@ function PortfolioLyftnote() {
       <div className="portfolio-related-work pb--120">
           <div className="section-title text-center">
             <h2>
-              <a className="case-wrapper" href="/portfolio-clients">
+              <a className="case-wrapper" href="/vanilla-clients">
                 Next Project
               </a>
             </h2>
@@ -155,4 +172,4 @@ function PortfolioLyftnote() {
     </React.Fragment>
   )
 }
-export default PortfolioLyftnote;
+export default PortfolioLandinpage;

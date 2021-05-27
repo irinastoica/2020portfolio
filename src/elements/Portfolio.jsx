@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import PageHelmet from "../component/common/Helmet";
 import Slider from "react-slick";
-import { slickDot } from "../page-demo/script";
+import { slickDot } from "../script";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Footer from "../component/footer/Footer";
+import Footer from "../component/footer/FooterTwo";
 
 const list = [
     {

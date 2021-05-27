@@ -1,13 +1,12 @@
 import React from 'react';
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Helmet from "../component/common/Helmet";
-import Header from "../component/header/HeaderDetails";
-import FooterTwo from "../component/footer/FooterTwo";
-import ContactThree from "../elements/contact/ContactThree";
-import PortfolioList from "../elements/portfolio/PortfolioList";
+import Helmet from "./component/common/Helmet";
+import Header from "./component/header/HeaderDetails";
+import FooterTwo from "./component/footer/FooterTwo";
+import PortfolioList from "./elements/portfolio/PortfolioList";
 import { Player } from "video-react";
-import TabTwo from "../elements/tab/TabTwo";
+import TabTwo from "./elements/tab/TabTwo";
 
 import simpleParallax from 'simple-parallax-js';
 

@@ -6,7 +6,7 @@ import BrandTwo from "../elements/BrandTwo";
 import { FaFacebookF , FaLinkedinIn , FaTwitter } from "react-icons/fa";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Footer from "../component/footer/Footer";
+import Footer from "../component/footer/FooterTwo";
 import Header from "../component/header/HeaderDetails";
 
 
@@ -107,7 +107,7 @@ class About extends Component{
                             </div>
                         </div>
                         <div className="row">
-                            
+
                             {/* Start Single Team  */}
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
@@ -189,7 +189,7 @@ class About extends Component{
                     </ScrollToTop>
                 </div>
                 {/* End Back To Top */}
-                
+
                 <Footer />
 
             </React.Fragment>

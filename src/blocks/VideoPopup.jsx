@@ -4,7 +4,7 @@ import Breadcrumb from "../elements/common/Breadcrumb";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 
-import Footer from "../component/footer/Footer";
+import Footer from "../component/footer/FooterTwo";
 import ModalVideo from 'react-modal-video';
 
 

@@ -4,10 +4,10 @@ import Breadcrumb from "../elements/common/Breadcrumb";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderDetails";
-import Footer from "../component/footer/Footer";
+import Footer from "../component/footer/FooterTwo";
 import Slider from "react-slick";
 import PortfolioList from "../elements/portfolio/PortfolioList";
-import { slickDot , portfolioSlick2 } from "../page-demo/script";
+import { slickDot , portfolioSlick2 } from "../script";
 
 const list = [
     {

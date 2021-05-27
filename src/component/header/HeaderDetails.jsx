@@ -1,13 +1,12 @@
 import React, { Component } from "react";
-import {FaTwitter ,FaInstagram ,FaFacebookF , FaLinkedinIn } from "react-icons/fa";
+import {FaBehance ,FaInstagram , FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/irina-stoica/'},
-    {Social: <FaInstagram /> , link: 'https://www.instagram.com/'},
-    {Social: <FaTwitter /> , link: 'https://twitter.com/'},
+    {Social: <FaInstagram /> , link: 'https://www.instagram.com/inasnowflake/'},
+    {Social: <FaBehance /> , link: 'https://www.behance.net/IrinaStoica'},
 ]
 class HeaderDetails extends Component{
     constructor(props) {
@@ -102,7 +101,7 @@ class HeaderDetails extends Component{
                         <div className="social-share-inner">
                             <ul className="social-share social-style--2 d-flex justify-content-start liststyle">
                                 {SocialShare.map((val , i) => (
-                                    <li key={i}><a href={`${val.link}`}>{val.Social}</a></li>
+                                    <li key={i}><a target="_blank" href={`${val.link}`}>{val.Social}</a></li>
                                 ))}
                             </ul>
                         </div>

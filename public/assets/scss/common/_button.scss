@@ -32,6 +32,10 @@ a {
     }
 }
 
+a.green {
+    color: $theme-color;
+}
+
 a ,
 button {
     &.rn-btn {

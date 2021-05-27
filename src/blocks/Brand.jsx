@@ -4,7 +4,7 @@ import Breadcrumb from "../elements/common/Breadcrumb";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderDetails";
-import Footer from "../component/footer/Footer";
+import Footer from "../component/footer/FooterTwo";
 import BrandTwo from "../elements/BrandTwo";
 
 const Brand = () => {

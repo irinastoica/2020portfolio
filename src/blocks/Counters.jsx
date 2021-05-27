@@ -7,7 +7,7 @@ import Header from "../component/header/HeaderDetails";
 import CounterOne from "../elements/counters/CounterOne";
 import CounterTwo from "../elements/counters/CounterTwo";
 
-import Footer from "../component/footer/Footer";
+import Footer from "../component/footer/FooterTwo";
 
 const Counters = () => {
     return (
