@@ -3,10 +3,10 @@ import PageHelmet from "../component/common/Helmet";
 import Breadcrumb from "../elements/common/Breadcrumb";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
 import ProgressOne from "./progressbar/ProgressOne";
 import ProgressTwo from "./progressbar/ProgressTwo";
 import Footer from "../component/footer/Footer";
+import Header from "../component/header/HeaderDetails";
 
 
 const ProgressBar = () => {

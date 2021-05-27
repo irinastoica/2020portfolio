@@ -6,7 +6,6 @@ import Breadcrumb from "../elements/common/Breadcrumb";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Header from "../component/header/Header";
 import Footer from "../component/footer/Footer";
 
 const list = [

@@ -46,17 +46,21 @@ window.onload=function() {
   });
 };
 
-//  Textarea
+$.fn.moveIt = function(){
 
-const tx = document.getElementsByTagName("textarea");
-for (let i = 0; i < tx.length; i++) {
-  tx[i].setAttribute("style", "height:" + (tx[i].scrollHeight) + "px;overflow-y:hidden;");
-  tx[i].addEventListener("input", OnInput, false);
-}
+  var $window = $(window);
+  var instances = [];
 
-function OnInput() {
-  this.style.height = "auto";
-  this.style.height = (this.scrollHeight) + "px";
+  $(this).each(function(){
+    instances.push(new moveItItem($(this)));
+  });
+
+  window.onscroll = function(){
+    var scrollTop = $window.scrollTop();
+    instances.forEach(function(inst){
+      inst.update(scrollTop);
+    });
+  }
 }
 
 var moveItItem = function(el){
@@ -67,6 +71,7 @@ var moveItItem = function(el){
 
 moveItItem.prototype.update = function(scrollTop){
   this.el.css('transform', 'translateY(' + -(scrollTop / this.speed) + 'px)');
+  this.el.css('transform', 'scale(' + -(scrollTop / this.speed) + 'px)');
 };
 
 
@@ -293,6 +298,48 @@ $(function(){
     }
 
   };
+
+//  Form
+  $(function(){
+    $("#wizard").steps({
+      headerTag: "h4",
+      bodyTag: "section",
+      transitionEffect: "fade",
+      enableAllSteps: true,
+      transitionEffectSpeed: 500,
+      onStepChanging: function (event, currentIndex, newIndex) {
+        if ( newIndex >= 1 ) {
+          $('.actions ul').addClass('actions-next');
+        } else {
+          $('.actions ul').removeClass('actions-next');
+        }
+        return true;
+      },
+      labels: {
+        finish: "Finish",
+        next: "Continue",
+        previous: "Back"
+      }
+    });
+    // Custom Steps
+    $('.wizard > .steps li a').click(function(){
+      $(this).parent().addClass('checked');
+      $(this).parent().prevAll().addClass('checked');
+      $(this).parent().nextAll().removeClass('checked');
+    });
+    // Custom Button Jquery Step
+    $('.forward').click(function(){
+      $("#wizard").steps('next');
+    });
+    $('.backward').click(function(){
+      $("#wizard").steps('previous');
+    });
+    // Input Focus
+    $('.form-holder').delegate("input", "focus", function(){
+      $('.form-holder').removeClass("active");
+      $(this).parent().addClass("active");
+    });
+  });
 
 
 

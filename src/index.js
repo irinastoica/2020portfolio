@@ -23,12 +23,12 @@ import error404 from "./elements/error404";
 
 
 // Blocks Layout
-
+import Brand from "./blocks/Counters";
 import Counters from "./blocks/Counters";
 import Portfolio from "./blocks/Portfolio";
-import Brand from "./blocks/Brand";
 import ProgressBar from "./blocks/ProgressBar";
 import Columns from "./blocks/Columns";
+
 
 import { BrowserRouter, Switch, Route  } from 'react-router-dom';
 import * as serviceWorker from './serviceWorker';

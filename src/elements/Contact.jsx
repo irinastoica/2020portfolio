@@ -43,91 +43,109 @@ const Contact = () => {
       <Header logo="symbol-dark"/>
 
     <form className="form defaultMargin" onSubmit={handleSubmit}>
-      <h1 className="form-title">Hey! Tell me all about your project  🤳</h1>
-
-      {/* Name */}
-      <div className="bottom-line">
-        <input
-          placeholder="Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-      </div>
-
-      {/* Email */}
-      <div className="bottom-line">
-        <input
-          placeholder="Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-        />
-      </div>
-
-      {/*Message*/}
-      <div className="bottom-line">
-          <textarea
-            placeholder="Message"
-            value={message}
-            id="text"
-            onChange={(e) => setMessage(e.target.value)}
-          ></textarea>
-      </div>
-
-      {/* Budget */}
-      <div className="budget-group">
-        <div className="checkbox_rounded">
-          <label><input type="radio" name="budget" value="10-20k"></input>
-              <span className="cb-checkbox_rounded-box">
-                <span className="cb-checkbox_rounded-title">
-                  <span data-text="<10k">10-20k</span>
+      <div className="container">
+        <h1 className="form-title">Hey! Tell me all about your project  🤳</h1>
+        {/* Name */}
+        <div className="bottom-line">
+          <input
+            placeholder="Name"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </div>
+        {/* Email */}
+        <div className="bottom-line">
+          <input
+            placeholder="Email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </div>
+        {/*Message*/}
+        <div className="bottom-line">
+            <textarea
+              placeholder="Message"
+              value={message}
+              id="text"
+              onChange={(e) => setMessage(e.target.value)}
+            ></textarea>
+        </div>
+        {/* Budget */}
+        <div className="budget">
+          <h2>Budget (CAD)</h2>
+        <div className="budget-group">
+          <div className="checkbox_rounded">
+            <label>
+              <input type="radio" name="budget" value="10-20k"></input>
+                <span className="checkbox-box">
+                  <span className="checkbox-box-title">
+                    <span data-text="5-10k"> 5-10k</span>
+                  </span>
+                  <span className="checkbox-checked">
+                    <span></span>
+                  </span>
                 </span>
-                <span className="cb-checkbox_rounded-ripple -oofix">
-                  <span></span>
+            </label>
+          </div>
+          <div className="checkbox_rounded">
+            <label>
+              <input type="radio" name="budget" value="10-20k"></input>
+              <span className="checkbox-box">
+                  <span className="checkbox-box-title">
+                    <span data-text="10-20k"> 10-20k</span>
+                  </span>
+                  <span className="checkbox-checked">
+                    <span></span>
+                  </span>
                 </span>
-              </span>
-          </label>
+            </label>
+          </div>
+          <div className="checkbox_rounded">
+            <label>
+              <input type="radio" name="budget" value="10-20k"></input>
+              <span className="checkbox-box">
+                  <span className="checkbox-box-title">
+                    <span data-text="30-40k"> 30-40k</span>
+                  </span>
+                  <span className="checkbox-checked">
+                    <span></span>
+                  </span>
+                </span>
+            </label>
+          </div>
+          <div className="checkbox_rounded">
+            <label>
+              <input type="radio" name="budget" value="10-20k"></input>
+              <span className="checkbox-box">
+                  <span className="checkbox-box-title">
+                    <span data-text="40k-50k"> 40k-50k</span>
+                  </span>
+                  <span className="checkbox-checked">
+                    <span></span>
+                  </span>
+                </span>
+            </label>
+          </div>
+          <div className="checkbox_rounded">
+            <label>
+              <input type="radio" name="budget" value="10-20k"></input>
+              <span className="checkbox-box">
+                  <span className="checkbox-box-title">
+                    <span data-text="> 50k"> > 50k</span>
+                  </span>
+                  <span className="checkbox-checked">
+                    <span></span>
+                  </span>
+                </span>
+            </label>
+          </div>
         </div>
-
-        <div className="checkbox_rounded">
-          <label>
-            <input type="radio" name="budget" value="30-40k"></input>
-            <span className="cb-checkbox_rounded-box">
-              <span className="cb-checkbox_rounded-title">
-                <span data-text="30-40k">30-40k</span>
-              </span>
-              <span className="cb-checkbox_rounded-ripple">
-                <span></span>
-              </span>
-            </span>
-          </label>
-        </div>
-        <div className="checkbox_rounded">
-          <label>
-            <input type="radio" name="budget" value="40-50k"></input>
-						<span className="cb-checkbox_rounded-box">
-							<span className="cb-checkbox_rounded-title">
-								<span data-text="40-50k">40-50k</span>
-							</span>
-							<span className="cb-checkbox_rounded-ripple -oofix">
-								<span></span>
-							</span>
-						</span>
-          </label>
-        </div>
-
-        <div className="checkbox_rounded">
-          <label>
-            <input type="radio" name="budget" value="50-100k"></input>
-							<span className="checkbox-title">
-									<span data-text="50-100k">>50</span>
-							</span>
-          </label>
+          <div className="submit-button">
+            <button type="submit" className="rn-button-style--2 btn-solid">Submit</button>
+          </div>
         </div>
       </div>
-
-      <button type="submit" className="rn-button-style--2 btn-solid">Submit</button>
     </form>
-
       <Footer />
       </React.Fragment>
 
