@@ -20,11 +20,12 @@ function PortfolioLandinpage() {
     const headlineFirst = content.children[0].children[0];
     const headlineSecond = headlineFirst.nextSibling;
     const headlineThird = headlineSecond.nextSibling;
+    const headlineFourth = headlineThird.nextSibling;
     const contentP = content.children[1];
     const contentButton = content.children[2];
 
     // //Content Animation
-    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
+    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children, headlineFourth.children], 1, {
       y: 200,
       ease: Power3.easeOut,
       delay: .8
@@ -59,19 +60,25 @@ function PortfolioLandinpage() {
                     </div>
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">My role</h3>
-                      <span className="role">Ux Designer</span>
-                      <span className="role">Front End Developer</span>
+                      <span className="role">Lead Ux Designer (Sketch, Figma)</span>
+                      <span className="role">Lead Front End Developer</span>
                       <span className="role">CRO practices</span>
+                    </div>
+                    <div className="hero-content-line roleWrapper">
+                      <h3 className="detailsTitle detailsTitle-white">Key tools</h3>
+                      <span className="role">Go</span>
+                      <span className="role">Hubspot</span>
+                      <span className="role">Hugo</span>
                     </div>
                   </div>
                   <div className="col-6">
                     <p>Conversations by Vanilla is an annual free 3 day expo, where you'll find recordings from 30+ speakers on all
-                      things that matter in the community space. Since 2020 took us all by surprise and we couldn’t meet in
-                      person anymore, we are continuing the conversation with this online conference. I was assigned the
-                      mission of constructing the microsite of this event and to incorporate best practices for user experience
-                      in order to increase the conversion  rate. </p>
-                    <p>In order to create diversity and to create different types of animations, I implemented our personas
-                      representing various nationalities. The mockups were done in Sketch and the micro website was coded in Hugo. </p>
+                      things that matter in the community space. Due to the global pandemic in 2020 in-person activities were prohibited
+                      , therefor we decided to continue the conversation with this online conference. I was assigned the
+                      mission of building a microsite for this event and applying user experience best practices
+                      in order to increase our conversion rate. </p>
+                    <p>In order to showcase diversity, I illustrated characters
+                      from various backgrounds based on our user personas. The microsite mockups were created in Sketch and then coded in GO programming language, on a Hugo framework. </p>
                   </div>
                 </div>
               </div>
@@ -116,14 +123,12 @@ function PortfolioLandinpage() {
                   <div className="col-lg-12">
                     <div className="col-6">
                       <h2>Partner Ecosystem</h2>
-                      <p>Vanilla's mission is to foster connections. With the best tools and people, we assist you in expanding your
-                        business. The purpose of this website is to let the user know more about Vanilla's partners, what they do,
-                        and how they can help them, as well as the possibility of becoming a Vanilla partner themselves.  </p>
-                      <p> My project began in April of 2021, and after I finishing the mockups, we ran into our first obstacle: How will
-                        we add all the partners one by one? My solution was to build a database in Hubspot that can be easily managed
-                        by anyone in the team. </p>
-                      <p>This site used the homepage built in Hugo for storytelling about the purpose of this ecosystem and how it may
-                        help Vanilla’s customers. I led all the design and development work and in May of 2021 we successfully launched
+                      <p>In March 2021, I <strong>led  the design and development </strong> of the partner ecosystem microsite. It's purpose is to let users know more
+                        about Vanilla's partners, as well as the possibility of becoming a Vanilla partner themselves.  </p>
+                      <p>  In April 2021, I built a user-friendly <strong> Hubspot database </strong> to allow any member of the marketing team to add new
+                        partner profiles.
+                      </p>
+                      <p> I led all the design and development work and in May 2021 we successfully launched
                         this project. You can click <a className="green" href="https://vanillaforums.com/en/partners/" target="_blank">here</a> to see the final result.</p>
                     </div>
                   </div>

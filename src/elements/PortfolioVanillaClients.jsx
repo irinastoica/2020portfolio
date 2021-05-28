@@ -19,12 +19,13 @@ function PortfolioVanillaClients() {
     const headlineFirst = content.children[0].children[0];
     const headlineSecond = headlineFirst.nextSibling;
     const headlineThird = headlineSecond.nextSibling;
+    const headlineFourth = headlineThird.nextSibling;
     const contentP = content.children[1];
     const contentButton = content.children[2];
 
     // //Content Animation
-    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 200,
+    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children, headlineFourth.children], 1, {
+      y: 240,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
@@ -50,22 +51,31 @@ function PortfolioVanillaClients() {
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
                     <div className="hero-content-line">
-                      <h2 className="animated ">Communications by Vanilla Event </h2>
+                      <h2 className="animated ">Various Theme Integrations </h2>
                     </div>
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">My role</h3>
-                      <span className="role">Co Founder</span>
-                      <span className="role">Ux Designer</span>
                       <span className="role">Front End Developer</span>
                     </div>
+
+                    <div className="hero-content-line roleWrapper">
+                      <h3 className="detailsTitle detailsTitle-white">Key tools</h3>
+                      <span className="role">ReactJS</span>
+                      <span className="role">Agile process (Scrum, Kanban)</span>
+                      <span className="role">CI/CD pipeline, Git, Node.js/Yarn</span>
+                      <span className="role">HTML, CSS, Javascript</span>
+                      <span className="role">Smarty, Twig</span>
+                      <span className="role">Docker</span>
+                    </div>
+
                   </div>
                   <div className="col-6">
-                    <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
-                      A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
-                    <p>My main implication in this projects was the UX and UI design of the whole app.
-                      How to make the app as easy as possible to use, student friendly.
-                      I was also in charge of the front end development of the user interface and the user experience of the app.
-                      Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
+                    <p>I was responsible for converting and integrating the elements of the clients’s mockups into the Vanilla’s product. </p>
+                    <p>I was also interacting with customers to gather requirements, set expectations, and go over the implementation of plugins,
+                      modules and theming realizations.  </p>
+                    <p>In addition I was providing estimates for the scope of work and broke down complex tasks into Github issues (Zenhub).  
+                      I maintained the overall consistency of the community, as well as its compatibility with different browsers. I implemented
+                      user interfaces for the product and contribute to improving usability using code that can withstand millions of users.</p>
                   </div>
                 </div>
               </div>
@@ -108,7 +118,7 @@ function PortfolioVanillaClients() {
       <div className="portfolio-related-work pb--120">
         <div className="section-title text-center">
           <h2>
-            <a className="case-wrapper" href="/portfolio-blog">
+            <a className="case-wrapper" href="/vanilla-blog">
               Next Project
             </a>
           </h2>

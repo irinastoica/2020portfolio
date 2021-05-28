@@ -5,7 +5,8 @@ window.onload=function() {
   const exit = document.querySelector('.exit');
   const logo = document.querySelector('.logo');
   const colors = ['', 'lightPink', 'paleGreen', 'aquamarine', 'paleGreen']
-  const sections = [...document.getElementsByTagName('section')];
+  const sections = [...document.getElementsByClassName('colorChange')];
+  // const sections = [...document.getElementsByClassName('colorChange')];
 
   const image = document.getElementsByClassName('thumbnail');
   new simpleParallax(image);

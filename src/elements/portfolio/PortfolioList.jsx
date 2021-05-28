@@ -11,7 +11,7 @@ class PortfolioList extends Component {
           <div className="splitshow-left col-5">
             {/*Vanilla LandingPages*/}
             <div className="project-item" data-scroll-container>
-              <a href='/portfolio-conversations' className="project-itemLink">
+              <a href='/vanilla-landing-pages' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
                     <img src="/assets/images/portfolio/preview/vanilla-landingPages.png" className="thumbnail" alt="blog-image"></img>
@@ -29,7 +29,7 @@ class PortfolioList extends Component {
             {/*Blog*/}
             <section></section>
             <div className="project-item" data-scroll-container>
-              <a href='/portfolio-blog' className="project-itemLink">
+              <a href='/vanilla-blog' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
                     <img src="/assets/images/portfolio/preview/blog.jpg" className="thumbnail" alt="blog-image"></img>
@@ -46,7 +46,7 @@ class PortfolioList extends Component {
 
             {/*Lyftnote*/}
             <section className="project-item" data-scroll-container>
-              <a href='/portfolio-lyftnote' className="project-itemLink">
+              <a href='/lyftnote' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
                     <video autoPlay loop muted poster="assets/videos/asus.jpg" className="video-smaller video-animation">
@@ -65,7 +65,7 @@ class PortfolioList extends Component {
 
             {/*Roadkrome*/}
             <div className="project-item" data-scroll-container>
-              <a href='/portfolio-roadkrome' className="project-itemLink">
+              <a href='/roadkrome' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className="video-animation">
                     <Player
@@ -90,7 +90,7 @@ class PortfolioList extends Component {
 
             {/*Asus*/}
             <div className="project-item" data-scroll-container>
-              <a href='/portfolio-conversations' className="project-itemLink">
+              <a href='/vanilla-clients' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
                     <img src="/assets/images/portfolio/preview/asus.jpg" className="thumbnail" alt="asus" ></img>
@@ -108,7 +108,7 @@ class PortfolioList extends Component {
 
             {/*Mtv Intranet*/}
             <section className="project-item" data-scroll-container>
-              <a href='/portfolio-conversations' className="project-itemLink">
+              <a href='/motovan-intranet' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
                     <img src="/assets/images/portfolio/preview/intranet-mtv.png" className="thumbnail" alt="intranet-montovan" ></img>

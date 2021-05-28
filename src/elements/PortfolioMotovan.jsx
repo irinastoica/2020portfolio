@@ -7,7 +7,7 @@ import Footer from "../component/footer/FooterTwo";
 
 import {TweenMax, TimelineLite, Power3} from 'gsap'
 
-function PortfolioDetails() {
+function PortfolioMotovan() {
   let app = useRef(null);
   // let images =useRef(null);
   let content = useRef(null);
@@ -78,28 +78,28 @@ function PortfolioDetails() {
                 </div>
                 <div className="container defaultTopMargin">
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-1.png" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/motovan-1.jpg" className="thumbnail" alt="Motovan Ad"/>
                   </div>
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-2.png" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/motovan-2.jpg" className="thumbnail" alt="Motovan"/>
                   </div>
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-3.png" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/motovan-3.jpg" className="thumbnail" alt="Motovan"/>
                   </div>
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-4.png" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/motovan-4.png" className="thumbnail" alt="Motovan"/>
                   </div>
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-5.png" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/motovan-5.jpg" className="thumbnail" alt="Motovan"/>
                   </div>
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-6.png" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/motovan-6.png" className="thumbnail" alt="Motovan"/>
                   </div>
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-7.png" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/motovan-7.png" className="thumbnail" alt="Motovan"/>
                   </div>
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-8.png" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/motovan-8.png" className="thumbnail" alt="Motovan"/>
                   </div>
                 </div>
               </div>
@@ -133,4 +133,4 @@ function PortfolioDetails() {
     </React.Fragment>
   )
 }
-export default PortfolioDetails;
+export default PortfolioMotovan;
