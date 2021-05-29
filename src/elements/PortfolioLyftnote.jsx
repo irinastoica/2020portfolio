@@ -187,7 +187,7 @@ function PortfolioLyftnote() {
       <div className="portfolio-related-work pb--120">
         <div className="section-title text-center">
           <h2>
-            <a className="case-wrapper" href="/portfolio-details">
+            <a className="case-wrapper" href="/motovan">
               Next Project
             </a>
           </h2>

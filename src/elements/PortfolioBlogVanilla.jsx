@@ -119,7 +119,7 @@ function PortfolioBlogVanilla() {
       <div className="portfolio-related-work pb--120">
         <div className="section-title text-center">
           <h2>
-            <a className="case-wrapper" href="/portfolio-intranet">
+            <a className="case-wrapper" href="/motovan-intranet">
               Next Project
             </a>
           </h2>

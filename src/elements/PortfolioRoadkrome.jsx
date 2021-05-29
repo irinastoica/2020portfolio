@@ -51,22 +51,18 @@ function PortfolioRoadkrome() {
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
                     <div className="hero-content-line">
-                      <h2 className="animated ">Communications by Vanilla Event </h2>
+                      <h2 className="animated ">Roadkrome </h2>
                     </div>
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">My role</h3>
-                      <span className="role">Co Founder</span>
                       <span className="role">Ux Designer</span>
                       <span className="role">Front End Developer</span>
                     </div>
                   </div>
                   <div className="col-6">
-                    <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
-                      A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
-                    <p>My main implication in this projects was the UX and UI design of the whole app.
-                      How to make the app as easy as possible to use, student friendly.
-                      I was also in charge of the front end development of the user interface and the user experience of the app.
-                      Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
+                    <p>New identity for the Roadkrome. Roadkrome is a brand of high-quality motorcycle accessories and leather
+                      appeal. The purpose of the new identity is to modernize the identity of the whole brand. Along with the
+                      new logo, I created a new website and packaging to fit well with the modern and masculine look.</p>
                   </div>
                 </div>
               </div>

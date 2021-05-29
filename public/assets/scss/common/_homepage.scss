@@ -14,6 +14,145 @@
         }
     }
 
+    //Panels
+
+    //animations
+
+    @keyframes animation-y {
+        0% {
+            transform: translateX(0) translateY(0);
+        }
+
+        30% {
+            transform: translateX(200px) translateY(100px);
+        }
+
+        60%, 100% {
+            transform: translateX(0) translateY(0);
+        }
+    }
+
+    @keyframes animation-x {
+        0% {
+            transform: translateX(0) translateY(0);
+        }
+
+        10% {
+            transform: translateX(25px) translateY(-12.5px);
+        }
+
+        30% {
+            transform: translateX(100px) translateY(-50px);
+        }
+        60%, 100% {
+            transform: translateX(0) translateY(0);
+        }
+    }
+
+    @keyframes animation-xz {
+        0% {
+            transform: translateX(0) translateY(0);
+        }
+
+        10% {
+            transform: translateY(50px);
+        }
+
+        30% {
+            transform: translateX(-200px) translateY(150px);
+        }
+        40% {
+            transform: translateX(-200px) translateY(100px);
+        }
+
+        60%, 100% {
+            transform: translateX(0) translateY(0);
+        }
+    }
+
+    @keyframes animation-xz2 {
+        0% {
+            transform: translateX(0) translateY(0);
+        }
+
+        10% {
+            transform: translateY(50px);
+        }
+
+        30% {
+            transform: translateX(-100px) translateY(100px);
+        }
+        40% {
+            transform: translateX(-200px) translateY(50px);
+        }
+
+        60%, 100% {
+            transform: translateX(0) translateY(0);
+        }
+    }
+
+
+    #Panel1 {
+        bottom: 220px;
+        left: 1300px;
+        animation: animation-y 10s 1s infinite;
+        animation-play-state: inherit;
+        position: absolute;
+        width: 200px;
+        height: 150px;
+        z-index: 0;
+    }
+
+    #Panel2 {
+        bottom: 150px;
+        left: 1225px;
+        -webkit-animation: animation-x  10s 1s infinite;
+        animation: animation-x  10s 1s infinite;
+        -webkit-animation-play-state: inherit;
+        animation-play-state: inherit;
+        position: absolute;
+        height: 200px;
+    }
+
+    #Panel3 {
+        bottom: 50px;
+        left: 1425px;
+        position: absolute;
+        width: 500px;
+    }
+
+    #Panel4 {
+        bottom: 50px;
+        left: 1475px;
+        -webkit-animation: animation-xz 20s 1s infinite;
+        animation: animation-xz 20s 1s infinite;
+        -webkit-animation-play-state: inherit;
+        animation-play-state: inherit;
+        position: absolute;
+        height: 300px;
+    }
+
+    #Panel5 {
+        position: absolute;
+        width: 100px;
+        height: 300px;
+        bottom: 200px;
+        left: 1800px;
+        -webkit-animation: animation-xz2 15s 1s infinite;
+        animation: animation-xz2 15s 1s infinite;
+        -webkit-animation-play-state: inherit;
+        animation-play-state: inherit;
+    }
+
+
+    .panel-xz-1x3, .panel-yz-1x3 {
+        position: absolute;
+        width: 50px;
+        height: 175px;
+    }
+
+    //End Panels
+
     .section {
         padding: 0;
     }

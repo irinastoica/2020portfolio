@@ -28,11 +28,11 @@ h1 {
 }
 
 .lightPink {
-    background-color: rgb(255, 229, 229);
+    background-color: #FFF2F0;
 }
 
 .paleGreen {
-    background-color: #D0F3ED;
+    background-color: #e5f3ee;
 }
 
 .darkGrayLight {
@@ -209,6 +209,7 @@ h1 {
                 .video-react-video {
                     height: 100%;
                     max-height: 600px;
+                    max-width: 100%;
                 }
             }
         }
@@ -596,7 +597,6 @@ h1 {
     }
 
     .video-react-video {
-        max-width: 420px !important;
         z-index: 1;
         top: 0;
         object-fit: cover;

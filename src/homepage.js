@@ -31,7 +31,7 @@ const PortfolioLanding = () => {
                       loop
                       muted
                       poster="/assets/poster.png"
-                      src={`../assets/videos/intro.mp4`} />
+                      src={`../assets/videos/homeVideo.mp4`} />
                   </div>
                 </div>
                 <div className="home-left-title">
@@ -44,12 +44,41 @@ const PortfolioLanding = () => {
                   <div className="section-title home-left-title">
                     <h2 className="title home-intro-title-nomask">{title}</h2>
                   </div>
-                  <div className="row mt--30">
-                  <TabTwo tabStyle="tab-style--1" />
-                  </div>
+                  {/*<div className="row mt--30">*/}
+                  {/*<TabTwo tabStyle="tab-style--1" />*/}
+                  {/*</div>*/}
                 </div>
               </div>
+              {/*Panel*/}
+              <div className="panels-right">
+                <img id="Panel1" sizes="100vw"
+                     srcSet="/assets/images/svgs/shape5.svg"
+                     alt=""></img>
+                <img id="Panel2" sizes="100vw"
+                     srcSet="/assets/images/svgs/shape6.svg"
+                     alt=""></img>
+                <img id="Panel3" sizes="100vw"
+                     srcSet="/assets/images/svgs/shape7.svg"
+                     alt=""></img>
+                <img  id="Panel4" sizes="100vw"
+                     srcSet="/assets/images/svgs/shape8.svg"
+                     alt=""></img>
+                <img id="Panel5" sizes="100vw"
+                     srcSet="/assets/images/svgs/shape9.svg"
+                     alt=""></img>
+              </div>
             </div>
+            {/*Panel*/}
+            {/*<div className="panels-right">*/}
+              {/*<img className="image panel-xy-1x1" id="Panel16" data-scroll-speed="15" sizes="100vw" srcSet="/assets/images/svgs/shape1.svg"*/}
+                   {/*alt=""></img>*/}
+              {/*<img className="image panel-xy-2x1" id="Panel17" data-scroll-speed="15" sizes="100vw"*/}
+                   {/*srcSet="/assets/images/svgs/shape2.svg"*/}
+                   {/*alt=""></img>*/}
+              {/*<img className="image panel-xy-3x1" data-scroll-speed="15" id="Panel18" sizes="100vw"*/}
+                   {/*srcSet="/assets/images/svgs/shape3.svg"*/}
+                   {/*alt=""></img>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>
