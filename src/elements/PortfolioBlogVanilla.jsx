@@ -46,7 +46,7 @@ function PortfolioBlogVanilla() {
               {/* Start Top Description */}
               <div className="container-inner">
                 <div className="col-lg-12" ref={el => content = el}>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-sm-12 rightSide">
                     <div className="hero-content-line">
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
@@ -60,7 +60,7 @@ function PortfolioBlogVanilla() {
                       <span className="role">Front End Developer</span>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-lg-6 col-sm-12">
                     <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
                       A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
                     <p>My main implication in this projects was the UX and UI design of the whole app.
@@ -73,37 +73,41 @@ function PortfolioBlogVanilla() {
               {/*End Top Description*/}
               <div className="portfolio-thumb-inner">
                 <div className="images-column-1 thumb position-relative mb--30 content">
-                  <img src="/assets/images/portfolio/blog-2.jpg" class="smaller-image" alt="Portfolio Images"/>
+                  <img src="/assets/images/portfolio/blog-1.jpg" className="thumbnail mr--40"
+                       alt="Portfolio Images"/>
                 </div>
-                <div className="images-column-2 thumb parallexMargin content">
-                  <img src="/assets/images/portfolio/blog-mobile1.png" data-scroll-speed="18" className="smaller-image" alt="Portfolio Images"/>
-                  <img src="/assets/images/portfolio/blog-mobile2.png" className="smaller-image" alt="Portfolio Images"/>
-                </div>
-                <section></section>
-                <div className="thumb position-relative mb--30">
-                  <div className="container-inner">
-                    <div className="col-6">
-                      <h2>Improving the User Experience</h2>
-                      <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
+                <div className="container">
+                  <img src="/assets/images/portfolio/blog-2.jpg" className="smaller-image" alt="Portfolio Images"/>
+                  <div className="images-column-2 thumb content">
+                    <img src="/assets/images/portfolio/blog-mobile1.png" className="smaller-image thumbnail" alt="Portfolio Images"/>
+                    <img src="/assets/images/portfolio/blog-mobile2.png" className="smaller-image thumbnail mt--40" alt="Portfolio Images"/>
+                  </div>
+                  <section></section>
+                  <div className="thumb position-relative mb--30">
+                    <div className="container-inner">
+                      <div className="col-lg-6 col-md-12 col-sm-12">
+                        <h2>Improving the User Experience</h2>
+                        <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
+                      </div>
                     </div>
                   </div>
+                  <section>
+                    <div className="justify-content-end mb--30">
+                      <div className="video col-sm-8 col-md-7">
+                        <Player class
+                          autoPlay
+                          loop
+                          muted
+                          poster="/assets/poster.png"
+                          src={`../assets/videos/library-2.mp4`} />
+                      </div>
+                      <div className="hex">
+                        <img src="/assets/images/svgs/hex.svg" alt="Portfolio Images"/>
+                      </div>
+                    </div>
+                  </section>
                 </div>
-                <section>
-                  <div className="justify-content-end mb--30">
-                    <div className="video col-sm-8 col-md-7">
-                      <Player
-                        autoPlay
-                        loop
-                        muted
-                        poster="/assets/poster.png"
-                        src={`../assets/videos/library-2.mp4`} />
-                    </div>
-                    <div className="hex">
-                      <img src="/assets/images/svgs/hex.svg" data-scroll-speed="18" alt="Portfolio Images"/>
-                    </div>
-                  </div>
-                </section>
               </div>
             </div>
           </div>

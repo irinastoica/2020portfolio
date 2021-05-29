@@ -45,7 +45,7 @@ class PortfolioList extends Component {
             </div>
 
             {/*Lyftnote*/}
-            <section className="project-item" data-scroll-container>
+            <section className="project-item colorChange" data-scroll-container>
               <a href='/lyftnote' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
@@ -64,11 +64,11 @@ class PortfolioList extends Component {
             </section>
 
             {/*Roadkrome*/}
-            <div className="project-item" data-scroll-container>
+            <section className="project-item" data-scroll-container>
               <a href='/roadkrome' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className="video-animation">
-                    <Player
+                    <Player className="video-smaller"
                       autoPlay
                       loop
                       muted
@@ -84,7 +84,7 @@ class PortfolioList extends Component {
                   <h4 className="project-name">Roadkrome</h4>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
           <div className="splitshow-right col-5">
 
@@ -124,7 +124,7 @@ class PortfolioList extends Component {
             </section>
 
             {/*  Motovan  */}
-            <section className="project-item" data-scroll-container>
+            <section className="project-item colorChange" data-scroll-container>
               <a href='/portfolio-details' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>

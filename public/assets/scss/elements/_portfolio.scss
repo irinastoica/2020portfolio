@@ -161,10 +161,6 @@ h1 {
                 font-size: 40px;
             }
 
-            .video-smaller {
-                width: 450px!important;
-            }
-
             .project-itemLink {
                 background-color: white;
                 cursor: pointer;
@@ -219,15 +215,20 @@ h1 {
     }
 }
 
+.video-smaller {
+    min-width: 450px!important;
+}
+
 .portfolio-details {
 
     .col-lg-12 {
         display: flex;
+        flex-wrap: wrap;
 
         .roleWrapper {
             display: flex;
             flex-direction: column;
-            margin-top: $marginDefaultBig;
+            margin: $marginDefaultBig 0;
         }
     }
 
@@ -259,6 +260,11 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media #{$sm-layout} {
+        flex-direction: initial;
+        align-items: initial;
+    }
 
     .smaller-image {
         max-width: 900px;
@@ -312,6 +318,10 @@ h1 {
             height:100vh;
             align-items: center;
 
+            @media #{$sm-layout} {
+                height:100%;
+            }
+
             &.topVideo {
                 position: absolute;
                 top: 120px;
@@ -324,6 +334,10 @@ h1 {
 
             .col-lg-12 {
                 display: flex;
+
+                .rightSide {
+                    margin-bottom: 50px;
+                }
 
                 .hero-content-line {
                     margin: 0;

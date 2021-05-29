@@ -323,10 +323,6 @@ font-family: 'Poppins', sans-serif;
 p {
     font-size: 20px;
     line-height: 40px;
-    @media #{$sm-layout} {
-        font-size: 16px !important;
-        line-height: 28px !important;
-    }
 }
 
 p:last-child{

@@ -90,7 +90,7 @@ function PortfolioRoadkrome() {
                   <div className="thumb">
                     <img src="/assets/images/portfolio/roadkrome-3.png" alt="Portfolio Images"/>
                   </div>
-                  <div className="thumb mb--30">
+                  <div className="thumb">
                     <img src="/assets/images/portfolio/roadkrome.gif" className="fullWidth" alt="Portfolio Images"/>
                   </div>
                 </div>
@@ -105,7 +105,7 @@ function PortfolioRoadkrome() {
       <div className="portfolio-related-work pb--120">
         <div className="section-title text-center">
           <h2>
-            <a className="case-wrapper" href="/portfolio-intranet">
+            <a className="case-wrapper" href="/vanilla-landing-pages">
               Next Project
             </a>
           </h2>

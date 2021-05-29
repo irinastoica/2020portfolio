@@ -5,7 +5,7 @@ window.onload=function() {
   const exit = document.querySelector('.exit');
   const logo = document.querySelector('.logo');
   const colors = ['', 'lightPink', 'paleGreen', 'aquamarine', 'paleGreen']
-  const sections = [...document.getElementsByClassName('colorChange')];
+  const sections = [...document.getElementsByTagName('section')];
   // const sections = [...document.getElementsByClassName('colorChange')];
 
   const image = document.getElementsByClassName('thumbnail');
@@ -39,6 +39,7 @@ window.onload=function() {
 
       if (scrollFromTop <= sections[i].offsetTop) {
         document.body.className = colors[i];
+        // alert("Hello! I am an alert box!!");
         break
       }
 
@@ -84,9 +85,6 @@ $(function(){
 
 /*
  * CSS3 Animate it
- * Copyright (c) 2014 Jack McCourt
- * https://github.com/kriegar/css3-animate-it
- * Version: 0.1.0
  */
 (function($) {
   var selectors = [];

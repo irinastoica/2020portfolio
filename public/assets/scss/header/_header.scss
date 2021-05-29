@@ -16,6 +16,18 @@
         &.logo--white svg {
             fill: white;
         }
+
+        @media #{$sm-layout} {
+            display: none;
+        }
+    }
+
+    .logo--mobile {
+        display: none;
+
+        @media #{$sm-layout} {
+            display: flex;
+        }
     }
 
     .toggle {
