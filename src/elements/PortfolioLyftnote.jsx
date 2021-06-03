@@ -21,12 +21,13 @@ function PortfolioLyftnote() {
     const headlineFirst = content.children[0].children[0];
     const headlineSecond = headlineFirst.nextSibling;
     const headlineThird = headlineSecond.nextSibling;
+    const headlineFourth = headlineThird.nextSibling;
     const contentP = content.children[1];
     const contentButton = content.children[2];
 
     // //Content Animation
-    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 200,
+    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children, headlineFourth.children], 1, {
+      y: 240,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
@@ -34,8 +35,6 @@ function PortfolioLyftnote() {
       .from(contentButton, 1, { y: 20, opacity: 0, ease: Power3.easeOut }, 1.6)
 
   }, [tl])
-
-
   return (
     <React.Fragment>
       <PageHelmet pageTitle='Portfolio Details'/>
@@ -51,7 +50,7 @@ function PortfolioLyftnote() {
               {/* Start Breadcrump Area */}
               <div className="container-inner">
                 <div className="col-lg-12" ref={el => content = el}>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-sm-12">
                     <div className="hero-content-line">
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
@@ -64,8 +63,18 @@ function PortfolioLyftnote() {
                       <span className="role">Ux Designer</span>
                       <span className="role">Front End Developer</span>
                     </div>
+
+                    <div className="hero-content-line roleWrapper">
+                      <h3 className="detailsTitle detailsTitle-white">Key tools</h3>
+                      <span className="role">ReactJS</span>
+                      <span className="role">Agile process (Scrum, Kanban)</span>
+                      <span className="role">CI/CD pipeline, Git, Node.js/Yarn</span>
+                      <span className="role">HTML, CSS, Javascript</span>
+                      <span className="role">Smarty, Twig</span>
+                      <span className="role">Docker</span>
+                    </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-lg-6 col-sm-12">
                     <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
                       A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
                     <p>My main implication in this projects was the UX and UI design of the whole app.
@@ -143,7 +152,7 @@ function PortfolioLyftnote() {
 
                 <div className="portfolio-details" ref={el => app = el}>
                   <div className="container-inner">
-                    <div className="col-6">
+                    <div className="col-lg-6 col-sm-12">
                       <h3 className="detailsTitle detailsTitle-white">Made for Students</h3>
                       <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
                         A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>

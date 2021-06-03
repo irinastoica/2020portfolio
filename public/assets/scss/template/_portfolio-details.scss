@@ -57,6 +57,11 @@
 
     .thumb {
         position: relative;
+
+        @media #{$sm2-layout} {
+            position: initial;
+        }
+
         .video-popup {
             position: absolute;
             top: 50%;

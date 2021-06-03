@@ -46,7 +46,7 @@ function PortfolioRoadkrome() {
               {/* Start Top Description */}
               <div className="container-inner">
                 <div className="col-lg-12" ref={el => content = el}>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-sm-12">
                     <div className="hero-content-line">
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
@@ -59,7 +59,7 @@ function PortfolioRoadkrome() {
                       <span className="role">Front End Developer</span>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-lg-6 col-sm-12">
                     <p>New identity for the Roadkrome. Roadkrome is a brand of high-quality motorcycle accessories and leather
                       appeal. The purpose of the new identity is to modernize the identity of the whole brand. Along with the
                       new logo, I created a new website and packaging to fit well with the modern and masculine look.</p>

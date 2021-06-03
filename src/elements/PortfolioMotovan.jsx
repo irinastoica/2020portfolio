@@ -45,7 +45,7 @@ function PortfolioMotovan() {
               {/* Start Top Description */}
               <div className="container-inner">
                 <div className="col-lg-12" ref={el => content = el}>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-sm-12">
                     <div className="hero-content-line">
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
@@ -58,7 +58,7 @@ function PortfolioMotovan() {
                       <span className="role">Front End Developer</span>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-lg-6 col-sm-12">
                     <p>Multiples prints for magasins and events. Working on different sizes and materials in order to succesfully communicate the brands identities.
                       How to make the app as easy as possible to use, student friendly.
                      </p>
@@ -89,13 +89,13 @@ function PortfolioMotovan() {
                     <img src="/assets/images/portfolio/motovan-5.jpg" className="thumbnail" alt="Motovan"/>
                   </div>
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-6.png" className="thumbnail" alt="Motovan"/>
+                    <img src="/assets/images/portfolio/motovan-6.jpg" className="thumbnail" alt="Motovan"/>
                   </div>
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-7.png" className="thumbnail" alt="Motovan"/>
+                    <img src="/assets/images/portfolio/motovan-7.jpg" className="thumbnail" alt="Motovan"/>
                   </div>
                   <div className="thumb mb--30">
-                    <img src="/assets/images/portfolio/motovan-8.png" className="thumbnail" alt="Motovan"/>
+                    <img src="/assets/images/portfolio/motovan-8.jpg" className="thumbnail" alt="Motovan"/>
                   </div>
                 </div>
               </div>

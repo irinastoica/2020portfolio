@@ -46,7 +46,7 @@ function PortfolioVanillaClients() {
               {/* Start Top Description */}
               <div className="container-inner">
                 <div className="col-lg-12" ref={el => content = el}>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 col-sm-12">
                     <div className="hero-content-line">
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
@@ -69,7 +69,7 @@ function PortfolioVanillaClients() {
                     </div>
 
                   </div>
-                  <div className="col-6">
+                  <div className="col-lg-6 col-sm-12">
                     <p>I was responsible for converting and integrating the elements of the clients’s mockups into the Vanilla’s product. </p>
                     <p>I was also interacting with customers to gather requirements, set expectations, and go over the implementation of plugins,
                       modules and theming realizations.  </p>
