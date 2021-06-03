@@ -7,8 +7,8 @@ class PortfolioList extends Component {
   render(){
     return(
       <React.Fragment>
-        <div className="project-wrapper">
-          <div className="splitshow-left col-5">
+        <div className="project-wrapper" id="portfolio">
+          <div className="splitshow-left col-lg-5 col-sm-12">
             {/*Vanilla LandingPages*/}
             <div className="project-item" data-scroll-container>
               <a href='/vanilla-landing-pages' className="project-itemLink">
@@ -86,7 +86,7 @@ class PortfolioList extends Component {
               </div>
             </section>
           </div>
-          <div className="splitshow-right col-5">
+          <div className="splitshow-right col-lg-5 col-sm-12">
 
             {/*Asus*/}
             <div className="project-item" data-scroll-container>

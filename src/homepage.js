@@ -50,35 +50,40 @@ const PortfolioLanding = () => {
                 </div>
               </div>
               {/*Panel*/}
-              <div className="panels-right">
-                <img id="Panel1" sizes="100vw"
-                     srcSet="/assets/images/svgs/shape5.svg"
-                     alt=""></img>
-                <img id="Panel2" sizes="100vw"
-                     srcSet="/assets/images/svgs/shape6.svg"
-                     alt=""></img>
-                <img id="Panel3" sizes="100vw"
-                     srcSet="/assets/images/svgs/shape7.svg"
-                     alt=""></img>
-                <img  id="Panel4" sizes="100vw"
-                     srcSet="/assets/images/svgs/shape8.svg"
-                     alt=""></img>
-                <img id="Panel5" sizes="100vw"
-                     srcSet="/assets/images/svgs/shape9.svg"
-                     alt=""></img>
+              <div className="animated-panels">
+                <div className="panels-right">
+                  <img className="image" id="Panel1" sizes="100vw"
+                       srcSet="/assets/images/svgs/shape5.svg"
+                       alt=""></img>
+                  <img className="image" id="Panel2" sizes="100vw"
+                       srcSet="/assets/images/svgs/shape6.svg"
+                       alt=""></img>
+                  <img className="image" id="Panel6" sizes="100vw"
+                       srcSet="/assets/images/svgs/shape10.svg"
+                       alt=""></img>
+                  <img className="image" id="Panel7" sizes="100vw"
+                       srcSet="/assets/images/svgs/shape11.svg"
+                       alt=""></img>
+                  {/*<img  id="Panel4" sizes="100vw"*/}
+                       {/*srcSet="/assets/images/svgs/shape8.svg"*/}
+                       {/*alt=""></img>*/}
+                  {/*<img id="Panel5" sizes="100vw"*/}
+                       {/*srcSet="/assets/images/svgs/shape9.svg"*/}
+                       {/*alt=""></img>*/}
+                </div>
               </div>
             </div>
             {/*Panel*/}
-            {/*<div className="panels-right">*/}
-              {/*<img className="image panel-xy-1x1" id="Panel16" data-scroll-speed="15" sizes="100vw" srcSet="/assets/images/svgs/shape1.svg"*/}
-                   {/*alt=""></img>*/}
-              {/*<img className="image panel-xy-2x1" id="Panel17" data-scroll-speed="15" sizes="100vw"*/}
-                   {/*srcSet="/assets/images/svgs/shape2.svg"*/}
-                   {/*alt=""></img>*/}
-              {/*<img className="image panel-xy-3x1" data-scroll-speed="15" id="Panel18" sizes="100vw"*/}
-                   {/*srcSet="/assets/images/svgs/shape3.svg"*/}
-                   {/*alt=""></img>*/}
-            {/*</div>*/}
+            <div className="panels-right">
+              <img className="image panel-xy-1x1" id="Panel16" data-scroll-speed="15" sizes="100vw" srcSet="/assets/images/svgs/shape1.svg"
+                   alt=""></img>
+              <img className="image panel-xy-2x1" id="Panel17" data-scroll-speed="15" sizes="100vw"
+                   srcSet="/assets/images/svgs/shape2.svg"
+                   alt=""></img>
+              <img className="image panel-xy-3x1" data-scroll-speed="15" id="Panel18" sizes="100vw"
+                   srcSet="/assets/images/svgs/shape3.svg"
+                   alt=""></img>
+            </div>
           </div>
         </div>
       </div>

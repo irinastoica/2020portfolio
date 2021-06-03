@@ -77,13 +77,16 @@
         max-width: 60%;
         font-size: 60px;
         text-align: left;
+
+        @media #{$sm-layout} {
+            max-width: 100%;
+        }
     }
 
     .budget {
         margin: 50px 0;
 
         .budget-group {
-            display: flex;
             margin-bottom: 50px;
 
             .checkbox_rounded {

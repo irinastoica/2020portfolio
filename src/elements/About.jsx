@@ -11,189 +11,122 @@ import Header from "../component/header/HeaderDetails";
 
 
 class About extends Component{
-    render(){
-        let title = 'About',
-        description = 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going.';
-        return(
-            <React.Fragment>
-                <PageHelmet pageTitle='About' />
+  render(){
+    return(
+      <React.Fragment>
+        <PageHelmet pageTitle='About' />
 
-                <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
-                {/* Start Breadcrump Area */}
-                <Breadcrumb title={'About'}   />
-                {/* End Breadcrump Area */}
+        <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
 
-                {/* Start About Area  */}
-                <div className="rn-about-area ptb--120 bg_color--1">
-                    <div className="rn-about-wrapper">
-                        <div className="container">
-                            <div className="row row--35 align-items-center">
-                                <div className="col-lg-5">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/about/about-3.jpg" alt="About Images"/>
-                                    </div>
-                                </div>
-                                <div className="col-lg-7">
-                                    <div className="about-inner inner">
-                                        <div className="section-title">
-                                            <h2 className="title">{title}</h2>
-                                            <p className="description">{description}</p>
-                                        </div>
-                                        <div className="row mt--30">
-                                            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                                                <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
-                                                </div>
-                                            </div>
-                                            <div className="col-lg-6 col-md-12 col-sm-12 col-12">
-                                                <div className="about-us-list">
-                                                    <h3 className="title">Who we are</h3>
-                                                    <p>There are many vtions of passages of Lorem Ipsum available, but the majority have suffered.</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+        {/* Start About Area  */}
+        <div className="rn-about-area ptb--120 bg_color--1">
+          <div className="rn-about-wrapper">
+            <div className="container container-inner">
+              <div className="row row--35 defaultMargin">
+                <div className="col-lg-6">
+                  <div className="thumbnail">
+                    <img className="w-100" src="/assets/images/about/aboutImage.jpg" alt="About Images"/>
+                  </div>
+                </div>
+                <div className="col-lg-6">
+                  <div className="about-inner inner">
+                    <div className="title">
+                      <h2>About Us</h2>
+                      <p className="description">We create remarkable digital experiences for other humans. Our experience ranges from small organizations to large,
+                        high-growth technology companies. Our unique characteristics is our ability to see potential in products or brands and then turn them into reality.
+                      </p>
+                      <p>In addition to designing native apps, coding inspiring new pages and websites, we are capable of collaborating with a production crew on set. We always
+                        bring a quality of work and creativity that is hard to match, whether we are creating a prototype on our laptop, coding or drawing new illustrations.
+                      </p>
+                      <p>In her spare time, we enjoys hiking, volleyball and biking. We are not too big, not too small, completely independent and we would like to work with you. We may be a great match for you!
+                      </p>
                     </div>
+                  </div>
+                  <div className="about-us-list">
+                    <h3 className="detailsTitle">Roles</h3>
+                    <span className="role">UX Design</span>
+                    <span className="role">Strategy</span>
+                    <span className="role">Research</span>
+                    <span className="role">Front-End Development</span>
+                  </div>
+                  <a className="rn-button-style--2" href="/contact"><span>Download CV</span></a>
                 </div>
-                {/* End About Area  */}
+              </div>
 
-                 {/* Start CounterUp Area */}
-                 <div className="rn-counterup-area pb--120 bg_color--1">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title text-center">
-                                    <h3 className="fontWeight500">Our Fun Facts</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <CounterOne />
-                    </div>
+              <div className="row col-lg-12 maxHeight defaultMargin">
+                <div className="col-lg-6">
+                  <h2>It's all about the USER EXPERIENCE</h2>
+                  <p className="description">The user experience of our projects is made unique and innovative with a highly functional design, centered on usability, and easy navigation.
+                  </p>
+                  <p>In our fearless pursuit of potential, we often push the limits of what is possible because we believe that the passion that drives us to achieve is  inexhaustible.
+                  </p>
                 </div>
-                {/* End CounterUp Area */}
+                <div className="col-lg-3"></div>
 
-                {/* Start Finding Us Area  */}
-                <div className="rn-finding-us-area rn-finding-us bg_color--1">
-                    <div className="inner">
-                        <div className="content-wrapper">
-                            <div className="content">
-                                <h4 className="theme-gradient">Find Your Work Now</h4>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that.</p>
-                                <a className="rn-btn btn-white" href="/about">Get Started</a>
-                            </div>
-                        </div>
-                        <div className="thumbnail">
-                            <div className="image">
-                                <img src="/assets/images/about/finding-us-01.png" alt="Finding Images"/>
-                            </div>
-                        </div>
-                    </div>
+                <div className="col-lg-3">
+                  <div className="about-us-list">
+                    <h3 className="detailsTitle detailsTitle-white">Specialties</h3>
+                    <span className="role">SEO</span>
+                    <span className="role">CRO</span>
+                    <span className="role">Photoshop, Illustrator, Indesgin</span>
+                    <span className="role">Figma</span>
+                    <span className="role">Sketch</span>
+                    <span className="role">HTML, CSS, SASS/SCSS, Webpack, Javascript</span>
+                    <span className="role">Smarty, Twig</span>
+                    <span className="role">ReactJS</span>
+                    <span className="role">Hugo</span>
+                    <span className="role">Wordpress</span>
+                    <span className="role">Hubspot</span>
+                  </div>
+                  <div className="about-us-list">
+                    <h3 className="detailsTitle detailsTitle-white">Clients & Collaborations</h3>
+                    <span className="role">Vanilla Forums</span>
+                    <span className="role">Asus</span>
+                    <span className="role">Harry Potter Wizards Unite</span>
+                    <span className="role">Zapier</span>
+                    <span className="role">Smartsheet</span>
+                    <span className="role">Sonicwall</span>
+                    <span className="role">SAP</span>
+                    <span className="role">Motovan Inc</span>
+                    <span className="role">Zox Helemts</span>
+                    <span className="role">Olympia Motosports</span>
+                    <span className="role">Lyftnote</span>
+                  </div>
                 </div>
-                {/* End Finding Us Area  */}
+              </div>
+            </div>
+            <div className="col-lg-6">
+              <img className="w-100 thumbnail" src="/assets/images/about/city.jpg" alt="About Images"/>
+            </div>
+          </div>
+        </div>
+        {/* End About Area  */}
 
-                {/* Start Team Area  */}
-                <div className="rn-team-area bg_color--1 ptb--120">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <div className="section-title service-style--3 text-center mb--25">
-                                    <h2 className="title">Skilled Team</h2>
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="row">
 
-                            {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="team">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/team-01.jpg" alt="Blog Images"/>
-                                    </div>
-                                    <div className="content">
-                                        <h4 className="title">Jone Due</h4>
-                                        <p className="designation">Sr. Web Developer</p>
-                                    </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            {/* End Single Team  */}
+        {/* Start Brand Area */}
+        <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <BrandTwo />
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End Brand Area */}
 
-                            {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="team">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/team-02.jpg" alt="Blog Images"/>
-                                    </div>
-                                    <div className="content">
-                                        <h4 className="title">BM. Alamin</h4>
-                                        <p className="designation">Sr. Web Developer</p>
-                                    </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            {/* End Single Team  */}
+        {/* Start Back To Top */}
+        <div className="backto-top">
+          <ScrollToTop showUnder={160}>
+            <FiChevronUp />
+          </ScrollToTop>
+        </div>
+        {/* End Back To Top */}
 
-                            {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
-                                <div className="team">
-                                    <div className="thumbnail">
-                                        <img className="w-100" src="/assets/images/team/team-03.jpg" alt="Blog Images"/>
-                                    </div>
-                                    <div className="content">
-                                        <h4 className="title">Jone Due</h4>
-                                        <p className="designation">Sr. Web Developer</p>
-                                    </div>
-                                    <ul className="social-icon" >
-                                        <li><a href="https://www.facebook.com/"><FaFacebookF /></a></li>
-                                        <li><a href="http://linkedin.com/"><FaLinkedinIn /></a></li>
-                                        <li><a href="https://twitter.com/"><FaTwitter /></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            {/* End Single Team  */}
+        <Footer />
 
-                        </div>
-                    </div>
-                </div>
-                {/* End Team Area  */}
-
-                {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-12">
-                                <BrandTwo />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* End Brand Area */}
-
-                {/* Start Back To Top */}
-                <div className="backto-top">
-                    <ScrollToTop showUnder={160}>
-                        <FiChevronUp />
-                    </ScrollToTop>
-                </div>
-                {/* End Back To Top */}
-
-                <Footer />
-
-            </React.Fragment>
-        )
-    }
+      </React.Fragment>
+    )
+  }
 }
 export default About

@@ -51,7 +51,7 @@ function PortfolioLandinpage() {
               {/* Start Top Description */}
               <div className="container-inner">
                 <div className="col-lg-12" ref={el => content = el}>
-                  <div className="col-lg-6">
+                  <div className="col-lg-6 leftSide col-sm-12">
                     <div className="hero-content-line">
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
@@ -71,7 +71,7 @@ function PortfolioLandinpage() {
                       <span className="role">Hugo</span>
                     </div>
                   </div>
-                  <div className="col-6">
+                  <div className="col-lg-5 col-sm-12">
                     <p>Conversations by Vanilla is an annual free 3 day expo, where you'll find recordings from 30+ speakers on all
                       things that matter in the community space. Due to the global pandemic in 2020 in-person activities were prohibited
                       , therefor we decided to continue the conversation with this online conference. I was assigned the
@@ -121,7 +121,7 @@ function PortfolioLandinpage() {
                 </div>
                 <div className="container-inner">
                   <div className="col-lg-12">
-                    <div className="col-6">
+                    <div className="col-lg-6 col-sm-12">
                       <h2>Partner Ecosystem</h2>
                       <p>In March 2021, I <strong>led  the design and development </strong> of the partner ecosystem microsite. It's purpose is to let users know more
                         about Vanilla's partners, as well as the possibility of becoming a Vanilla partner themselves.  </p>
@@ -172,7 +172,6 @@ function PortfolioLandinpage() {
       {/* End Back To Top */}
 
       <Footer/>
-
 
     </React.Fragment>
   )

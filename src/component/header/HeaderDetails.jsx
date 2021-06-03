@@ -98,10 +98,10 @@ class HeaderDetails extends Component{
                     <div className="header-left d-flex align-items-center">
                         <nav className="mainmenunav">
                             <Scrollspy className="mainmenu" items={['home','about','service','portfolio','blog','contact']} currentClassName="is-current" offset={-200}>
-                                <li><a href="../#home">Home</a></li>
-                                <li><a href="../#about">About</a></li>
-                                <li><a href="../#portfolio">Portfolio</a></li>
-                                <li><a href="../contact">Contact</a></li>
+                                <li><a href="../" className="exit">Home</a></li>
+                                <li><a href="../about" className="exit">About</a></li>
+                                <li><a href="../projects" className="exit">Projects</a></li>
+                                <li><a href="../contact" className="exit">Contact</a></li>
                             </Scrollspy>
                         </nav>
                     </div>

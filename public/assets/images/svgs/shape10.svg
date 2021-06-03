@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 72 252" style="enable-background:new 0 0 72 252;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:url(#path0_fill_1_);}
+</style>
+<g id="Canvas">
+	
+		<linearGradient id="path0_fill_1_" gradientUnits="userSpaceOnUse" x1="3.5672" y1="154.7645" x2="4.5672" y2="154.7645" gradientTransform="matrix(-96 67.5 19.2857 27.4286 -2577.4976 -4380.0049)">
+		<stop  offset="0" style="stop-color:#E0F5F5"/>
+		<stop  offset="1" style="stop-color:#6C7878"/>
+	</linearGradient>
+	<path id="path0_fill" class="st0" d="M72,252L0,216V0l72,37V252z"/>
+</g>
+</svg>

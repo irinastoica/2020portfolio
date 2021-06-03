@@ -128,6 +128,10 @@ h1 {
     justify-content: center;
     margin-top: 200px;
 
+    @media #{$sm-layout} {
+        display: initial;
+    }
+
     .project-container {
 
         .project-wrapper {
@@ -135,6 +139,11 @@ h1 {
             flex-wrap: wrap;
             justify-content: space-between;
             padding: 0 220px;
+
+            @media #{$sm-layout} {
+                padding: 0;
+            }
+
         }
 
         .splitshow-right {
@@ -316,11 +325,18 @@ h1 {
             padding-top: $marginLarge;
             padding-bottom: $marginLarge;
             display: flex;
-            height:100vh;
+            min-height:100vh;
             align-items: center;
 
-            @media #{$sm-layout} {
+            .leftSide {
+                @media #{$mdb-layout} {
+                    margin-left: 80px;
+                }
+            }
+
+            @media #{$sm2-layout} {
                 height:100%;
+                padding-top: $marginHalfLarge;
             }
 
             &.topVideo {
@@ -348,21 +364,10 @@ h1 {
                 .roleWrapper {
                     display: flex;
                     flex-direction: column;
-                    margin-top: $marginDefaultBig;
+                    margin-bottom: $marginDefaultBig;
                 }
 
-                .detailsTitle-white {
-                    opacity: 0.4;
-                    font-size: $font-small;
-                }
             }
-
-
-            .detailsTitle {
-                font-weight: 600;
-                text-transform: uppercase;
-            }
-
 
             span {
                 font-size: 28px;
@@ -382,6 +387,19 @@ h1 {
             }
         }
     }
+}
+
+.detailsTitle {
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-size: $font-small;
+}
+
+.role {
+    font-size: $font-bigger;
+    text-transform: initial;
+    line-height: 35px;
 }
 
 .portfolio {

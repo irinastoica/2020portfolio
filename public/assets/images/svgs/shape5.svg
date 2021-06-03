@@ -7,9 +7,9 @@
 </style>
 <g id="Canvas" transform="translate(0 .5)">
 	
-		<linearGradient id="path0_fill_1_" gradientUnits="userSpaceOnUse" x1="40.2778" y1="68.4809" x2="41.2778" y2="68.4809" gradientTransform="matrix(-144 0 0 288 5944 -19686)">
-		<stop  offset="0" style="stop-color:#BDB9C1"/>
-		<stop  offset="1" style="stop-color:#4B595B"/>
+		<linearGradient id="path0_fill_1_" gradientUnits="userSpaceOnUse" x1="80.5556" y1="3.645833e-02" x2="81.5556" y2="3.645833e-02" gradientTransform="matrix(-144 0 0 -288 11744 47)">
+		<stop  offset="0" style="stop-color:#A2B9C1"/>
+		<stop  offset="1" style="stop-color:#BA9AD1"/>
 	</linearGradient>
 	<path id="path0_fill" class="st0" d="M72,0.5l72,36l-72,36l-72-36L72,0.5z"/>
 </g>

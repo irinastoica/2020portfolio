@@ -12,6 +12,7 @@ import Demo from './homepage';
 // Element Layout
 import About from "./elements/About";
 import Contact from "./elements/Contact";
+import Projects from "./elements/Projects";
 import PortfolioMotovan from "./elements/PortfolioMotovan";
 import PortfolioVanillaConversations from "./elements/PortfolioVanillaLandingPages";
 import PortfolioLyftnote from "./elements/PortfolioLyftnote";
@@ -42,6 +43,7 @@ class Root extends Component{
                     <Route exact path={`${process.env.PUBLIC_URL}/`} component={Demo}/>
 
                     {/* Element Layot */}
+                  <Route exact path={`${process.env.PUBLIC_URL}/projects`} component={Projects}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/contact`} component={Contact}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/about`} component={About}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/portfolio-details`} component={PortfolioMotovan}/>

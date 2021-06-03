@@ -46,7 +46,7 @@ function PortfolioBlogVanilla() {
               {/* Start Top Description */}
               <div className="container-inner">
                 <div className="col-lg-12" ref={el => content = el}>
-                  <div className="col-lg-6 col-sm-12 rightSide">
+                  <div className="col-md-6 col-sm-12 rightSide">
                     <div className="hero-content-line">
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
@@ -60,7 +60,8 @@ function PortfolioBlogVanilla() {
                       <span className="role">Front End Developer</span>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-sm-12">
+                  <div className="col-md-1"></div>
+                  <div className="col-md-4 col-lg-5 col-sm-12">
                     <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
                       A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
                     <p>My main implication in this projects was the UX and UI design of the whole app.

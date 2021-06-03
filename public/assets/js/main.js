@@ -3,6 +3,7 @@ window.onload=function() {
   const button = document.querySelector('.toggle');
   const overlay = document.querySelector('.overlay');
   const exit = document.querySelector('.exit');
+  const links = document.querySelector('a');
   const logo = document.querySelector('.logo');
   const colors = ['', 'lightPink', 'paleGreen', 'aquamarine', 'paleGreen']
   const sections = [...document.getElementsByTagName('section')];
@@ -29,7 +30,6 @@ window.onload=function() {
     tl.reverse(.8);
     logo.classList.remove("logo--white");
   });
-
 
   window.addEventListener('scroll', function () {
 
