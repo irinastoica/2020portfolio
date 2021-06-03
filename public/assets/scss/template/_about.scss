@@ -125,12 +125,12 @@
 .about-inner {
     margin-bottom: 40px;
 
-    @media #{$md-layout} {
-        padding-top: 40px;
-    }
-    @media #{$sm-layout} {
-        padding-top: 40px;
-    }
+    //@media #{$md-layout} {
+    //    padding-top: 40px;
+    //}
+    //@media #{$sm-layout} {
+    //    padding-top: 40px;
+    //}
     .section-title{
 
         p{
@@ -154,6 +154,10 @@
     .container {
         padding-left: 0;
         position: relative;
+
+        @media #{$sm-layout} {
+            width: 100%;
+        }
     }
 
     .thumbnail {

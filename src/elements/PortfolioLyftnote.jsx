@@ -90,27 +90,25 @@ function PortfolioLyftnote() {
                     <div className="thumb box mr--40"  data-scroll-speed="5">
                       <img src="/assets/images/portfolio/lyftnote-3a.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
                     </div>
-                    <div className="thumb mb--30 box mr--40"  data-scroll-speed="9">
+                    <div className="thumb box mr--40"  data-scroll-speed="9">
                       <img src="/assets/images/portfolio/lyftnote-3b.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
                     </div>
-                    <div className="thumb mb--30 box mr--40"  data-scroll-speed="4">
+                    <div className="thumb box mr--40"  data-scroll-speed="4">
                       <img src="/assets/images/portfolio/lyftnote-3c.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
                     </div>
                   </div>
                   <div className="backgroundColor"></div>
                 </div>
-                <div className="mt--150">
-                  <div className="thumb mb--30 box">
-                    <img src="/assets/images/portfolio/lyftnote-artboard.png" className="fullWidth" alt="Portfolio Images"/>
-                  </div>
+                <div className="thumb mb--30 box">
+                  <img src="/assets/images/portfolio/lyftnote-artboard.png" className="fullWidth" alt="Portfolio Images"/>
                 </div>
                 <div className="container defaultTopMargin">
                   <div className="images-column-2 content">
                     <div className="wrapper">
-                      <div className="thumb mb--30 box" >
+                      <div className="thumb box" >
                         <img src="/assets/images/portfolio/lyftnote-2a.jpg" className="fullWidth thumbnail" alt="Portfolio Images"/>
                       </div>
-                      <div className="thumb mb--30 box">
+                      <div className="thumb box">
                         <img src="/assets/images/portfolio/lyftnote-2b.jpg" className="fullWidth thumbnail" alt="Portfolio Images"/>
                       </div>
                     </div>
@@ -166,7 +164,7 @@ function PortfolioLyftnote() {
                 </div>
 
 
-                <div className="images-column-2 content mt--150">
+                <div className="images-column-2 content">
                   <div className="wrapper">
                     <div className="thumb mb--30 box mr--40">
                       <img src="/assets/images/portfolio/lyftnote-4.jpg" className="fullWidth image-boxShadow" alt="Portfolio Images"/>

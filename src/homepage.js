@@ -10,8 +10,8 @@ import TabTwo from "./elements/tab/TabTwo";
 
 
 const PortfolioLanding = () => {
-  let title = 'ready for a new experience combinaing code and Design.',
-    description = 'I am all about tehnology, design and positive vibes';
+  let title = 'We live in details,\n' +
+    'We create Buzz';
   return (
     <div className="">
       <Helmet pageTitle="Home Page" />
@@ -22,7 +22,7 @@ const PortfolioLanding = () => {
           <div className="about-wrapper">
             <div className="container col-2">
               {/*Video*/}
-              <div className="col-lg-5 home-intro-left section">
+              <div className="col-lg-5 col-md-7 col-sm-7 home-intro-left section">
                 <div className="home-video-intro">
                   {/*<img className="w-100" src="/assets/images/about/homepageImage.jpg" alt="About Images"/>*/}
                   <div className="image-boxShadow">
@@ -37,9 +37,12 @@ const PortfolioLanding = () => {
                 <div className="home-left-title">
                   <h2 className="title">{title}</h2>
                 </div>
+                <div className="description">
+                  Branding, UX & UI design, Web Developement
+                </div>
               </div>
               {/*Intro*/}
-              <div className="col-lg-7 section">
+              <div className="col-lg-7 col-md-5 col-sm-5 section">
                 <div className="about-inner home-intro-inner">
                   <div className="section-title home-left-title">
                     <h2 className="title home-intro-title-nomask">{title}</h2>
