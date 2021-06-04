@@ -113,14 +113,6 @@ class HeaderDetails extends Component{
                                 ))}
                             </ul>
                         </div>
-                        {/* Start Humberger Menu  */}
-                        <div className="humberger-menu d-block d-lg-none pl--20">
-                            <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>
-                        </div>
-                        {/* End Humberger Menu  */}
-                        <div className="close-menu d-block d-lg-none">
-                            <span onClick={this.CLoseMenuTrigger} className="closeTrigger"><FiX /></span>
-                        </div>
                     </div>
                 </div>
             </header>

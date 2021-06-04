@@ -20,12 +20,13 @@ function PortfolioBlogVanilla() {
     const headlineFirst = content.children[0].children[0];
     const headlineSecond = headlineFirst.nextSibling;
     const headlineThird = headlineSecond.nextSibling;
+    const headlineFourth = headlineThird.nextSibling;
     const contentP = content.children[1];
     const contentButton = content.children[2];
 
     // //Content Animation
-    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 200,
+    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children, headlineFourth.children], 1, {
+      y: 270,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
@@ -51,13 +52,17 @@ function PortfolioBlogVanilla() {
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
                     <div className="hero-content-line">
-                      <h2 className="animated ">Communications by Vanilla Event </h2>
+                      <h2 className="animated ">Vanilla Forums Blog & Library</h2>
                     </div>
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">My role</h3>
-                      <span className="role">Co Founder</span>
-                      <span className="role">Ux Designer</span>
+                      <span className="role">Lead Ux Design</span>
                       <span className="role">Front End Developer</span>
+                    </div>
+                    <div className="hero-content-line roleWrapper">
+                      <h3 className="detailsTitle detailsTitle-white">Key tools</h3>
+                      <span className="role">Hubspot</span>
+                      <span className="role">Sketch</span>
                     </div>
                   </div>
                   <div className="col-md-1"></div>

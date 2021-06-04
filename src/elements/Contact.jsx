@@ -44,7 +44,7 @@ const Contact = () => {
 
     <form className="form defaultMargin" onSubmit={handleSubmit}>
       <div className="container">
-        <h1 className="form-title">Hey! Tell me all about your project  🤳</h1>
+        <h1 className="form-title">Hey! Tell us about your project  🤳</h1>
         {/* Name */}
         <div className="bottom-line">
           <input

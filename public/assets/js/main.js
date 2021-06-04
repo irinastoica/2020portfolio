@@ -17,13 +17,19 @@ window.onload=function() {
   var tl = gsap.timeline({ defaults: { duration: 1, ease: Back.easeOut.config(2) } });
 
   tl.paused(true);
-  tl.to(".overlay", {clipPath: 'circle(100%)'});
+  tl.to(".overlay", {
+    clipPath: 'circle(100%)'
+  });
 
+  overlay.addEventListener('click', () => {
+    document.body.className = "menu--opened";
+  });
 
   button.addEventListener('click', () => {
     tl.play();
     button.classList.add("isOpen");
     logo.classList.add("logo--white");
+    document.body.classList.add("menu--opened");
   });
 
   exit.addEventListener('click', () => {

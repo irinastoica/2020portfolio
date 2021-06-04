@@ -119,18 +119,12 @@
 }
 
 .maxHeight {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .about-inner {
     margin-bottom: 40px;
 
-    //@media #{$md-layout} {
-    //    padding-top: 40px;
-    //}
-    //@media #{$sm-layout} {
-    //    padding-top: 40px;
-    //}
     .section-title{
 
         p{

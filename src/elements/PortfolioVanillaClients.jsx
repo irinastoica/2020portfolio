@@ -25,7 +25,7 @@ function PortfolioVanillaClients() {
 
     // //Content Animation
     tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children, headlineFourth.children], 1, {
-      y: 240,
+      y: 270,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
