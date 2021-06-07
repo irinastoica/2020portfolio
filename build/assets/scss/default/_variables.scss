@@ -100,21 +100,12 @@ $extra-device: 'only screen and (min-width: 1600px) and (max-width: 1919px)';
 
 $laptop-device: 'only screen and (min-width: 1200px) and (max-width: 1599px)';
 $lg-layout: 'only screen and (min-width: 992px) and (max-width: 1199px)';
+$mdb-layout:'only screen and (min-width: 991px) and (max-width: 1300px)';
 $md-layout:'only screen and (min-width: 768px) and (max-width: 991px)';
+$sm2-layout: 'only screen and (max-width: 991px)';
 $sm-layout:'only screen and (max-width: 767px)';
 $large-mobile: 'only screen and (max-width: 575px)';
 /* container 450px*/
 $small-mobile: 'only screen and (max-width: 479px)';
 /* container 300px*/
 
-@media #{$large-mobile} {
-    .container {
-        width: 450px;
-    }
-}
-
-@media #{$small-mobile} {
-    .container {
-        width: 320px;
-    }
-}

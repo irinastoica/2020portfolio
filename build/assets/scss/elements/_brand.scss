@@ -90,7 +90,7 @@ ul{
             }
             @media #{$large-mobile} {
                 flex-basis: 33.33%;
-                padding: 0 15px;
+                padding: 30px;
                 margin-bottom: 16px;
             }
         }
@@ -141,7 +141,6 @@ ul{
 .brand-separation {
     position: relative;
     padding-bottom: 217px;
-    margin-bottom: -117px;
     padding-top: 60px;
     background: #fff;
     

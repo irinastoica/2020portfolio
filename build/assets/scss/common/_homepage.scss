@@ -14,6 +14,225 @@
         }
     }
 
+    //Panels
+
+    //animations
+
+    .animated-panels {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 1600px;
+        height: 100%;
+        transform: translateX(-50%);
+
+        .panels-right {
+            position: relative;
+            right: 50px;
+
+            @media #{$lg-layout} {
+                right: 300px;
+            }
+
+            @keyframes animation-y {
+                0% {
+                    transform: translateX(0) translateY(0);
+                }
+
+                30% {
+                    transform: translateX(200px) translateY(100px);
+                }
+
+                60%, 100% {
+                    transform: translateX(0) translateY(0);
+                }
+            }
+
+            @keyframes animation-x {
+                0% {
+                    transform: translateX(0) translateY(0);
+                }
+
+                10% {
+                    transform: translateX(25px) translateY(-12.5px);
+                }
+
+                30% {
+                    transform: translateX(100px) translateY(-50px);
+                }
+                60%, 100% {
+                    transform: translateX(0) translateY(0);
+                }
+            }
+
+            @keyframes animation-xz {
+                0% {
+                    transform: translateX(0) translateY(0);
+                }
+
+                10% {
+                    transform: translateY(50px);
+                }
+
+                30% {
+                    transform: translateX(-200px) translateY(150px);
+                }
+                40% {
+                    transform: translateX(-200px) translateY(100px);
+                }
+
+                60%, 100% {
+                    transform: translateX(0) translateY(0);
+                }
+            }
+
+            @keyframes animation-xz2 {
+                0% {
+                    transform: translateX(0) translateY(0);
+                }
+
+                10% {
+                    transform: translateY(50px);
+                }
+
+                30% {
+                    transform: translateX(-100px) translateY(100px);
+                }
+                40% {
+                    transform: translateX(-200px) translateY(50px);
+                }
+
+                60%, 100% {
+                    transform: translateX(0) translateY(0);
+                }
+            }
+
+            @keyframes animation-z-2-minus {
+                0% {
+                    transform: translateX(0) translateY(0);
+                }
+
+                30% {
+                    transform: translateY(100px);
+                }
+
+                60%, 100% {
+                    transform: translateX(0) translateY(0);
+                }
+
+            }
+
+            @keyframes animation-loop-yz {
+                0% {
+                    transform: translateX(0) translateY(0);
+                }
+
+                10% {
+                    transform: translateY(-50px);
+                }
+
+
+                30% {
+                    transform: translateX(100px) translateY(-100px);
+                }
+
+                50% {
+                    transform: translateX(100px) translateY(-50px);
+                }
+
+                60%, 100% {
+                    transform: translateX(0) translateY(0);
+                }
+
+            }
+
+            .image {
+                opacity: .4;
+            }
+
+            #Panel1 {
+                bottom: 220px;
+                left: 1300px;
+                animation: animation-y 10s 1s infinite;
+                animation-play-state: inherit;
+                position: absolute;
+                height: 1500px;
+                z-index: 0;
+            }
+
+            #Panel2 {
+                bottom: 150px;
+                left: 1225px;
+                -webkit-animation: animation-x 10s 1s infinite;
+                animation: animation-x 10s 1s infinite;
+                -webkit-animation-play-state: inherit;
+                animation-play-state: inherit;
+                position: absolute;
+                height: 1000px;
+            }
+
+            #Panel3 {
+                bottom: 84px;
+                left: 1467px;
+                position: absolute;
+                width: 300px;
+            }
+
+            #Panel4 {
+                bottom: 50px;
+                left: 1475px;
+                -webkit-animation: animation-xz 20s 1s infinite;
+                animation: animation-xz 20s 1s infinite;
+                -webkit-animation-play-state: inherit;
+                animation-play-state: inherit;
+                position: absolute;
+                height: 300px;
+            }
+
+            #Panel5 {
+                position: absolute;
+                width: 100px;
+                height: 300px;
+                bottom: 200px;
+                left: 1800px;
+                -webkit-animation: animation-xz2 15s 1s infinite;
+                animation: animation-xz2 15s 1s infinite;
+                -webkit-animation-play-state: inherit;
+                animation-play-state: inherit;
+            }
+
+            #Panel6 {
+                position: absolute;
+                height: 801px;
+                top: 162px;
+                left: 1519px;
+                -webkit-animation: animation-z-2-minus 10s 15s infinite;
+                animation: animation-z-2-minus 10s 15s infinite;
+                -webkit-animation-play-state: inherit;
+                animation-play-state: inherit;
+            }
+
+            #Panel7 {
+                position: absolute;
+                height: 800px;
+                top: 165px;
+                left: 1748px;
+                -webkit-animation: animation-loop-yz 10s 2s infinite;
+                animation: animation-loop-yz 10s 2s infinite;
+                -webkit-animation-play-state: inherit;
+                animation-play-state: inherit;
+            }
+
+
+            //End Panels
+        }
+    }
+
+    #Panel16,
+    #Panel17 {
+        opacity: .4;
+    }
+
     .section {
         padding: 0;
     }
@@ -69,5 +288,6 @@
         height: 100%;
         display: flex;
         align-items: center;
+        font-size: 80px;
     }
 }

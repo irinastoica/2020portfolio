@@ -13,28 +13,26 @@ body {
     }
 }
 
-section {
-    min-height: 100vh;
-    height: 100%;
-}
+//section {
+//    min-height: 100vh;
+//    height: 100%;
+//}
 
 section:first-of-type {
     height: 0;
     min-height: 0;
 }
 
-
-
 h1 {
     margin: 15rem;
 }
 
 .lightPink {
-    background-color: rgb(255, 229, 229);
+    background-color: #FFF2F0;
 }
 
 .paleGreen {
-    background-color: #D0F3ED;
+    background-color: #e5f3ee;
 }
 
 .darkGrayLight {
@@ -130,6 +128,10 @@ h1 {
     justify-content: center;
     margin-top: 200px;
 
+    @media #{$sm-layout} {
+        display: initial;
+    }
+
     .project-container {
 
         .project-wrapper {
@@ -137,6 +139,11 @@ h1 {
             flex-wrap: wrap;
             justify-content: space-between;
             padding: 0 220px;
+
+            @media #{$sm-layout} {
+                padding: 0;
+            }
+
         }
 
         .splitshow-right {
@@ -161,10 +168,6 @@ h1 {
 
             h4 {
                 font-size: 40px;
-            }
-
-            .video-smaller {
-                width: 450px!important;
             }
 
             .project-itemLink {
@@ -215,21 +218,27 @@ h1 {
                 .video-react-video {
                     height: 100%;
                     max-height: 600px;
+                    max-width: 100%;
                 }
             }
         }
     }
 }
 
+.video-smaller {
+    min-width: 450px!important;
+}
+
 .portfolio-details {
 
     .col-lg-12 {
         display: flex;
+        flex-wrap: wrap;
 
         .roleWrapper {
             display: flex;
             flex-direction: column;
-            margin-top: $marginDefaultBig;
+            margin: $marginDefaultBig 0;
         }
     }
 
@@ -262,18 +271,31 @@ h1 {
     flex-direction: column;
     align-items: center;
 
+    @media #{$sm-layout} {
+        flex-direction: initial;
+        align-items: initial;
+    }
+
     .smaller-image {
         max-width: 900px;
+
+        @media #{$sm-layout} {
+            max-width: 100%;
+        }
     }
 
     .video-react-controls-enabled {
         display: flex;
         justify-content: center;
-        padding-top: 0!important;
+        padding-top: 0;
         height: 700px;
 
         .video-react-video {
             width: 700px !important;
+
+            @media #{$sm2-layout} {
+                width: 400px !important;
+            }
         }
     }
 
@@ -288,8 +310,20 @@ h1 {
 
 .images-column-2 {
 
+    .out-flow-right {
+
+        @media #{$sm-layout} {
+            position: initial;
+        }
+    }
+
     .smaller-image {
         max-width: 400px;
+
+        @media #{$sm-layout} {
+            max-width: 100%;
+            transform: none !important;
+        }
     }
 }
 
@@ -297,6 +331,11 @@ h1 {
 
     .video-react-controls-enabled .video-react-video {
         max-width: 600px!important;
+
+        @media #{$sm-layout} {
+            max-width: 100%!important;
+            padding-top: 0!important;
+        }
     }
 }
 
@@ -311,8 +350,20 @@ h1 {
             padding-top: $marginLarge;
             padding-bottom: $marginLarge;
             display: flex;
-            height:100vh;
+            min-height:100vh;
             align-items: center;
+
+            .leftSide {
+                @media #{$mdb-layout} {
+                    margin-left: 80px;
+                }
+            }
+
+            @media #{$sm2-layout} {
+                min-height:100%;
+                padding-top: $marginHalfLarge;
+                align-items: initial;
+            }
 
             &.topVideo {
                 position: absolute;
@@ -327,6 +378,10 @@ h1 {
             .col-lg-12 {
                 display: flex;
 
+                .rightSide {
+                    margin-bottom: 50px;
+                }
+
                 .hero-content-line {
                     margin: 0;
                     overflow: hidden;
@@ -335,21 +390,10 @@ h1 {
                 .roleWrapper {
                     display: flex;
                     flex-direction: column;
-                    margin-top: $marginDefaultBig;
+                    margin-bottom: $marginDefaultBig;
                 }
 
-                .detailsTitle-white {
-                    opacity: 0.4;
-                    font-size: $font-small;
-                }
             }
-
-
-            .detailsTitle {
-                font-weight: 600;
-                text-transform: uppercase;
-            }
-
 
             span {
                 font-size: 28px;
@@ -358,9 +402,9 @@ h1 {
             }
 
             .role {
-                font-size: $font-bigger;
+                font-size: 20px;
                 text-transform: initial;
-                line-height: 35px;
+                line-height: 40px;
             }
 
             .col-6 {
@@ -369,6 +413,19 @@ h1 {
             }
         }
     }
+}
+
+.detailsTitle {
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.4;
+    font-size: $font-small;
+}
+
+.role {
+    font-size: $font-bigger;
+    text-transform: initial;
+    line-height: 35px;
 }
 
 .portfolio {
@@ -573,10 +630,13 @@ h1 {
     margin-right: $marginDefaultBig;
 }
 
-
 .video-react-controls-enabled {
     top: -150px;
     padding-top: 0!important;
+
+    @media #{$sm2-layout} {
+        padding-top: $marginLarge !important;
+    }
 
     [type=button],
     .video-react-control-bar {
@@ -584,7 +644,6 @@ h1 {
     }
 
     .video-react-video {
-        max-width: 420px !important;
         z-index: 1;
         top: 0;
         object-fit: cover;
@@ -599,7 +658,7 @@ h1 {
     .video-react-controls-enabled {
 
         .video-react-video {
-            min-width: 550px !important;
+            min-width: 1000px !important;
         }
     }
 

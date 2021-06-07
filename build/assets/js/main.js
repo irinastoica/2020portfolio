@@ -3,9 +3,11 @@ window.onload=function() {
   const button = document.querySelector('.toggle');
   const overlay = document.querySelector('.overlay');
   const exit = document.querySelector('.exit');
+  const links = document.querySelector('a');
   const logo = document.querySelector('.logo');
   const colors = ['', 'lightPink', 'paleGreen', 'aquamarine', 'paleGreen']
   const sections = [...document.getElementsByTagName('section')];
+  // const sections = [...document.getElementsByClassName('colorChange')];
 
   const image = document.getElementsByClassName('thumbnail');
   new simpleParallax(image);
@@ -15,20 +17,25 @@ window.onload=function() {
   var tl = gsap.timeline({ defaults: { duration: 1, ease: Back.easeOut.config(2) } });
 
   tl.paused(true);
-  tl.to(".overlay", {clipPath: 'circle(100%)'});
+  tl.to(".overlay", {
+    clipPath: 'circle(100%)'
+  });
 
+  overlay.addEventListener('click', () => {
+    document.body.className = "menu--opened";
+  });
 
   button.addEventListener('click', () => {
     tl.play();
     button.classList.add("isOpen");
     logo.classList.add("logo--white");
+    document.body.classList.add("menu--opened");
   });
 
   exit.addEventListener('click', () => {
     tl.reverse(.8);
     logo.classList.remove("logo--white");
   });
-
 
   window.addEventListener('scroll', function () {
 
@@ -38,6 +45,7 @@ window.onload=function() {
 
       if (scrollFromTop <= sections[i].offsetTop) {
         document.body.className = colors[i];
+        // alert("Hello! I am an alert box!!");
         break
       }
 
@@ -83,9 +91,6 @@ $(function(){
 
 /*
  * CSS3 Animate it
- * Copyright (c) 2014 Jack McCourt
- * https://github.com/kriegar/css3-animate-it
- * Version: 0.1.0
  */
 (function($) {
   var selectors = [];
