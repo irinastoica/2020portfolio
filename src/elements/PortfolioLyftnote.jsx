@@ -5,8 +5,13 @@ import { FiChevronUp } from "react-icons/fi";
 import Header from "../component/header/HeaderDetails";
 import Footer from "../component/footer/FooterTwo";
 
-import { TimelineLite, Power3} from 'gsap'
+import { TimelineLite, gsap, Power3} from 'gsap'
+import { CSSPlugin } from 'gsap/CSSPlugin'
 import { Player } from "video-react";
+
+// Force CSSPlugin to not get dropped during build
+gsap.registerPlugin(CSSPlugin);
+
 
 
 function PortfolioLyftnote() {

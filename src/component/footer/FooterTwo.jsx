@@ -15,7 +15,7 @@ const FooterTwo = () => {
               <div className="cb-outro-body">
                 <div className="cb-outro-container">
                   <div className="cb-outro-header">
-                    <h2>Have an intresting idea?</h2>
+                    <h2>Have an interesting idea?</h2>
                     <a href="/contact/">Let's chat.</a>
                   </div>
                 </div>

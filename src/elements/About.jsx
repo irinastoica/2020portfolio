@@ -50,7 +50,7 @@ class About extends Component{
                     <h3 className="detailsTitle detailsTitle-white">Specialties</h3>
                     <span className="role">SEO</span>
                     <span className="role">CRO</span>
-                    <span className="role">Photoshop, Illustrator, Indesgin</span>
+                    <span className="role">Photoshop, Illustrator, Indesign</span>
                     <span className="role">Figma</span>
                     <span className="role">Sketch</span>
                     <span className="role">HTML, CSS, SASS/SCSS, Webpack, Javascript</span>

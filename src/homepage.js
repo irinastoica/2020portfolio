@@ -42,7 +42,7 @@ const PortfolioLanding = () => {
                 </div>
               </div>
               {/*Intro*/}
-              <div className="col-lg-7 col-md-5 col-sm-5 section">
+              <div className="col-lg-7 col-md-5 col-sm-5 home-intro-title-wrapper section">
                 <div className="about-inner home-intro-inner">
                   <div className="section-title home-left-title">
                     <h2 className="title home-intro-title-nomask">{title}</h2>
@@ -77,7 +77,7 @@ const PortfolioLanding = () => {
               </div>
             </div>
             {/*Panel*/}
-            <div className="panels-right">
+            <div className="panels-right bottom">
               <img className="image panel-xy-1x1" id="Panel16" data-scroll-speed="15" sizes="100vw" srcSet="/assets/images/svgs/shape1.svg"
                    alt=""></img>
               <img className="image panel-xy-2x1" id="Panel17" data-scroll-speed="15" sizes="100vw"

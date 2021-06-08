@@ -100,7 +100,7 @@ function PortfolioLandinpage() {
                       <img src="/assets/images/portfolio/conversations-3a.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
                     </div>
                     <div className="thumb mb--30 box box-parallax-1" data-scroll-speed="16">
-                      <img src="/assets/images/portfolio/conversations-3b.png" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
+                      <img src="/assets/images/portfolio/conversations-3b.jpg" className="fullWidth image-boxShadow" alt="Portfolio Images"/>
                     </div>
                   </div>
                   <div className="backgroundColor"></div>

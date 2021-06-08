@@ -121,6 +121,11 @@ function PortfolioBlogVanilla() {
                     <img src="/assets/images/svgs/hex.svg" alt="Portfolio Images"/>
                   </div>
                 </div>
+                <div className="mt--150">
+                  <video autoPlay loop muted poster="assets/videos/library.jpg" className="video-width video-animation">
+                    <source src="assets/videos/library.mp4" type="video/mp4"></source>
+                  </video>
+                </div>
               </div>
             </div>
           </div>
