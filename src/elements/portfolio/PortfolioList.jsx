@@ -58,33 +58,11 @@ class PortfolioList extends Component {
               <div className="content-wrapper">
                 <div className="inner">
                   <p className="project-type">Co-founder</p>
-                  <h4 className="project-name">Lyftnote</h4>
+                  <h4 className="project-name">Lyftnote - Mobile App for Students</h4>
                 </div>
               </div>
             </section>
 
-            {/*Roadkrome*/}
-            <section className="project-item" data-scroll-container>
-              <a href='/roadkrome' className="project-itemLink">
-                <div className="thumbnail-inner">
-                  <picture className="video-animation">
-                    <Player className="video-smaller"
-                      autoPlay
-                      loop
-                      muted
-                      poster="/assets/poster.png"
-                      src="../assets/videos/roadkrome.mp4"
-                    />
-                  </picture>
-                </div>
-              </a>
-              <div className="content-wrapper">
-                <div className="inner">
-                  <p className="project-type">UX Design</p>
-                  <h4 className="project-name">Roadkrome</h4>
-                </div>
-              </div>
-            </section>
           </div>
           <div className="splitshow-right col-lg-5 col-sm-12">
 
@@ -124,7 +102,7 @@ class PortfolioList extends Component {
             </section>
 
             {/*  Motovan  */}
-            <section className="project-item colorChange" data-scroll-container>
+            <div className="project-item colorChange" data-scroll-container>
               <a href='/portfolio-details' className="project-itemLink">
                 <div className="thumbnail-inner">
                   <picture className={``}>
@@ -136,6 +114,29 @@ class PortfolioList extends Component {
                 <div className="inner">
                   <p className="project-type">Graphic Design</p>
                   <h4 className="project-name">Motovan Corporation</h4>
+                </div>
+              </div>
+            </div>
+
+            {/*Roadkrome*/}
+            <section className="project-item" data-scroll-container>
+              <a href='/roadkrome' className="project-itemLink">
+                <div className="thumbnail-inner">
+                  <picture className="video-animation">
+                    <Player className="video-smaller"
+                            autoPlay
+                            loop
+                            muted
+                            poster="/assets/poster.png"
+                            src="../assets/videos/roadkrome.mp4"
+                    />
+                  </picture>
+                </div>
+              </a>
+              <div className="content-wrapper">
+                <div className="inner">
+                  <p className="project-type">UX Design</p>
+                  <h4 className="project-name">Roadkrome</h4>
                 </div>
               </div>
             </section>

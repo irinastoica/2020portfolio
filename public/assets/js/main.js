@@ -6,7 +6,9 @@ window.onload=function() {
   const links = document.querySelector('a');
   const logo = document.querySelector('.logo');
   const colors = ['', 'lightPink', 'paleGreen', 'aquamarine', 'paleGreen']
+  const darkColors = ['red', 'red', 'blue', 'darkPurple', 'paleGreen']
   const sections = [...document.getElementsByTagName('section')];
+  const sections2 = [...document.getElementsByClassName('dark')];
   // const sections = [...document.getElementsByClassName('colorChange')];
 
   const image = document.getElementsByClassName('thumbnail');
@@ -45,6 +47,16 @@ window.onload=function() {
 
       if (scrollFromTop <= sections[i].offsetTop) {
         document.body.className = colors[i];
+        // alert("Hello! I am an alert box!!");
+        break
+      }
+
+    }
+
+    for (let i = 0; sections2.length > i; i++) {
+
+      if (scrollFromTop <= sections2[i].offsetTop) {
+        document.body.className = darkColors[i];
         // alert("Hello! I am an alert box!!");
         break
       }
@@ -349,5 +361,7 @@ $(function(){
 
 
 })(jQuery);
+
+
 
 

@@ -55,14 +55,14 @@ function PortfolioRoadkrome() {
                     </div>
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">My role</h3>
-                      <span className="role">Ux Designer</span>
+                      <span className="role">Branding</span>
                       <span className="role">Front End Developer</span>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-sm-12">
-                    <p>New identity for the Roadkrome. Roadkrome is a brand of high-quality motorcycle accessories and leather
-                      appeal. The purpose of the new identity is to modernize the identity of the whole brand. Along with the
-                      new logo, I created a new website and packaging to fit well with the modern and masculine look.</p>
+                  <div className="col-lg-6 col-sm-12 marginRightSide">
+                    <p>New branding for Roadkrome. Roadkrome is a brand of high-quality motorcycle accessories and leather appeal.
+                      Modernizing the identity of the whole brand was the goal of the new identity. The new packaging and visuals were
+                      designed to match the new look and feel of the brand’s new logo. We also designed a brand new website.</p>
                   </div>
                 </div>
               </div>

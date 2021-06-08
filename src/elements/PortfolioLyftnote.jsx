@@ -55,32 +55,30 @@ function PortfolioLyftnote() {
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
                     <div className="hero-content-line">
-                      <h2 className="animated ">Communications by Vanilla Event </h2>
+                      <h2 className="animated ">Lytnote - Made for Students</h2>
                     </div>
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">My role</h3>
                       <span className="role">Co Founder</span>
-                      <span className="role">Ux Designer</span>
+                      <span className="role">Lead Ux Designer</span>
                       <span className="role">Front End Developer</span>
                     </div>
 
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">Key tools</h3>
-                      <span className="role">ReactJS</span>
-                      <span className="role">Agile process (Scrum, Kanban)</span>
-                      <span className="role">CI/CD pipeline, Git, Node.js/Yarn</span>
-                      <span className="role">HTML, CSS, Javascript</span>
-                      <span className="role">Smarty, Twig</span>
-                      <span className="role">Docker</span>
+                      <span className="role">CSS3 with Bootstrap</span>
+                      <span className="role">HTML5</span>
+                      <span className="role">Javascript / Jquery</span>
                     </div>
                   </div>
                   <div className="col-lg-6 col-sm-12">
-                    <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
+                    <p> Buying valuable textbooks shouldn't result in overspending and unfair markdowns.
+                      Lyfnote is a mobile app made for students who are looking to sell or buy their textbooks in their community.
                       A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
-                    <p>My main implication in this projects was the UX and UI design of the whole app.
-                      How to make the app as easy as possible to use, student friendly.
-                      I was also in charge of the front end development of the user interface and the user experience of the app.
-                      Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
+                    <p>A major part of my involvement in this project was the UX and UI design of the entire application.
+                      My main goal in my research and design was to make sure that students can easily use the app without assistance.
+                      As a result of testing the prototype with a few fellow students and running A/B tests, we were able to launch the
+                      mobile and web platform at Concordia and Mcgill University in Montreal,  Quebec.</p>
                   </div>
                 </div>
               </div>
@@ -151,13 +149,18 @@ function PortfolioLyftnote() {
                 <div className="portfolio-details" ref={el => app = el}>
                   <div className="container-inner">
                     <div className="col-lg-6 col-sm-12">
-                      <h3 className="detailsTitle detailsTitle-white">Made for Students</h3>
-                      <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
-                        A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
-                      <p>My main implication in this projects was the UX and UI design of the whole app.
-                        How to make the app as easy as possible to use, student friendly.
-                        I was also in charge of the front end development of the user interface and the user experience of the app.
-                        Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
+                      <h2>Every element made for students</h2>
+                      <p>Students no longer have to give their personal phone numbers to strangers in order to exchange information thanks to Lyftnote's secure
+                        instant-messaging system. We ensure that all communications take place in a secure and private manner with Lyftnote. </p>
+
+                      <p>The process of listing your textbook has never been so simple! You simply scan the barcode with your smartphone, set your
+                        price, mark down the condition and markings, and that's it! Lyftnote takes care of the rest. Barcodes can be scanned to search for textbooks.
+                        There are three ways to sort the listings: by schools, by prices, and by location.</p>
+                      <p>Are you having trouble finding a textbook? Not a problem! Either purchase the textbook off Amazon straight from Lyftnote or
+                        receive push notification alerts when a student posts the requested textbook. Send and receive instant messages with fellow
+                        students to discuss and plan out the details of the textbook and exchange. No need to give your phone number away!
+                        You decide how you want to meet and exchange information. No need for use of credit cards and no service fees required!
+                      </p>
                     </div>
                     <div className="backgroundColor darkGrey"></div>
                   </div>

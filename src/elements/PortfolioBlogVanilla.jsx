@@ -45,7 +45,7 @@ function PortfolioBlogVanilla() {
           <div className="col-lg-12">
             <div className="portfolio-details" ref={el => app = el}>
               {/* Start Top Description */}
-              <div className="container-inner">
+              <div className="container-inner dark">
                 <div className="col-lg-12" ref={el => content = el}>
                   <div className="col-md-6 col-sm-12 rightSide">
                     <div className="hero-content-line">
@@ -67,17 +67,19 @@ function PortfolioBlogVanilla() {
                   </div>
                   <div className="col-md-1"></div>
                   <div className="col-md-4 col-lg-5 col-sm-12">
-                    <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
-                      A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
-                    <p>My main implication in this projects was the UX and UI design of the whole app.
-                      How to make the app as easy as possible to use, student friendly.
-                      I was also in charge of the front end development of the user interface and the user experience of the app.
-                      Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
+                    <p>I joined the marketing team of Vanilla Forums in early 2019. My first mission in the team was to
+                      rethink the branding and to implement new CRO practices into the website. Following a
+                      brainstorming session, we decided to redesign the blog as well as the library. Originally,
+                      the blog was built with Wordpress and we decided to move the entire content to HubSpot to
+                      take advantage of all the analytics it offered.
+                    </p>
+                    <p>With the need to update the whole website, we knew that including our personas illustrations
+                      is a vital step in providing an easier  experience for our users.</p>
                   </div>
                 </div>
               </div>
               {/*End Top Description*/}
-              <div className="portfolio-thumb-inner">
+              <div className="portfolio-thumb-inner dark">
                 <div className="images-column-1 thumb position-relative mb--30 content">
                   <img src="/assets/images/portfolio/blog-1.jpg" className="thumbnail mr--40"
                        alt="Portfolio Images"/>
@@ -88,31 +90,36 @@ function PortfolioBlogVanilla() {
                     <img src="/assets/images/portfolio/blog-mobile1.png" className="smaller-image thumbnail" alt="Portfolio Images"/>
                     <img src="/assets/images/portfolio/blog-mobile2.png" className="smaller-image thumbnail mt--40" alt="Portfolio Images"/>
                   </div>
-                  <section></section>
-                  <div className="thumb position-relative mb--30">
+                  {/*<section></section>*/}
+                  <div className="thumb position-relative mb--30 dark">
                     <div className="container-inner">
                       <div className="col-lg-6 col-md-12 col-sm-12">
                         <h2>Improving the User Experience</h2>
-                        <p className="subtitle">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commod viverra maecenas accumsan lacus vel facilisis. ut labore et dolore magna aliqua. </p>
+                        <p className="subtitle">We were astonished by the opportunity to participate in such an ambitious, large-scale project as Vanilla's library. </p>
+                      <p>
+                        Users are able to filter information on the page based on two main filters. The first one is the Use Case filter:
+                        “Support, Success, Marketing, Product and Community” and the second one is the Content Type: “Ebook, Webinar,
+                        Case Study, Template”. As part of improving the user experience on the website, a search bar was added as well.
+                      </p>
                       </div>
                     </div>
                   </div>
-                  <section>
-                    <div className="justify-content-end mb--30">
-                      <div className="video col-sm-8 col-md-7">
-                        <Player class
+                </div>
+                <div className="images-column-1 fullWidth thumb position-relative mb--30 content">
+                  <img src="/assets/images/portfolio/library.png" className="mr--40" alt="Library Image"/>
+                </div>
+                <div className="justify-content-end mb--30 dark">
+                  <div className="video col-sm-8 col-md-7">
+                    <Player class
                           autoPlay
                           loop
                           muted
                           poster="/assets/poster.png"
                           src={`../assets/videos/library-2.mp4`} />
                       </div>
-                      <div className="hex">
-                        <img src="/assets/images/svgs/hex.svg" alt="Portfolio Images"/>
-                      </div>
-                    </div>
-                  </section>
+                  <div className="hex">
+                    <img src="/assets/images/svgs/hex.svg" alt="Portfolio Images"/>
+                  </div>
                 </div>
               </div>
             </div>

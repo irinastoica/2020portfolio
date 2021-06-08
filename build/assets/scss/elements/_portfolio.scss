@@ -35,6 +35,24 @@ h1 {
     background-color: #e5f3ee;
 }
 
+.darkPurple {
+    background-color: #162552;
+
+    p,h2 {
+        color: white;
+    }
+
+    .logo {
+        svg {
+            fill: white;
+        }
+    }
+}
+
+.fullWidth img {
+    width: 100%;
+}
+
 .darkGrayLight {
     background-color: #848484;
     display: flex;
@@ -393,6 +411,14 @@ h1 {
                     margin-bottom: $marginDefaultBig;
                 }
 
+            }
+
+            .marginRightSide {
+                margin-top: 160px;
+
+                @media #{$md-layout} {
+                    margin-top: 40px;
+                }
             }
 
             span {

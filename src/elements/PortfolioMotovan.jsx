@@ -19,12 +19,13 @@ function PortfolioMotovan() {
     const headlineFirst = content.children[0].children[0];
     const headlineSecond = headlineFirst.nextSibling;
     const headlineThird = headlineSecond.nextSibling;
+    const headlineFourth = headlineThird.nextSibling;
     const contentP = content.children[1];
     const contentButton = content.children[2];
 
     // //Content Animation
-    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children], 1, {
-      y: 200,
+    tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children, headlineFourth.children], 1, {
+      y: 310,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
@@ -57,11 +58,26 @@ function PortfolioMotovan() {
                       <span className="role">Graphic Designer</span>
                       <span className="role">Front End Developer</span>
                     </div>
+
+                    <div className="hero-content-line roleWrapper">
+                      <h3 className="detailsTitle detailsTitle-white">Key tools</h3>
+                      <span className="role">Adobe Suite</span>
+                      <span className="role">HTML5/CSS3 with Bootstrap</span>
+                      <span className="role">Javascript / Jquery</span>
+                      <span className="role">B2B portal</span>
+                      <span className="role">Phpmyadmin</span>
+                      <span className="role">Drupal</span>
+                      <span className="role">Magento</span>
+
+                    </div>
                   </div>
-                  <div className="col-lg-6 col-sm-12">
-                    <p>Multiples prints for magasins and events. Working on different sizes and materials in order to succesfully communicate the brands identities.
-                      How to make the app as easy as possible to use, student friendly.
+                  <div className="col-lg-6 col-sm-12 marginRightSide">
+                    <p>Contribute to the development of creative assets such as photoshoots, booth visuals, brochures, packaging, and
+                      advertisements. Additionally, we prepared magazine advertisements (print and digital), developed labels, hang tags,
+                      and other collateral for the brand to be used by all retailers.
                      </p>
+                    <p> By handling the front-end development work, we updated the B2B portal, added new products on various e-commerce websites,
+                      as well as redesigned the visuals and enhanced the user experience.</p>
                   </div>
                 </div>
               </div>

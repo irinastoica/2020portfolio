@@ -27,7 +27,7 @@ function PortfolioMotovanIntranet() {
 
     // //Content Animation
     tl.staggerFrom([headlineFirst.children, headlineSecond.children, headlineThird.children, headlineFourth.children], 1, {
-      y: 240,
+      y: 280,
       ease: Power3.easeOut,
       delay: .8
     }, .15, 'Start')
@@ -53,31 +53,23 @@ function PortfolioMotovanIntranet() {
                       <h3 className="detailsTitle detailsTitle-white">Project Name</h3>
                     </div>
                     <div className="hero-content-line">
-                      <h2 className="animated ">Communications by Vanilla Event </h2>
+                      <h2 className="animated ">MTA/MTA Intranet </h2>
                     </div>
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">My role</h3>
-                      <span className="role">Co Founder</span>
-                      <span className="role">Ux Designer</span>
-                      <span className="role">Front End Developer</span>
+                      <span className="role">Lead Ux Designer</span>
+                      <span className="role">Lead Front End Developer</span>
                     </div>
                     <div className="hero-content-line roleWrapper">
                       <h3 className="detailsTitle detailsTitle-white">Key tools</h3>
-                      <span className="role">ReactJS</span>
-                      <span className="role">Agile process (Scrum, Kanban)</span>
-                      <span className="role">CI/CD pipeline, Git, Node.js/Yarn</span>
+                      <span className="role">Igloo Software</span>
                       <span className="role">HTML, CSS, Javascript</span>
-                      <span className="role">Smarty, Twig</span>
-                      <span className="role">Docker</span>
                     </div>
                   </div>
-                  <div className="col-lg-6 col-sm-12">
-                    <p>Co-Founder at Lyftnote, a platform for students who are looking to buy or sell used textbooks in their community.
-                      A powerful platform that allows fellow students to connect within campus grounds or a localized area.</p>
-                    <p>My main implication in this projects was the UX and UI design of the whole app.
-                      How to make the app as easy as possible to use, student friendly.
-                      I was also in charge of the front end development of the user interface and the user experience of the app.
-                      Languages used: CSS3 with Bootstrap, Javascript / Jquery and HTML5.</p>
+                  <div className="col-lg-6 col-sm-12 marginRightSide">
+                    <p>Motovan and MTA has more than 300 dealerships, sales reps and retail partners. The company needed a
+                      platform that met the needs of a variety of users -  end users, content creators, and  administrators.
+                      By implementing the Igloo Software and customizing it, we delivered a user-friendly platform that allows users to interact with fellow colleagues, find information quickly, consume and engage with different content. .</p>
                   </div>
                 </div>
               </div>
