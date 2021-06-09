@@ -77,8 +77,8 @@ class PortfolioList extends Component {
               </a>
               <div className="content-wrapper">
                 <div className="inner">
-                  <p className="project-type">UX Designer & Development</p>
-                  <h4 className="project-name">Vanilla Forums - Landing Pages</h4>
+                  <p className="project-type">Web Development</p>
+                  <h4 className="project-name">Vanilla Forums - Theming Integration</h4>
                 </div>
               </div>
             </div>
